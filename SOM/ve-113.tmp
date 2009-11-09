@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace SOM
+{
+    public class MapaSOM
+    {
+        private PadraoEntrada entrada;
+        private Neuronio neuronio;
+        private IList<PadraoEntrada> entradas;
+        private IList<IList<Neuronio>> mapa;
+
+        public void Treinar()
+        {
+
+        }
+    }
+}
