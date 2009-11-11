@@ -7,40 +7,36 @@ namespace SOM
 {
     public class MapaSOM
     {
-        private PadraoEntrada entrada;
         private Neuronio neuronio;
-        private IList<PadraoEntrada> entradas;
-        private IList<IList<Neuronio>> mapa;
+        private List<double> entrada;
+        private IList<double> saida;
+        private IList<Neuronio> neuronios;
+        private int numeroNeuronios;
 
-        public Neuronio BestMatchingNeuron(PadraoEntrada entrada)
+        public int GetVencedor()
         {
-            double menorDistancia = Double.PositiveInfinity;
-            Neuronio bestMatchingNeuron = new Neuronio();
-
-            foreach (double entradaAtual in entrada.Caracteristicas)
+            double min = saida[0];
+            int indexMin = 0;
+            for (int i = 0; i < saida.Count(); i++)
             {
-                foreach (IList<IList<Neuronio>> linhaNeuronios in mapa)
+                if (saida[0] < min)
                 {
-                    foreach (Neuronio neuronio in linhaNeuronios)
-                    {
-                        double distancia = neuronio.CalcularDistanciaEclidiana(entradaAtual, 
-                            neuronio.Pesos[entrada.Caracteristicas.IndexOf(entradaAtual)]);
-
-                        if (distancia < menorDistancia)
-                        {
-                            menorDistancia = distancia;
-                            bestMatchingNeuron = neuronio;
-                        }
-                    }
+                    min = saida[0];
+                    indexMin = i;
                 }
             }
 
-            return bestMatchingNeuron;
+            return indexMin;
         }
 
-        public void Treinar()
+        public List<double> ComputarSaida()
         {
+            for (int i = 0; i < numeroNeuronios; i++)
+            {
+                saida[i] = neuronios[i].CalcularDistanciaEclidiana(entrada);
+            }
 
+            return saida.ToList();
         }
     }
 }
