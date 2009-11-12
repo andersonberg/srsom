@@ -20,15 +20,12 @@ namespace SOM
 
         private double sigmaInicial;
 
+        private double taxaAprendizado;
+
         /// <summary>
         /// Coordenadas do neurônio no mapa
         /// </summary>
         private Point coordenadas;
-
-        /// <summary>
-        /// Iteração atual
-        /// </summary>
-        private int iteracao;
 
         /// <summary>
         /// Calcula o tamanho da vizinhança de um neurônio
@@ -51,10 +48,12 @@ namespace SOM
             set { coordenadas = value; }
         }
 
-        public Neuronio(int entradas)
+        public Neuronio(int x, int y, int entradas, double taxaAprendizado)
         {
+            coordenadas.X = x;
+            coordenadas.Y = y;
             numeroEntradas = Math.Max(1, entradas);
-            iteracao = 1;
+            this.taxaAprendizado = taxaAprendizado;
             InicializarPesos();
         }
 
@@ -105,17 +104,17 @@ namespace SOM
             double novoPeso = 0;
             for (int i = 0; i < pesos.Count(); i++)
             {
-                novoPeso = Gaussiana(coordenadasVencedor) * (entrada[i] - pesos[i]);
+                novoPeso = taxaAprendizado * Gaussiana(coordenadasVencedor, iteracao) * (entrada[i] - pesos[i]);
                 pesos[i] += novoPeso;
             }
         }
 
-        public double Gaussiana(Point coordenadasVencedor)
+        public double Gaussiana(Point coordenadasVencedor, int iteracao)
         {
             double distancia = 0;
             double resultado = 0;
             distancia = Math.Sqrt(Math.Pow((coordenadasVencedor.X - coordenadas.X), 2) + Math.Pow((coordenadasVencedor.Y - coordenadas.Y), 2));
-            resultado = Math.Exp(-(distancia * distancia) / (Math.Pow(Sigma(this.iteracao), 2)));
+            resultado = Math.Exp(-(distancia * distancia) / (Math.Pow(Sigma(iteracao), 2)));
 
             return resultado;
         }
