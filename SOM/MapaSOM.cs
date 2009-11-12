@@ -25,8 +25,7 @@ namespace SOM
             {
                 for (int j = 0; j < numeroNeuronios; j++)
                 {
-                    this.neuronios[i, j] = new Neuronio(numeroEntradas);
-                    this.neuronios[i, j].InicializarPesos();
+                    this.neuronios[i, j] = new Neuronio(i, j, numeroEntradas, 0.01);
                 }
             }
         }

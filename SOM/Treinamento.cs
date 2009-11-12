@@ -16,12 +16,16 @@ namespace SOM
             MapaSOM mapa = new MapaSOM(this.numeroPadroes);
 
             Neuronio vencedor;
-            int iteração = 1;
-            foreach (PadraoEntrada padraoEntrada in padroesEntrada)
+            int iteracao = 1;
+            while (iteracao < 1000)
             {
-                mapa.PreencheMapa(padraoEntrada.Caracteristicas.Count);
-                vencedor = mapa.GetVencedor(padraoEntrada.Caracteristicas);
-                vencedor.AtualizaPesos(padraoEntrada.Caracteristicas, vencedor.Coordenadas, iteração);
+                foreach (PadraoEntrada padraoEntrada in padroesEntrada)
+                {
+                    mapa.PreencheMapa(padraoEntrada.Caracteristicas.Count);
+                    vencedor = mapa.GetVencedor(padraoEntrada.Caracteristicas);
+                    vencedor.AtualizaPesos(padraoEntrada.Caracteristicas, vencedor.Coordenadas, iteracao);
+                }
+                iteracao++;
             }
         }
 
