@@ -9,7 +9,6 @@ namespace SOM
     public class MapaSOM
     {
         private List<PadraoEntrada> entradas;
-        private double[,] distancias;
         private Neuronio[,] neuronios;
         private int numeroNeuronios;
 
@@ -49,17 +48,6 @@ namespace SOM
             }
 
             return vencedor;
-        }
-
-        public List<List<double>> LerArquivo(string arquivo)
-        {
-            List<List<double>> padroes = new List<List<double>>();
-
-            StreamReader stream = new StreamReader(arquivo);
-
-            //TODO: Implementar lógica de leitura do arquivo
-
-            return padroes;
         }
     }
 }
