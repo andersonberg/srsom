@@ -1,0 +1,13 @@
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\bin\Release\Simple.exe
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\bin\Release\Simple.pdb
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\bin\Release\WPFVisifire.Charts.dll
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\ResolveAssemblyReference.cache
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Window1.baml
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Window1.g.cs
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\App.g.cs
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Simple_MarkupCompile.cache
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Simple.g.resources
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Simple.Properties.Resources.resources
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\FirstChart.csproj.GenerateResource.Cache
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Simple.exe
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\FirstChart\FirstChart\obj\Release\Simple.pdb
