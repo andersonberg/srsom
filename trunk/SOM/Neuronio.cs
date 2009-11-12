@@ -18,7 +18,7 @@ namespace SOM
         /// </summary>
         private int numeroEntradas;
 
-        private double vizinhancaInicial;
+        private double sigmaInicial;
 
         /// <summary>
         /// Coordenadas do neurônio no mapa
@@ -26,15 +26,20 @@ namespace SOM
         private Point coordenadas;
 
         /// <summary>
+        /// Iteração atual
+        /// </summary>
+        private int iteracao;
+
+        /// <summary>
         /// Calcula o tamanho da vizinhança de um neurônio
         /// </summary>
         /// <param name="iteracao"></param>
         /// <returns></returns>
-        private double Vizinhaca(int iteracao)
+        private double Sigma(int iteracao)
         {
-            double valor = 1000 / Math.Log(vizinhancaInicial);
-            double vizinhanca = vizinhancaInicial * Math.Exp(-iteracao / valor);
-            return vizinhanca;
+            double valor = 1000 / Math.Log(sigmaInicial);
+            double sigma = sigmaInicial * Math.Exp(-iteracao / valor);
+            return sigma;
         }
 
         /// <summary>
@@ -49,6 +54,7 @@ namespace SOM
         public Neuronio(int entradas)
         {
             numeroEntradas = Math.Max(1, entradas);
+            iteracao = 1;
             InicializarPesos();
         }
 
@@ -94,14 +100,24 @@ namespace SOM
             return distancia;
         }
 
-        public void AtualizaPesos()
+        public void AtualizaPesos(List<double> entrada, Point coordenadasVencedor, int iteracao)
         {
-
+            double novoPeso = 0;
+            for (int i = 0; i < pesos.Count(); i++)
+            {
+                novoPeso = Gaussiana(coordenadasVencedor) * (entrada[i] - pesos[i]);
+                pesos[i] += novoPeso;
+            }
         }
 
-        public void Gaussiana(Point coordenadas)
+        public double Gaussiana(Point coordenadasVencedor)
         {
+            double distancia = 0;
+            double resultado = 0;
+            distancia = Math.Sqrt(Math.Pow((coordenadasVencedor.X - coordenadas.X), 2) + Math.Pow((coordenadasVencedor.Y - coordenadas.Y), 2));
+            resultado = Math.Exp(-(distancia * distancia) / (Math.Pow(Sigma(this.iteracao), 2)));
 
+            return resultado;
         }
     }
 }

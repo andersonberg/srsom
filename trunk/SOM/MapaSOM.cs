@@ -8,7 +8,6 @@ namespace SOM
 {
     public class MapaSOM
     {
-        private Neuronio neuronio;
         private List<PadraoEntrada> entradas;
         private double[,] distancias;
         private Neuronio[,] neuronios;
@@ -25,39 +24,31 @@ namespace SOM
             set { neuronios = value; }
         }
 
-        public int GetVencedor()
-        {
-            double min = distancias[0,0];
-            int indexMin = 0;
-            for (int i = 0; i < numeroNeuronios; i++)
-            {
-                
-                if (distancias[0] < min)
-                {
-                    min = distancias[0];
-                    indexMin = i;
-                }
-            }
-
-            return indexMin;
-        }
-
         /// <summary>
-        /// Obtém as distâncias entre o padrão de entrada e cada neurônio do mapa
+        /// Busca o neurônio com a menor distância para um PadraoEntrada
         /// </summary>
         /// <param name="entrada">Conjunto de características de um PadraoEntrada</param>
-        /// <returns>Lista com todas as distâncias</returns>
-        public double[,] ComputarSaida(List<double> entrada)
+        /// <returns>Neurônio vencedor</returns>
+        public Neuronio GetVencedor(List<double> entrada)
         {
+            double min = neuronios[0, 0].CalcularDistanciaEclidiana(entrada);
+            double distancia;
+            Neuronio vencedor = neuronios[0,0];
+
             for (int i = 0; i < numeroNeuronios; i++)
             {
                 for (int j = 0; j < numeroNeuronios; j++)
                 {
-                    distancias[i, j] = neuronios[i, j].CalcularDistanciaEclidiana(entrada);
+                    distancia = neuronios[i, j].CalcularDistanciaEclidiana(entrada);
+                    if (distancia < min)
+                    {
+                        min = distancia;
+                        vencedor = neuronios[i, j];
+                    }
                 }
             }
 
-            return distancias;
+            return vencedor;
         }
 
         public List<List<double>> LerArquivo(string arquivo)
