@@ -25,6 +25,11 @@ namespace SOM
         /// </summary>
         private Point coordenadas;
 
+        /// <summary>
+        /// Calcula o tamanho da vizinhança de um neurônio
+        /// </summary>
+        /// <param name="iteracao"></param>
+        /// <returns></returns>
         private double Vizinhaca(int iteracao)
         {
             double valor = 1000 / Math.Log(vizinhancaInicial);
@@ -56,15 +61,17 @@ namespace SOM
         /// <summary>
         /// Inicializa o conjunto de pesos com valores aleatórios
         /// </summary>
-        /// <param name="tamanho">tamanho do vetor de pesos</param>
         public void InicializarPesos()
         {
             Random random = new Random((int)DateTime.Now.TimeOfDay.TotalMilliseconds);
 
+            //A dimensão do vetor de pesos de um neurônio é igual ao número de características dos padrões de entrada
             for (int i = 0; i < this.numeroEntradas; i++)
             {
+                //Os pesos são inicializados com valores aleatórios
                 double peso = random.NextDouble();
 
+                //Array de pesos do neurônio
                 this.pesos.Add(peso);
             }
         }
@@ -87,7 +94,12 @@ namespace SOM
             return distancia;
         }
 
-        public double Gaussiana(Point coordenadas)
+        public void AtualizaPesos()
+        {
+
+        }
+
+        public void Gaussiana(Point coordenadas)
         {
 
         }
