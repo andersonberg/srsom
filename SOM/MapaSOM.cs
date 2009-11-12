@@ -9,8 +9,8 @@ namespace SOM
     {
         private Neuronio neuronio;
         private List<double> entrada;
-        private IList<double> saida;
-        private IList<Neuronio> neuronios;
+        private List<double> saida;
+        private List<Neuronio> neuronios;
         private int numeroNeuronios;
 
         public int GetVencedor()

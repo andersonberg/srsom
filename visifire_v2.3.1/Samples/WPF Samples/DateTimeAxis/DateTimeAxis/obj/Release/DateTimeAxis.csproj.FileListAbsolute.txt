@@ -1,0 +1,13 @@
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\bin\Release\DateTimeAxis.exe
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\bin\Release\DateTimeAxis.pdb
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\bin\Release\WPFVisifire.Charts.dll
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\ResolveAssemblyReference.cache
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\Window1.baml
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\Window1.g.cs
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\App.g.cs
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\DateTimeAxis_MarkupCompile.cache
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\DateTimeAxis.g.resources
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\DateTimeAxis.Properties.Resources.resources
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\DateTimeAxis.csproj.GenerateResource.Cache
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\DateTimeAxis.exe
+E:\Downloads\visifire_v2.3.1\Samples\WPF Samples\DateTimeAxis\DateTimeAxis\obj\Release\DateTimeAxis.pdb
