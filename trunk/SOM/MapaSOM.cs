@@ -11,10 +11,24 @@ namespace SOM
         private List<PadraoEntrada> entradas;
         private Neuronio[,] neuronios;
         private int numeroNeuronios;
+        private int numeroEntradas;
 
         public MapaSOM(int tamanhoMapa)
         {
             this.numeroNeuronios = tamanhoMapa;
+            this.neuronios = new Neuronio[tamanhoMapa, tamanhoMapa];
+        }
+
+        public void PreencheMapa(int numeroEntradas)
+        {
+            for (int i = 0; i < numeroNeuronios; i++)
+            {
+                for (int j = 0; j < numeroNeuronios; j++)
+                {
+                    this.neuronios[i, j] = new Neuronio(numeroEntradas);
+                    this.neuronios[i, j].InicializarPesos();
+                }
+            }
         }
 
         public Neuronio[,] Neuronios
