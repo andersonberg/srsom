@@ -7,9 +7,9 @@ namespace SOM
 {
     public class PadraoEntrada
     {
-        private IList<double> caracteristicas;
+        private List<double> caracteristicas;
 
-        public IList<double> Caracteristicas
+        public List<double> Caracteristicas
         {
             get { return caracteristicas; }
             set { caracteristicas = value; }

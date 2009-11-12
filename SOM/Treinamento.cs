@@ -8,11 +8,26 @@ namespace SOM
 {
     public class Treinamento
     {
-        //MapaSOM mapa = new MapaSOM();
+        private int numeroPadroes;
+        private List<PadraoEntrada> padroesEntrada;
 
-        public List<List<double>> LerArquivo(string arquivo)
+        public Treinamento()
         {
-            List<List<double>> padroes = new List<List<double>>();
+            MapaSOM mapa = new MapaSOM(this.numeroPadroes);
+
+            Neuronio vencedor;
+            int iteração = 1;
+            foreach (PadraoEntrada padraoEntrada in padroesEntrada)
+            {
+                mapa.PreencheMapa(padraoEntrada.Caracteristicas.Count);
+                vencedor = mapa.GetVencedor(padraoEntrada.Caracteristicas);
+                vencedor.AtualizaPesos(padraoEntrada.Caracteristicas, vencedor.Coordenadas, iteração);
+            }
+        }
+
+        public List<PadraoEntrada> LerArquivo(string arquivo)
+        {
+            List<PadraoEntrada> padroes = new List<PadraoEntrada>();
 
             StreamReader stream = new StreamReader(arquivo);
 
