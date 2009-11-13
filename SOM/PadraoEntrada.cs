@@ -18,6 +18,7 @@ namespace SOM
 
         public PadraoEntrada()
         {
+            this.label = string.Empty;
             this.Caracteristicas = new List<double>();
         }
 
