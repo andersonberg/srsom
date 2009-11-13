@@ -8,15 +8,24 @@ namespace SOM
 {
     public class MapaSOM
     {
+        /// <summary>
+        /// Lista com todos os padrões de entrada
+        /// </summary>
         private List<PadraoEntrada> entradas;
 
-        public List<PadraoEntrada> Entradas
-        {
-            get { return entradas; }
-            set { entradas = value; }
-        }
+        /// <summary>
+        /// Matriz de neurônios
+        /// </summary>
         private Neuronio[,] neuronios;
+
+        /// <summary>
+        /// Representa a quantidade de neurônios no mapa
+        /// </summary>
         private int numeroNeuronios;
+
+        /// <summary>
+        /// Representa a quantidade de características de cada entrada.
+        /// </summary>
         private int numeroEntradas;
 
         public MapaSOM(int tamanhoMapa, List<PadraoEntrada> padroesEntrada)
@@ -27,15 +36,33 @@ namespace SOM
             PreencheMapa(this.numeroEntradas);
         }
 
+        public List<PadraoEntrada> Entradas
+        {
+            get { return entradas; }
+            set { entradas = value; }
+        }
+
+        public Neuronio[,] Neuronios
+        {
+            get { return neuronios; }
+            set { neuronios = value; }
+        }
+
+        /// <summary>
+        /// Método que apresenta uma determinada entrada ao mapa e chama outros métodos para calcular a saída.
+        /// </summary>
+        /// <returns></returns>
         public StringBuilder AlgoritmoAprendizado()
         {
             StringBuilder saida = new StringBuilder();
             Neuronio vencedor;
             int iteracao = 1;
+            //TODO: Substituir o valor 500 por uma variável que represente o número de ciclos
             while (iteracao < 500)
             {
                 foreach (PadraoEntrada padraoEntrada in entradas)
                 {
+                    //Neurônio que representa uma dada entrada
                     vencedor = GetVencedor(padraoEntrada.Caracteristicas);
 
                     if (iteracao == 499)
@@ -55,6 +82,10 @@ namespace SOM
             return saida;
         }
 
+        /// <summary>
+        /// Preenche o mapa com a quantidade de neurônios
+        /// </summary>
+        /// <param name="numeroEntradas">Quantidade de características das entradas para formar o vetor de pesos de um neurônio</param>
         public void PreencheMapa(int numeroEntradas)
         {
             this.neuronios = new Neuronio[numeroNeuronios, numeroNeuronios];
@@ -64,17 +95,10 @@ namespace SOM
                 for (int j = 0; j < numeroNeuronios; j++)
                 {   
                     Random random = new Random((int)agora.TimeOfDay.TotalMilliseconds);
-                    //TODO: Passar o numero de caracteristicas de cada entrada
                     this.neuronios[i, j] = new Neuronio(i, j, numeroEntradas, 0.01, random);
                     agora = agora.AddHours(1);
                 }
             }
-        }
-
-        public Neuronio[,] Neuronios
-        {
-            get { return neuronios; }
-            set { neuronios = value; }
         }
 
         /// <summary>
