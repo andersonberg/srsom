@@ -102,7 +102,15 @@ namespace SOM
         {
             List<PadraoEntrada> padroes = new List<PadraoEntrada>();
 
-            StreamReader stream = new StreamReader(arquivo);
+            FileStream file = File.Open(arquivo, FileMode.Open, FileAccess.Read); 
+
+            StreamReader stream = new StreamReader(file);
+
+            while (!stream.EndOfStream)
+            {
+                string line = stream.ReadLine();
+                string[] padrao = line.Split('|');
+            }
 
             //TODO: Implementar lógica de leitura do arquivo
 
