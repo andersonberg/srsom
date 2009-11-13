@@ -9,23 +9,59 @@ namespace SOM
     public class MapaSOM
     {
         private List<PadraoEntrada> entradas;
+
+        public List<PadraoEntrada> Entradas
+        {
+            get { return entradas; }
+            set { entradas = value; }
+        }
         private Neuronio[,] neuronios;
         private int numeroNeuronios;
         private int numeroEntradas;
 
-        public MapaSOM(int tamanhoMapa)
+        public MapaSOM(int tamanhoMapa, List<PadraoEntrada> padroesEntrada)
         {
             this.numeroNeuronios = tamanhoMapa;
-            this.neuronios = new Neuronio[tamanhoMapa, tamanhoMapa];
+            this.entradas = padroesEntrada;
+            PreencheMapa(entradas.Count);
+        }
+
+        public StringBuilder AlgoritmoAprendizado()
+        {
+            StringBuilder saida = new StringBuilder();
+            Neuronio vencedor;
+            int iteracao = 1;
+            while (iteracao < 500)
+            {
+                foreach (PadraoEntrada padraoEntrada in entradas)
+                {
+                    vencedor = GetVencedor(padraoEntrada.Caracteristicas);
+
+                    saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n");
+
+                    foreach (Neuronio neuron in this.neuronios)
+                    {
+                        neuron.AtualizaPesos(padraoEntrada.Caracteristicas, vencedor.Coordenadas, iteracao);
+                    }
+                }
+                iteracao++;
+            }
+
+            return saida;
         }
 
         public void PreencheMapa(int numeroEntradas)
         {
+            this.neuronios = new Neuronio[numeroNeuronios, numeroNeuronios];
+            DateTime agora = DateTime.Now;
             for (int i = 0; i < numeroNeuronios; i++)
             {
                 for (int j = 0; j < numeroNeuronios; j++)
-                {
-                    this.neuronios[i, j] = new Neuronio(i, j, numeroEntradas, 0.01);
+                {   
+                    Random random = new Random((int)agora.TimeOfDay.TotalMilliseconds);
+                    //TODO: Passar o numero de caracteristicas de cada entrada
+                    this.neuronios[i, j] = new Neuronio(i, j, 3, 0.01, random);
+                    agora = agora.AddHours(1);
                 }
             }
         }

@@ -23,5 +23,12 @@ namespace SOM
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Treinamento train = new Treinamento();
+            this.textBlock1.Text = train.Saida.ToString();
+            this.textBlock1.Text += train.Teste().ToString();
+        }
     }
 }
