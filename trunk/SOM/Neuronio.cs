@@ -18,7 +18,7 @@ namespace SOM
         /// </summary>
         private int numeroEntradas;
 
-        private double sigmaInicial;
+        private double sigmaInicial = 6;
 
         private double taxaAprendizado;
 
@@ -48,13 +48,19 @@ namespace SOM
             set { coordenadas = value; }
         }
 
-        public Neuronio(int x, int y, int entradas, double taxaAprendizado)
+        public Neuronio()
         {
+
+        }
+
+        public Neuronio(int x, int y, int entradas, double taxaAprendizado, Random random)
+        {
+            this.pesos = new List<double>();
             coordenadas.X = x;
             coordenadas.Y = y;
             numeroEntradas = Math.Max(1, entradas);
             this.taxaAprendizado = taxaAprendizado;
-            InicializarPesos();
+            InicializarPesos(random);
         }
 
         public List<double> Pesos
@@ -66,13 +72,17 @@ namespace SOM
         /// <summary>
         /// Inicializa o conjunto de pesos com valores aleatórios
         /// </summary>
-        public void InicializarPesos()
+        public void InicializarPesos(Random random)
         {
-            Random random = new Random((int)DateTime.Now.TimeOfDay.TotalMilliseconds);
+            //DateTime agora = DateTime.Now;
+            //Random random = new Random((int)agora.TimeOfDay.TotalMilliseconds);
+            //Random mult = new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
 
             //A dimensão do vetor de pesos de um neurônio é igual ao número de características dos padrões de entrada
             for (int i = 0; i < this.numeroEntradas; i++)
             {
+                //int fator = mult.Next(0, 9);
+
                 //Os pesos são inicializados com valores aleatórios
                 double peso = random.NextDouble();
 
