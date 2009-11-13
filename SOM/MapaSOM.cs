@@ -40,7 +40,8 @@ namespace SOM
 
                     if (iteracao == 499)
                     {
-                        saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n"); 
+                        saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n");
+                        padraoEntrada.Neuronio = vencedor;
                     }
 
                     foreach (Neuronio neuron in this.neuronios)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Windows;
 
 namespace SOM
 {
@@ -80,6 +81,42 @@ namespace SOM
         public void EscreveArquivo(StringBuilder texto)
         {
             File.WriteAllText(@"E:\srsom\wine\wine_result.data", texto.ToString());
+        }
+
+        public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
+        {
+            double distancia = Math.Sqrt(Math.Pow(ponto1.X - ponto2.X, 2) + Math.Pow(ponto1.Y - ponto2.Y, 2));
+            return distancia;
+        }
+
+        public List<Neuronio> NearestNeighbours(PadraoEntrada padraoTeste)
+        {
+            double x = padraoTeste.Neuronio.Coordenadas.X;
+            double y = padraoTeste.Neuronio.Coordenadas.Y;
+            List<Neuronio> nearestNeighbours = new List<Neuronio>(3);
+            double menorDistancia = DistanciaEntreDoisPontos(padraoTeste.Neuronio.Coordenadas, this.padroesEntrada[0].Neuronio.Coordenadas);
+            Neuronio nearestNeighbour = null;
+
+            for (int i = 0; i < nearestNeighbours.Count; i++)
+            {
+                foreach (PadraoEntrada padrao in this.padroesEntrada)
+                {
+                    if (!padrao.Equals(padraoTeste) && !nearestNeighbours.Contains(padrao.Neuronio))
+                    {
+                        double distancia = DistanciaEntreDoisPontos(padraoTeste.Neuronio.Coordenadas, padrao.Neuronio.Coordenadas);
+                        if (distancia < menorDistancia)
+                        {
+                            menorDistancia = distancia;
+                            nearestNeighbour = padrao.Neuronio;
+                        }
+                    }
+                }
+                if (nearestNeighbour != null)
+                {
+                    nearestNeighbours.Add(nearestNeighbour);
+                } 
+            }
+            return nearestNeighbours;
         }
     }
 }
