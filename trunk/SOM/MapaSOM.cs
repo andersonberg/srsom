@@ -23,7 +23,8 @@ namespace SOM
         {
             this.numeroNeuronios = tamanhoMapa;
             this.entradas = padroesEntrada;
-            PreencheMapa(entradas.Count);
+            this.numeroEntradas = padroesEntrada[0].Caracteristicas.Count;
+            PreencheMapa(this.numeroEntradas);
         }
 
         public StringBuilder AlgoritmoAprendizado()
@@ -37,7 +38,10 @@ namespace SOM
                 {
                     vencedor = GetVencedor(padraoEntrada.Caracteristicas);
 
-                    saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n");
+                    if (iteracao == 499)
+                    {
+                        saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n"); 
+                    }
 
                     foreach (Neuronio neuron in this.neuronios)
                     {
@@ -60,7 +64,7 @@ namespace SOM
                 {   
                     Random random = new Random((int)agora.TimeOfDay.TotalMilliseconds);
                     //TODO: Passar o numero de caracteristicas de cada entrada
-                    this.neuronios[i, j] = new Neuronio(i, j, 3, 0.01, random);
+                    this.neuronios[i, j] = new Neuronio(i, j, numeroEntradas, 0.01, random);
                     agora = agora.AddHours(1);
                 }
             }

@@ -27,8 +27,12 @@ namespace SOM
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             Treinamento train = new Treinamento();
-            this.textBlock1.Text = train.Saida.ToString();
-            this.textBlock1.Text += train.Teste().ToString();
+            StringBuilder texto = train.Saida;
+            texto.Append(train.Teste());
+
+            train.EscreveArquivo(texto);
+
+            this.Close();
         }
     }
 }

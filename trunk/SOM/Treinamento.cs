@@ -21,53 +21,14 @@ namespace SOM
 
         public Treinamento()
         {
-            PadraoEntrada padrao1 = new PadraoEntrada();
-            padrao1.Label = "galinha";
-            padrao1.Caracteristicas.Add(-1.0);
-            padrao1.Caracteristicas.Add(-1.0);
-            padrao1.Caracteristicas.Add(1.0);
-
-            PadraoEntrada padrao2 = new PadraoEntrada();
-            padrao2.Label = "elefante";
-            padrao2.Caracteristicas.Add(1.0);
-            padrao2.Caracteristicas.Add(-1.0);
-            padrao2.Caracteristicas.Add(1.0);
-
-            PadraoEntrada padrao3 = new PadraoEntrada();
-            padrao3.Label = "peixe";
-            padrao3.Caracteristicas.Add(-1.0);
-            padrao3.Caracteristicas.Add(-1.0);
-            padrao3.Caracteristicas.Add(-1.0);
-
-            PadraoEntrada padrao4 = new PadraoEntrada();
-            padrao4.Label = "ornitorrinco";
-            padrao4.Caracteristicas.Add(1.0);
-            padrao4.Caracteristicas.Add(1.0);
-            padrao4.Caracteristicas.Add(-1.0);
-
-            PadraoEntrada padrao5 = new PadraoEntrada();
-            padrao5.Label = "escorpião";
-            padrao5.Caracteristicas.Add(-1.0);
-            padrao5.Caracteristicas.Add(1.0);
-            padrao5.Caracteristicas.Add(1.0);
-
-            PadraoEntrada padrao6 = new PadraoEntrada();
-            padrao6.Label = "baleia";
-            padrao6.Caracteristicas.Add(1.0);
-            padrao6.Caracteristicas.Add(-1.0);
-            padrao6.Caracteristicas.Add(-1.0);
-
-            this.padroesEntrada = new List<PadraoEntrada>();
-            padroesEntrada.Add(padrao1);
-            padroesEntrada.Add(padrao2);
-            padroesEntrada.Add(padrao3);
-            padroesEntrada.Add(padrao4);
-            padroesEntrada.Add(padrao5);
-            padroesEntrada.Add(padrao6);
+            this.padroesEntrada = this.LerArquivo(@"E:\srsom\wine\wine_treina.data");
 
             this.numeroPadroes = padroesEntrada.Count;
 
-            this.mapa = new MapaSOM(this.numeroPadroes, this.padroesEntrada);
+            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes));
+            int inteiro = Convert.ToInt32(raiz);
+
+            this.mapa = new MapaSOM(inteiro, this.padroesEntrada);
             this.saida = mapa.AlgoritmoAprendizado();
         }
 
@@ -76,24 +37,13 @@ namespace SOM
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
 
-            PadraoEntrada padraoTeste = new PadraoEntrada();
-            padraoTeste.Label = "equidna";
-            padraoTeste.Caracteristicas = new List<double>();
-            padraoTeste.Caracteristicas.Add(1.0);
-            padraoTeste.Caracteristicas.Add(1.0);
-            padraoTeste.Caracteristicas.Add(1.0);
+            padroesTeste = this.LerArquivo(@"E:\srsom\wine\wine_testa.data");
 
-            resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " + 
+            foreach (PadraoEntrada padraoTeste in padroesTeste)
+            {
+                resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " +
                 (mapa.GetVencedor(padraoTeste.Caracteristicas)).Coordenadas.ToString() + "\n");
-
-            padraoTeste.Label = "anaconda";
-            padraoTeste.Caracteristicas = new List<double>();
-            padraoTeste.Caracteristicas.Add(-1.0);
-            padraoTeste.Caracteristicas.Add(1.0);
-            padraoTeste.Caracteristicas.Add(-1.0);
-
-            resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " +
-                (mapa.GetVencedor(padraoTeste.Caracteristicas)).Coordenadas.ToString() + "\n");
+            }
 
             return resultadoTeste;
         }
@@ -109,12 +59,27 @@ namespace SOM
             while (!stream.EndOfStream)
             {
                 string line = stream.ReadLine();
-                string[] padrao = line.Split('|');
+                string[] padraoString = line.Split(',');
+                PadraoEntrada padraoEntrada = new PadraoEntrada();
+                padraoEntrada.Label = padraoString[0];
+
+                for (int i = 1; i < padraoString.Length; i++)
+                {
+                    padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
+                }
+
+                padroes.Add(padraoEntrada);
             }
 
-            //TODO: Implementar lógica de leitura do arquivo
+            stream.Close();
+            file.Close();
 
             return padroes;
+        }
+
+        public void EscreveArquivo(StringBuilder texto)
+        {
+            File.WriteAllText(@"E:\srsom\wine\wine_result.data", texto.ToString());
         }
     }
 }
