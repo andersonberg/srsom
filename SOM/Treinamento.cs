@@ -13,6 +13,13 @@ namespace SOM
         private List<PadraoEntrada> padroesEntrada;
         private StringBuilder saida;
         private MapaSOM mapa;
+        private List<Neuronio> nearestNeighbours;
+
+        public List<Neuronio> NearestNeighbours
+        {
+            get { return nearestNeighbours; }
+            set { nearestNeighbours = value; }
+        }
 
         public StringBuilder Saida
         {
@@ -45,6 +52,8 @@ namespace SOM
                 resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " +
                 (mapa.GetVencedor(padraoTeste.Caracteristicas)).Coordenadas.ToString() + "\n");
             }
+
+            this.nearestNeighbours = this.GetNearestNeighbours(padroesTeste);
 
             return resultadoTeste;
         }
@@ -89,7 +98,7 @@ namespace SOM
             return distancia;
         }
 
-        public List<Neuronio> NearestNeighbours(PadraoEntrada padraoTeste)
+        public List<Neuronio> GetNearestNeighbours(PadraoEntrada padraoTeste)
         {
             double x = padraoTeste.Neuronio.Coordenadas.X;
             double y = padraoTeste.Neuronio.Coordenadas.Y;
