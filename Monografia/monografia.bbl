@@ -1,0 +1,136 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Anderson 2006]{Anderson2006}
+\abntrefinfo{Anderson}{ANDERSON}{2006}
+{ANDERSON, C. \emph{A Cauda Longa: do mercado de massa para o mercado de
+  nicho}. [S.l.]: Elsevier, 2006.}
+
+\bibitem[Balabanovic e Shoham 1997]{Balabanovic1997}
+\abntrefinfo{Balabanovic e Shoham}{BALABANOVIC; SHOHAM}{1997}
+{BALABANOVIC, M.; SHOHAM, Y. Fab: Content-based, collaborative recommendation.
+\emph{Communication of the ACM}, v.~40, n.~3, p. 66--72, 1997.}
+
+\bibitem[Basu, Hirsh e W. 1998]{Basu1998}
+\abntrefinfo{Basu, Hirsh e W.}{BASU; HIRSH; W.}{1998}
+{BASU, C.; HIRSH, H.; W., C. Recommendation as classification: Using social and
+  content-based information in recommendation. In:  \emph{Proceedings of the
+  15th National Conference on Artificial Intelligence}. [S.l.: s.n.], 1998. p.
+  714--720.}
+
+\bibitem[Braga, Carvalho e Ludermir 2000]{Braga2000}
+\abntrefinfo{Braga, Carvalho e Ludermir}{BRAGA; CARVALHO; LUDERMIR}{2000}
+{BRAGA, A.~P.; CARVALHO, A. P. L.~F.; LUDERMIR, T.~B. \emph{Redes neurais
+  artificiais: teoria e aplicações}. [S.l.]: Editora LTC, 2000.}
+
+\bibitem[Burke 2002]{Burke2002}
+\abntrefinfo{Burke}{BURKE}{2002}
+{BURKE, R. Hybrid recommender systems: Survey and experiments.
+\emph{User Modeling and User-Adapted Interaction}, v.~12, n.~4, p. 331--370,
+  2002.}
+
+\bibitem[Claypool et al. 1999]{Claypool1999}
+\abntrefinfo{Claypool et al.}{CLAYPOOL et al.}{1999}
+{CLAYPOOL, M. et al. Combining content-based and collaborative filters in an
+  online newspaper. In:  \emph{SIGIR '99 Workshop on Recommender Systems -
+  Implementation and Evaluation}. [S.l.: s.n.], 1999.}
+
+\bibitem[Denning 1982]{Denning1982}
+\abntrefinfo{Denning}{DENNING}{1982}
+{DENNING, P.~J. Electronic junk.
+\emph{Communications of the ACM}, v.~25, n.~3, 1982.}
+
+\bibitem[Filho 2006]{Filho2006}
+\abntrefinfo{Filho}{FILHO}{2006}
+{FILHO, V.~M. e-recommender: Sistema inteligente de recomendação para comércio
+  eletrônico.
+\emph{Trabalho de Conclusão do Curso de Engenharia da Computação}, Universidade
+  de Pernambuco, 2006.}
+
+\bibitem[Gabrielsson e Gabrielsson 2006]{Gabrielsson2006}
+\abntrefinfo{Gabrielsson e Gabrielsson}{GABRIELSSON; GABRIELSSON}{2006}
+{GABRIELSSON, S.; GABRIELSSON, S.
+\emph{The use of Self-Organizing Maps in Recommender Systems}.
+Dissertação (Mestrado) --- Uppsala University, 2006.}
+
+\bibitem[Goldberg et al. 1992]{Goldberg1992}
+\abntrefinfo{Goldberg et al.}{GOLDBERG et al.}{1992}
+{GOLDBERG, D. et al. Using collaborative filtering to weave an information
+  tapestry.
+\emph{Communications of the ACM}, v.~35, n.~12, p. 61--70, 1992.}
+
+\bibitem[Herlocker 2000]{Herlocker2000}
+\abntrefinfo{Herlocker}{HERLOCKER}{2000}
+{HERLOCKER, J.~L.
+\emph{Understanding and Improving Automated Collaborative Filtering Systems}.
+Tese (Doutorado) --- University of Minnesota, 2000.}
+
+\bibitem[Hill et al. 1995]{Hill1995}
+\abntrefinfo{Hill et al.}{HILL et al.}{1995}
+{HILL, W. et al. Recommending and evaluating choices in a virtual community of
+  use. In:  \emph{CHI '95: Proceedings of the SIGCHI conference on Human
+  factors in computing systems}. [S.l.: s.n.], 1995. p. 194--201.}
+
+\bibitem[Kohonen 1989]{Kohonen1989}
+\abntrefinfo{Kohonen}{KOHONEN}{1989}
+{KOHONEN, T. \emph{Self-Organizing and Associative Memory}. 3. ed. [S.l.]:
+  Springer-Verlag, 1989.}
+
+\bibitem[Kohonen 1990]{Kohonen1990}
+\abntrefinfo{Kohonen}{KOHONEN}{1990}
+{KOHONEN, T. The self-organizing map. In:  \emph{Proceedings of the IEEE}.
+  [S.l.: s.n.], 1990. v.~78, n.~9, p. 1464--1480.}
+
+\bibitem[Krulwich e Burkey 1996]{Krulwich1996}
+\abntrefinfo{Krulwich e Burkey}{KRULWICH; BURKEY}{1996}
+{KRULWICH, B.; BURKEY, C. Learning user information interests through
+  extraction of semantically significant phrases. In:  \emph{AAAI Spring
+  Symposium on Machine Learning in Information Access}. [S.l.: s.n.], 1996.}
+
+\bibitem[Lang 1995]{Lang1995}
+\abntrefinfo{Lang}{LANG}{1995}
+{LANG, K. Newsweeder: Learning to filter netnews. In:  \emph{12th International
+  Conference on Machine Learning}. [S.l.: s.n.], 1995.}
+
+\bibitem[Lyman et al. 2003]{Lyman2003}
+\abntrefinfo{Lyman et al.}{LYMAN et al.}{2003}
+{LYMAN, P. et al. How much information? 2003.
+\emph{Technical report}, UC Berkeleys School of Information Management and
+  Systems, 2003.
+Dispon{\'\i}vel em:
+  $<$http://www2.sims.berkeley.edu/research/projects/how-much-info-2003/$>$.}
+
+\bibitem[Reategui e Cazella 2005]{Reategui2005}
+\abntrefinfo{Reategui e Cazella}{REATEGUI; CAZELLA}{2005}
+{REATEGUI, E.~B.; CAZELLA, S.~B. Sistemas de recomendação. mini-curso.
+Enia, 2005.}
+
+\bibitem[Resnick et al. 1994]{Resnick1994}
+\abntrefinfo{Resnick et al.}{RESNICK et al.}{1994}
+{RESNICK, P. et al. Grouplens: an open architecture for collaborative filtering
+  of netnews. In:  \emph{CSCW '94: Proceedings of the 1994 ACM conference on
+  Computer supported cooperative work}. [S.l.: s.n.], 1994. p. 175--186.}
+
+\bibitem[Shardanand e Maes 1995]{Shardanand1995}
+\abntrefinfo{Shardanand e Maes}{SHARDANAND; MAES}{1995}
+{SHARDANAND, U.; MAES, P. Social information filtering: Algorithms for
+  automating ''word of mouth''. In:  \emph{Proceedings of ACM CHI'95 Conference
+  on Human Factors in Computing Systems}. [S.l.: s.n.], 1995. p. 210--217.}
+
+\bibitem[Smyth e Cotter 2001]{Smyth2001}
+\abntrefinfo{Smyth e Cotter}{SMYTH; COTTER}{2001}
+{SMYTH, B.; COTTER, P. Personalized electronic program guides for digital tv.
+\emph{AI Magazine}, American Association for Artificial Intelligence, v.~22,
+  n.~2, 2001.}
+
+\bibitem[Terveen e Hill 2001]{Terveen2001}
+\abntrefinfo{Terveen e Hill}{TERVEEN; HILL}{2001}
+{TERVEEN, L.; HILL, W. Beyond recommender systems: Helping people help each
+  other.
+\emph{HCI In The New Millennium}, Addison-Wesley, 2001.}
+
+\end{thebibliography}
