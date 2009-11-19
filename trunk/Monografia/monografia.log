@@ -1,17 +1,22 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.5)  18 NOV 2009 23:11
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.19)  19 NOV 2009 13:26
 entering extended mode
-**E:/My*Dropbox/TCC/Monografia/Monografia.tex
-("E:/My Dropbox/TCC/Monografia/Monografia.tex"
+**C:/Documents*and*Settings/absd.CESAR/My*Documents/srsom/Monografia/Monografia
+.tex
+
+("C:/Documents and Settings/absd.CESAR/My Documents/srsom/Monografia/Monografia
+.tex"
 LaTeX2e <2005/12/01>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, german, ngerman, german-x-2008-06-18, ngerm
-an-x-2008-06-18, french, loaded.
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abnt.cls"
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
-Document Class: abnt 2004/11/02 v1.27.2.1 Classe abnt (NBR6024, NBR6027, NBR6028, NBR14724)
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\ifthen.sty"
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2008-06-18, ngerman-x-2008-06-18, french, portuguese, l
+oaded.
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\abnt.cls"
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+Document Class: abnt 2004/11/02 v1.27.2.1 Classe abnt (NBR6024, NBR6027, NBR602
+8, NBR14724)
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\tools\calc.sty"
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
@@ -24,7 +29,7 @@ LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\tools\multicol.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\tools\multicol.sty"
 Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \c@tracingmulticols=\count82
 \mult@box=\box26
@@ -71,9 +76,9 @@ Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\report.cls"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\report.cls"
 Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\size12.clo"
 File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count90
@@ -89,7 +94,7 @@ File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip47
 \bibindent=\dimen112
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\setspace\setspace.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\setspace\setspace.sty"
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
@@ -98,50 +103,53 @@ Package: `setspace' 6.7 <2000/12/01>
 \ABNTsignwidth=\skip49
 \ABNTsignthickness=\skip50
 \ABNTsignskip=\skip51
- ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\tools\indentfirst.sty"
+ ("C:\Program Files\MiKTeX 2.7\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\inputenc.sty"
 Package: inputenc 2006/05/05 v1.1b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\latin1.def"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\latin1.def"
 File: latin1.def 2006/05/05 v1.1b Input encoding file
 ))
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abntcite.sty"
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\abntcite.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abntex-abrev.sty"
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\abntex-abrev.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\nbr10522-1988.def"
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
-File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:1988)
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\nbr10522-1988.def"
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abntex-abrev-pt_BR.def"
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
-File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traducao de termos en_US/pt_BR
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\abntex-abrev-pt_BR.def"
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
 ))
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\nbr10520-2002.def"
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
-File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002)
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\nbr10520-2002.def"
+("C:\Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
+)
 )
 \minimumbiblabelwidth=\skip52
 \ABCIauxlen=\skip53
 \c@ABCIaux=\count99
 \c@ABCImax=\count100
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\ltxmisc\relsize.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip54
@@ -149,55 +157,55 @@ LaTeX Info: Redefining \newblock on input line 562.
 LaTeX Info: Redefining \cite on input line 831.
 \ABCItoken=\toks16
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 90.
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.7\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
 \Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.7\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen115
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\babel.sty"
+("C:\Program Files\MiKTeX 2.7\tex\generic\babel\babel.sty"
 Package: babel 2008/07/06 v3.8l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\portuges.ldf"
+("C:\Program Files\MiKTeX 2.7\tex\generic\babel\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.7\tex\generic\babel\babel.def"
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count102
 \U@D=\dimen116
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-)) (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux)
-(cap4.aux) (cap5.aux))
+)) (Monografia.aux
+(cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -210,7 +218,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
- ("E:\Win7 Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+
+("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen117
@@ -224,22 +233,25 @@ LaTeX Font Info:    ... okay on input line 12.
 \everyMPtoPDFconversion=\toks19
 ) (polilogo.tex <polilogo-1.pdf, id=1, 192.72pt x 108.405pt>
 File: polilogo-1.pdf Graphic file (type pdf)
- <use polilogo-1.pdf>
-<marca_dsc.pdf, id=2, 666.49pt x 142.5325pt>
+
+<use polilogo-1.pdf> <marca_dsc.pdf, id=2, 666.49pt x 142.5325pt>
 File: marca_dsc.pdf Graphic file (type pdf)
- <use marca_dsc.pdf>) (upelogo.tex
+
+<use marca_dsc.pdf>) (upelogo.tex
 <brasao_upe.pdf, id=3, 367.3725pt x 458.71375pt>
 File: brasao_upe.pdf Graphic file (type pdf)
  <use brasao_upe.pdf>) [1
 
-{C:/ProgramData/MiKTeX/2.7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_dsc.pdf> <brasao_upe.pdf>]
+{C:/Documents and Settings/absd.CESAR/Local Settings/Application Data/MiKTeX/2.
+7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_dsc.pdf> <brasao_upe.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 50.
- [1] [2
+
+[1] [2
 
 
 ] [3
@@ -255,11 +267,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
  [7] (Monografia.lof)
 \tf@lof=\write4
+ [8
 
-[8
 
-
-] (Monografia.lot)
+]
+(Monografia.lot)
 \tf@lot=\write5
  [9
 
@@ -272,7 +284,8 @@ Cap\'{\i }tulo 1.
 Cap\'{\i }tulo 2.
 
 Overfull \hbox (42.20381pt too wide) in paragraph at lines 5--6
-\T1/cmr/m/n/12 Um es-tudo rea-li-zado em 2003 por pes-qui-sa-dores da Uni-ver-si-dade da Ca-lifór-nia ([])
+\T1/cmr/m/n/12 Um es-tudo re-a-li-zado em 2003 por pes-qui-sa-do-res da Uni-ver
+-si-dade da Ca-li-fór-nia ([])
  []
 
 [12
@@ -281,55 +294,62 @@ Overfull \hbox (42.20381pt too wide) in paragraph at lines 5--6
 
 ]
 Overfull \hbox (10.49715pt too wide) in paragraph at lines 7--8
-\T1/cmr/m/n/12 ciente. Um dos pri-mei-ros sis-te-mas de fil-tra-gem cria-dos foi o Ta-pes-try ([]),
+\T1/cmr/m/n/12 ci-ente. Um dos pri-mei-ros sis-te-mas de fil-tra-gem cri-a-dos 
+foi o Ta-pes-try ([]),
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
-("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.7\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [13] [14] [15]
 Overfull \hbox (61.1305pt too wide) in paragraph at lines 34--35
-[]\T1/cmr/m/n/12 Um dos pri-mei-ros sis-te-mas a uti-li-zar a fil-tra-gem co-la-bo-ra-tiva foi o Ta-pes-try ([]),
+[]\T1/cmr/m/n/12 Um dos pri-mei-ros sis-te-mas a uti-li-zar a fil-tra-gem co-la
+-bo-ra-tiva foi o Ta-pes-try ([]),
  []
 
 [16] [17] <imagens/cortex.jpg, id=88, 351.3125pt x 229.85875pt>
 File: imagens/cortex.jpg Graphic file (type jpg)
- <use imagens/cortex.jpg> [18]
+
+<use imagens/cortex.jpg> [18]
 <imagens/mapa_som.jpg, id=93, 289.08pt x 186.6975pt>
 File: imagens/mapa_som.jpg Graphic file (type jpg)
- <use imagens/mapa_som.jpg> [19 <imagens/cortex.jpg> <imagens/mapa_som.jpg>] <imagens/mexican_hat.jpg, id=97, 178.41656p
-t x 155.83218pt>
+
+<use imagens/mapa_som.jpg> [19 <imagens/cortex.jpg> <imagens/mapa_som.jpg>]
+<imagens/mexican_hat.jpg, id=97, 178.41656pt x 155.83218pt>
 File: imagens/mexican_hat.jpg Graphic file (type jpg)
- <use imagens/mexican_hat.jpg>
+
+<use imagens/mexican_hat.jpg>
 Overfull \hbox (22.28337pt too wide) in paragraph at lines 94--95
-[]\T1/cmr/m/n/12 Como dito an-te-rior-mente, o trei-na-mento de redes SOM é com-pe-ti-tivo e não-supervisionado.
+[]\T1/cmr/m/n/12 Como dito an-te-ri-or-mente, o trei-na-mento de re-des SOM é c
+om-pe-ti-tivo e não-supervisionado.
  []
 
-[20 <imagens/mexican_hat.jpg>] <imagens/vizinho.jpg, id=106, 247.6452pt x 241.8636pt>
+[20 <imagens/mexican_hat.jpg>]
+<imagens/vizinho.jpg, id=106, 247.6452pt x 241.8636pt>
 File: imagens/vizinho.jpg Graphic file (type jpg)
- <use imagens/vizinho.jpg>)
-[21 <imagens/vizinho.jpg>] (cap3.tex
+
+<use imagens/vizinho.jpg>) [21 <imagens/vizinho.jpg>] [22] (cap3.tex
 Cap\'{\i }tulo 3.
-) [22
+) [23
 
 
 
 ] (cap4.tex
 Cap\'{\i }tulo 4.
-) [23
+) [24
 
 
 
 ] (cap5.tex
 Cap\'{\i }tulo 5.
-) [24
+) [25
 
 
 
-] (Monografia.bbl [25
+] (Monografia.bbl [26
 
 
 ])
@@ -337,31 +357,45 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[26] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[27] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2586 strings out of 95290
- 32731 string characters out of 1182694
- 92960 words of memory out of 1500000
- 5697 multiletter control sequences out of 110000
+ 2586 strings out of 95278
+ 32660 string characters out of 1182512
+ 92962 words of memory out of 1500000
+ 5699 multiletter control sequences out of 110000
  19019 words of font info for 40 fonts, out of 3000000 for 5000
- 14 hyphenation exceptions out of 8191
- 28i,13n,25p,1830b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecti1200.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Program
-Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecrm1095.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\ProgramData\MiKTeX\2.7
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.
-pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbi2074.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Program
-Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecrm1728.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk><E:/Win7 Program Files/MiKT
-eX 2.7/fonts/type1/bluesky/cm/cmex10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi12.pfb><E:/Win7 Pr
-ogram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.p
-fb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/blues
-ky/cm/cmsy10.pfb>
-Output written on Monografia.pdf (27 pages, 368353 bytes).
+ 16 hyphenation exceptions out of 8191
+ 28i,13n,25p,1868b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 
+<C:\Documents and Settings\absd.CESAR\Local Settings\Application Data\MiKTeX\2.
+7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\ab
+sd.CESAR\Local Settings\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecti1095.pk> <C:\Documents and Settings\absd.CESAR\Local Settings\Appli
+cation Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Docu
+ments and Settings\absd.CESAR\Local Settings\Application Data\MiKTeX\2.7\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\absd.CESAR
+\Local Settings\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1200.pk> <C:\Documents and Settings\absd.CESAR\Local Settings\Application D
+ata\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\Documents an
+d Settings\absd.CESAR\Local Settings\Application Data\MiKTeX\2.7\fonts\pk\ljfou
+r\jknappen\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\absd.CESAR\Local S
+ettings\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200
+.pk> <C:\Documents and Settings\absd.CESAR\Local Settings\Application Data\MiKT
+eX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\Documents and Settin
+gs\absd.CESAR\Local Settings\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\absd.CESAR\Local Settings\
+Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:
+\Documents and Settings\absd.CESAR\Local Settings\Application Data\MiKTeX\2.7\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Documents and Settings\absd.
+CESAR\Local Settings\Application Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecrm2488.pk><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmex10.pfb
+><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi12.pfb><C:/Program Fil
+es/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.7/fon
+ts/type1/bluesky/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy10.pfb>
+Output written on Monografia.pdf (28 pages, 370104 bytes).
 PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
+ 645 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

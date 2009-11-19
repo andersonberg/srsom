@@ -116,6 +116,7 @@ O cálculo da região de vizinhança do neurônio vencedor pode ser determinado pela
 \begin{equation}
 h_{ci} = h_{0} \exp(-\left\|r_{i} - r_{c} \right\|^2 / \sigma^2)
 \end{equation}
+onde $h_{0} = h_{0}(t)$ e $\sigma = \sigma(t)$ são funções que devem decrescer no tempo. 
 
 \begin{figure}[htbp]
 	\centering
@@ -123,3 +124,5 @@ h_{ci} = h_{0} \exp(-\left\|r_{i} - r_{c} \right\|^2 / \sigma^2)
 	\caption{Exemplo de vizinhança, onde o instante 2 é menor que o instante 1, que por sua vez é menor que o instante 0}
 	\label{vizinho}
 \end{figure}
+
+Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que durante os primeiros 1000 ciclos durante a fase de aprendizado, o valor de $\sigma(t)$ deve estar próximo de 1. A regra para o decréscimo de $\sigma$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\sigma(t) = 0.9(1-t/1000)$. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não será ordenado globalmente. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa.
