@@ -1,0 +1,398 @@
+%%
+%% WinShell 3.3.0.3
+%% http://www.winshell.org/
+%%
+
+% Strings
+
+
+% Preamble
+
+
+% BibTeX Entries
+@article{Barnes1954,
+ author               = {Barnes, J. A.},
+ journal              = {Human Relations},
+ pages                = {39},
+ title                = {Class and Committees in a Norwegian Island Parish},
+ year                 = {1954},
+ }
+
+@article{Borgatti2002,
+ author               = {Borgatti, S.P},
+ journal              = {Harvard: Analytic Technologies},
+ title                = {NetDraw: Graph Visualization Software},
+ year                 = {2002},
+ }
+
+@article{Borgatti2002a,
+ author               = {Borgatti, S.P and Everett, M.G and Freeman, L.C},
+ journal              = {Harvard: Analytic Technologies},
+ publisher            = {Analytic Technologies},
+ title                = {Ucinet for Windows: Software for Social Network Analysis},
+ year                 = {2002},
+ }
+
+@book{Breiger,
+ author               = {Breiger, Ronald and Carley, Kathleen and Pattison, Philippa},
+ publisher            = {National Academies Press},
+ title                = {Dynamic Social Network Modeling and Analysis: Workshop Summary and Papers},
+ year                 = {2003},
+ }
+
+@article{Chung2004,
+ author               = {Chung, CA},
+ title                = {Simulation modeling handbook: a practical approach},
+ year                 = {2004},
+ }
+
+@book{Dautenhahn2002,
+ abstract             = {The field of Socially Intelligent Agents (SIA) is a fast growing and increasingly important area that comprises highly active research activities and strongly interdisciplinary approaches. Socially Intelligent Agents, edited by Kerstin Dautenhahn, Alan Bond, Lola Ca\~{A}±amero and Bruce Edmonds, emerged from the AAAI Symposium "Socially Intelligent Agents - The Human in the Loop". The book provides 32 chapters, written by leading SIA researchers, addressing topics such as: social robotics, embodied conversational agents, affective computing, anthropomorphism, narrative and story-telling, social aspects in multi-agent systems, new technologies for education and therapy, and more. This breadth of topics covered in Socially Intelligent Agents provides the reader with a comprehensive look at current research activities in the area. Socially Intelligent Agents serves as an excellent reference for a wide readership, e.g. computer scientists, roboticists, web programmers and designers, computer users, cognitive scientists, and other researchers interested in the study of how humans relate to computers and robots, and how these agents in return can relate to humans. This book is also suitable as research material in a variety of advanced level courses, including Applied Artificial Intelligence, Autonomous Agents, Human-Computer Interaction, Situated, Embodied AI.},
+ author               = {Dautenhahn, Kerstin and Bond, Alan H. and Ca\~{n}amero, Lola and Edmonds, Bruce},
+ file                 = {:D\:/Documentos/Bibliografias/Intelligence - Socially Intelligent Agents - Creating Relationships with Computers and Robots _2002.pdf:pdf},
+ pages                = {281},
+ publisher            = {Springer},
+ title                = {Socially intelligent agents},
+ year                 = {2002},
+ }
+
+@article{Degenne,
+ author               = {Degenne, Alain and Forse, Michel},
+ file                 = {:D\:/Documentos/Bibliografias/0761956042.pdf:pdf},
+ title                = {Introducing Social Networks},
+ }
+
+@article{Dennett1994,
+ author               = {Dennett, D},
+ journal              = {Artificial Life},
+ title                = {Artificial life as philosophy},
+ year                 = {1994},
+ }
+
+@article{Dijk1997,
+ author               = {Dijk, Frans Van and Winden, Frans Van},
+ file                 = {:D\:/Documentos/Bibliografias/van-Dijk_Dynamics-of-social-ties-and-local-public-good-provision_1997.pdf:pdf},
+ journal              = {Journal of Public Economics},
+ pages                = {323--341},
+ title                = {Dynamics of social ties and local public good provision},
+ volume               = {64},
+ year                 = {1997},
+ }
+
+@article{Edmonds,
+ annote               = {{\newline}Resumo de redes sociais\newline{\newline}O interesse na an\'{a}lise \newline},
+ author               = {Edmonds, Bruce},
+ file                 = {:D\:/Documentos/Bibliografias/8756C84Ad01.pdf:pdf},
+ journal              = {Policy},
+ keywords             = {redes sociais},
+ title                = {How are physical and social spaces related? –},
+ }
+
+@book{Epstein1996,
+ abstract             = {How do social structures and group behaviors arise from the interaction of individuals? Growing Artificial Societies approaches this question with cutting-edge computer simulation techniques.},
+ author               = {Epstein, Joshua M. e Axtell, Robert},
+ file                 = {:D\:/Documentos/Bibliografias/Epstein, Axtell - Growing artificial societies - 1996.pdf:pdf},
+ pages                = {208},
+ publisher            = {Brookings Institution Press},
+ title                = {Growing artificial societies},
+ year                 = {1996},
+ }
+
+@book{Epstein1997,
+ author               = {Epstein, Joshua M.},
+ booktitle            = {Social Science},
+ editor               = {Robbins, Jeff},
+ file                 = {:D\:/Documentos/Bibliografias/Non Linear Dynamics, Mathematical, Biology and Social Science - Epstein .pdf:pdf},
+ pages                = {176},
+ publisher            = {Westview Press},
+ title                = {Non Linear Dynamics, Mathematical Biology and Social Science},
+ year                 = {1997},
+ }
+
+@article{Epstein2008,
+ author               = {Epstein, Joshua M},
+ file                 = {:D\:/Documentos/Bibliografias/Why Model.pdf:pdf},
+ journal              = {Nature},
+ title                = {Why Model?},
+ year                 = {2008},
+ }
+
+@article{Freeman1996,
+ annote               = {\newline},
+ author               = {Freeman, Linton C},
+ file                 = {:D\:/Documentos/Bibliografias/Some Antecedents of Social Network Analysis - Freeman - 1996.pdf:pdf},
+ issue                = {1},
+ journal              = {Journal of Educational Research},
+ pages                = {39--42},
+ title                = {Some Antecedents of Social Network Analysis},
+ volume               = {19},
+ year                 = {1996},
+ }
+
+@book{Gilbert1995,
+ abstract             = {An exploration of the implications of developments in artificial intelligence for social scientific research, which builds on the theoretical and methodological insights provided by "Simulating societies".},
+ author               = {Gilbert, Nigel and Conte, Rosaria},
+ file                 = {:D\:/Documentos/Bibliografias/Artificial Societies The Computer Simulation Of Social Life - Gilbert.pdf:pdf},
+ pages                = {302},
+ publisher            = {UCL Press},
+ title                = {Artificial Societies},
+ year                 = {1995},
+ }
+
+@book{Gilbert2005,
+ annote               = {\newline},
+ author               = {Gilbert, Nigel e Troitzsch, Klaus G.},
+ booktitle            = {Statistics},
+ edition              = {2a},
+ file                 = {:D\:/Documentos/Bibliografias/Simulation for the Social Scientist - Gilbert.pdf:pdf},
+ publisher            = {Open University Press},
+ title                = {Simulation for the Social Scientist},
+ year                 = {2005},
+ }
+
+@article{Gilks1996,
+ author               = {Gilks, WR and Richardson, S and Spiegelhalter, DJ},
+ title                = {Markov chain Monte Carlo in practice},
+ year                 = {1996},
+ }
+
+@book{Hanneman2005,
+ address              = {Riverside, CA},
+ author               = {Hanneman, Robert A e Riddle, Mark},
+ publisher            = {University of California, Riverside},
+ title                = {Introduction to Social Network Methods},
+ year                 = {2005},
+ }
+
+@book{Huhns1998,
+ abstract             = {"As well as featuring an extremely large and diverse collection of papers on the latest in Agent based technologies, this book has a wonderful introduction by the Editors. If you are considering, or indulging in, researching agent software then you need this book."gary.smith@dial.pipex.com from Glasgow, Scotland The world of agents comprises a broad range of intelligent programs that perform specific tasks on behalf of their users. Agents are distinguished from other types of software by their status as independent entities capable of completing complex assignments without intervention, rather than as tools that must be manipulated by a user. Largely the province of speculation before the early 1990s, agent research has flourished since the advent of the Internet, which has created an ideal operating environment. This important collection unifies the extensive recent literature on agent technology, presenting a wealth of the finest published papers on both theory and applications. Huhns and Singh have drawn on research communities in AI, databases, distributed computing, and programming languages to assemble the most comprehensive overview of the agent world available. The editors add a summary of the field and its terminology, history, and major issues, together with introductions to each of the thematic chapters and discussions of the significance and context of the individual papers.},
+ author               = {Huhns, Michael N.; Singh, Munindar Paul},
+ pages                = {523},
+ publisher            = {Morgan Kaufmann},
+ title                = {Readings in agents},
+ year                 = {1998},
+ }
+
+@article{label5450,
+ author               = {Autor Desconhecido},
+ journal              = {"Journal" Desconhecido},
+ title                = {Título Desconhecido},
+ year                 = {2009},
+ }
+
+@article{label8492,
+ author               = {Autor Desconhecido},
+ journal              = {"Journal" Desconhecido},
+ title                = {Título Desconhecido},
+ year                 = {2009},
+ }
+
+@article{Labianca2004,
+ author               = {Labianca, Giuseppe},
+ file                 = {:D\:/Documentos/Bibliografias/Oh Chung Labianca AMJ 2004.pdf:pdf},
+ issue                = {6},
+ journal              = {Academy of Management Journal},
+ pages                = {860--875},
+ title                = {Group social capital and group effectiveness: the role of informal socializing ties},
+ volume               = {47},
+ year                 = {2004},
+ }
+
+@book{Meadows,
+ author               = {Meadows, Dennis L.},
+ publisher            = {Productivity Press Inc},
+ title                = {Dynamics of Growth in a Finite World},
+ }
+
+@book{Meadows1974,
+ author               = {Meadows, Donella H. and of Rome, Club},
+ pages                = {205},
+ publisher            = {Universe Books},
+ title                = {The limits to growth},
+ year                 = {1974},
+ }
+
+@article{Morgan2000,
+ author               = {Morgan, Stephen L},
+ file                 = {:D\:/Documentos/Bibliografias/Morgan_Social-capital,-capital-goods,-and-the-production-of-learning_2000.pdf:pdf},
+ journal              = {Educational Research},
+ pages                = {591--595},
+ title                = {Social capital, capital goods, and the production of learning},
+ volume               = {29},
+ year                 = {2000},
+ }
+
+@article{Neto2009,
+ author               = {Neto, Fernando B De Lima and Pita, Marcelo and Filho, Hugo Serrano B},
+ file                 = {:D\:/Documentos/Bibliografias/Paper_SMC2009_MRSP4_HSBF1_FBLN0.pdf:pdf},
+ journal              = {City},
+ title                = {Impact of Communication on Agent-Based Social Simulations Using the PAX Framework},
+ year                 = {2009},
+ }
+
+@book{Neumann1964,
+ author               = {Neumann, John Von and Morgenstern, Oskar},
+ pages                = {641},
+ publisher            = {Wiley},
+ title                = {Theory of games and economic behavior},
+ year                 = {1964},
+ }
+
+@article{Neumann1966,
+ author               = {Neumann, John Von e Burks, Arthur W.},
+ title                = {Theory of Self-Reproducing Automata},
+ year                 = {1966},
+ }
+
+@article{Pita,
+ author               = {Pita, Marcelo R S and Neto, Fernando B L},
+ file                 = {:D\:/Documentos/Bibliografias/BWSS2008_REVISED_MRSP_FBLN_FINAL.pdf:pdf},
+ journal              = {Evolution},
+ keywords             = {agent-based social simulation,disease dissemination simulation,evolutionary computation,heath care,multi-agent system,vidya},
+ title                = {Simulations of Disease Dissemination Using the Vidya Multi-Agent Systems Platform},
+ }
+
+@misc{Pita2006,
+ author               = {Pita, Marcelo R S},
+ file                 = {:D\:/Documentos/Bibliografias/Monograph_MRSP_DSC_Vidya.pdf:pdf},
+ title                = {Vidya - Um Jogo de Estrat\'{e}gia com Intui\c{c}\~{a}o e Intelig\^{e}ncia Artificial},
+ year                 = {2006},
+ }
+
+@article{Pita2007,
+ annote               = {\newline},
+ author               = {Pita, Marcelo and Lima Neto, Fernando Buarque De},
+ file                 = {:D\:/Documentos/Bibliografias/Paper_MRSP_GECCO_ECoMASS_Vidya.pdf:pdf},
+ journal              = {Artificial Intelligence},
+ keywords             = {altruistic behavior,egoistic behavior,open mas,reputation,social emergent behavior,social simulations},
+ pages                = {0--5},
+ title                = {Simulations of Egoistic and Altruistic Behaviors Using the Vidya Multiagent System Platform},
+ year                 = {2007},
+ }
+
+@inproceedings{Pita2009,
+ address              = {Nashville},
+ author               = {Pita, Marcelo and Neto, Fernando B Lima},
+ booktitle            = {IEEE Symposium on Intelligent Agents},
+ file                 = {:D\:/Documentos/Bibliografias/Paper_IA2009_FINAL.pdf:pdf},
+ title                = {Impact of Structuring Elements on Agents' Behavior in Social Simulations},
+ year                 = {2009},
+ }
+
+@article{Press2009,
+ author               = {Press, Chicago},
+ file                 = {:D\:/Documentos/Bibliografias/The Focused Organization of Social Ties.pdf:pdf},
+ issue                = {5},
+ journal              = {American Journal of Sociology},
+ pages                = {1015--1035},
+ title                = {No title},
+ volume               = {86},
+ year                 = {2009},
+ }
+
+@article{Pujol2005,
+ author               = {Pujol, Josep M and Flache, Andreas and Delgado, Jordi and Sang\"{u}esa, Ramon and Can, How and Networks, Social and Become, Ever},
+ file                 = {:D\:/Documentos/Bibliografias/How Can Social Networks Ever Become Complex.pdf:pdf},
+ journal              = {Simulation},
+ keywords             = {agent-based modeling,complex network emergence,complex networks,macrostructures and microprocesses in,power-law,scale-free,small-world,social exchange theory,structural emergence},
+ pages                = {1--18},
+ title                = {How Can Social Networks Ever Become Complex? Modelling the Emergence of Complex Networks from Local Social Exchanges},
+ year                 = {2005},
+ }
+
+@book{Russell,
+ author               = {Russell, Stuart J. and Norvig, Peter},
+ publisher            = {Prentice Hall},
+ title                = {Artificial Intelligence: Modern Approach},
+ year                 = {2002},
+ }
+
+@article{Schelling1969,
+ author               = {Schelling, Thomas C.},
+ issue                = {2},
+ journal              = {The American Economic Review},
+ pages                = {5},
+ title                = {Models of Segregation},
+ volume               = {59},
+ year                 = {1969},
+ }
+
+@article{Schelling1971,
+ author               = {Schelling, Thomas C.},
+ journal              = {The Public Interest},
+ title                = {On the ecology of micromotives},
+ year                 = {1971},
+ }
+
+@article{Schelling1971a,
+ annote               = {\newline},
+ author               = {Schelling, Thomas C.},
+ file                 = {:D\:/Documentos/Bibliografias/Schelling_Seg_Models.pdf:pdf},
+ issue                = {May},
+ journal              = {Journal of Mathematical Sociology},
+ pages                = {143--186},
+ title                = {Dynamic Models of Segregation},
+ volume               = {1},
+ year                 = {1971},
+ }
+
+@article{Silverman,
+ author               = {Silverman, Eric e Bryden, John},
+ file                 = {:D\:/Documentos/Bibliografias/SilvermanBryden31-05-07.pdf:pdf},
+ journal              = {Darwin},
+ title                = {From artificial societies to new social science theory},
+ year                 = {2007},
+ }
+
+@article{Simon1955,
+ author               = {Simon, HA},
+ file                 = {:D\:/Documentos/Bibliografias/Simon - A behavioral model of rational choice - 1955.pdf:pdf},
+ journal              = {The Quarterly Journal of Economics},
+ title                = {A behavioral model of rational choice},
+ year                 = {1955},
+ }
+
+@book{Wasserman1994,
+ abstract             = {Social network analysis is used widely in the social and behavioral sciences, as well as in economics, marketing, and industrial engineering. The social network perspective focuses on relationships among social entities and is an important addition to standard social and behavioral research, which is primarily concerned with attributes of the social units. Social Network Analysis: Methods and Applications reviews and discusses methods for the analysis of social networks with a focus on applications of these methods to many substantive examples. It is a reference book that can be used by those who want a comprehensive review of network methods, or by researchers who have gathered network data and want to find the most appropriate method by which to analyze it. It is also intended for use as a textbook as it is the first book to provide comprehensive coverage of the methodology and applications of the field.},
+ author               = {Wasserman, Stanley and Faust, Katherine},
+ file                 = {:D\:/Documentos/Bibliografias/Social network analysis - Wasserman, Faust - 1994.pdf:pdf},
+ pages                = {825},
+ publisher            = {Cambridge University Press},
+ title                = {Social network analysis},
+ year                 = {1994},
+ }
+
+@book{Weiss2000,
+ abstract             = {This is the first comprehensive introduction to multiagent systems and contemporary distributed artificial intelligence that is suitable as a textbook.},
+ author               = {Weiss, Gerhard},
+ file                 = {:D\:/Documentos/Bibliografias/MIT Press - Multiagent Systems. A Modern Approach to Distributed Artificial Intelligence.pdf:pdf},
+ pages                = {619},
+ publisher            = {MIT Press},
+ title                = {Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence},
+ year                 = {2000},
+ }
+
+@article{Wolfram2003,
+ author               = {Wolfram, S and Gad-el-Hak, M},
+ journal              = {Applied Mechanics Reviews},
+ title                = {A new kind of science},
+ year                 = {2003},
+ }
+
+@article{Wooldridge1995,
+ abstract             = {The concept of an agent has become important in both Artificial Intelligence (AI) and mainstream computer science. Our aim in this paper is to point the reader at what we perceive to be the most important theoretical and practical issues associated with the design and construction of intelligent agents. For convenience, we divide these issues into three areas (though as the reader will see, the divisions are at times somewhat arbitrary). Agent theory is concerned with the question of what an agent is, and the use of mathematical formalisms for representing and reasoning about the properties of agents. Agent architectures can be thought of as software engineering models of agents},
+ author               = {Wooldridge, Michael and Jennings, Nicholas R.},
+ doi                  = {10.1.1.55.2702},
+ file                 = {:D\:/Documentos/Bibliografias/Intelligent Agents Theory and Practice - Wooldridge, Jennings - 1995.pdf:pdf},
+ journal              = {Knowledge Engineering Review},
+ pages                = {115--152},
+ title                = {Intelligent Agents: Theory and Practice},
+ volume               = {10},
+ year                 = {1995},
+ }
+
+@book{Zhong,
+ author               = {Zhong, Ning and Liu, Jiming and Oshuga, Setsuo and Bradshaw, Jeffrey},
+ publisher            = {World Scientific Publishing Company},
+ title                = {Intelligent Agent Technology: Systems, Methodologies, and Tools},
+ }

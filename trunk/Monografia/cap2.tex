@@ -1,0 +1,125 @@
+\chapter{Fundamentação Teórica}\label{cap:fundamentacao}
+Neste capítulo iremos apresentar os principais conceitos em que se baseia o resto do documento. Primeiramente serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, como também, suas características e usos mais frequentes.
+
+\section{Sistemas de Recomendação}
+O uso de sistemas informatizados, principalmente da internet, resulta em um grande volume de informação sendo criada e transmitida no mundo todo \cite{Terveen2001}. Um estudo realizado em 2003 por pesquisadores da Universidade da Califórnia \cite{Lyman2003} estimou que cinco exabytes de informação foram criados no ano de 2002, onde a maior parte é armazenada em dispositivos magnéticos, em especial discos rígidos. O comércio, principalmente a indústria do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam ter mais espaço físico, é possível fazer negociações através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas não possuem ao menos lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como ir em busca da melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Frequentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinada escolha. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora.
+
+Filtrar toda a informação que um usuário recebe, raramente é uma tarefa simples e eficiente. Um dos primeiros sistemas de filtragem criados foi o Tapestry \cite{Goldberg1992}, que filtrava documentos enviados por email, não somente pelo seu conteúdo, mas pelo interesse que outros usuários tinham por esses documentos. Os idealizadores desse projeto cunharam o termo ''filtragem colaborativa'', propondo um sistema onde a filtragem de documentos seria realizada com auxílio de grupos de interesse. Atualmente, os sítios de comércio eletrônico disponibilizam para seus clientes ferramentas computacionais com o objetivo de auxiliá-los no momento da compra. Essas ferramentas caracterizam os sistemas de recomendação. Tais sistemas consistem em mostrar ao usuário produtos que sejam de seu interesse, alguns sistemas ainda fornecem opiniões de outros clientes sobre aqueles produtos. 
+
+Auxiliar o cliente mostrando produtos relacionados a suas preferências é uma forma de personalização. A personalização é uma característica do \textit{marketing} direto. Diferente do \textit{marketing} de massa, cujo objetivo é alcançar o maior número de pessoas através dos diversos tipos de mídia, o \textit{marketing} direto é mais pessoal, ele se interessa pelo indivíduo. Personalizar resulta na fidelização do cliente, que é um grande diferencial entre empresas concorrentes \cite{Filho2006}. \cite{Reategui2005} cita algumas estratégias utilizadas pelos sítios de comércio eletrônico para recomendação de produtos:
+
+\begin{itemize}
+	\item Listas de recomendação: A loja mantém listas de produtos, como itens mais vendidos, itens que têm a melhor avaliação entre os clientes ou lista de presentes, entre outros.
+	\item Avaliação de usuários: Consiste em se obter notas do produto por clientes que já o adquiriram, além dessa avaliação usuários podem deixar comentários sobre determinado produto.
+	\item Suas recomendações: O sítio oferece alguns produtos baseado em interesses do cliente. Aqui pode-se ter dois tipos de recomendação: implícita, onde o sítio oferece produtos de acordo com o histórico de compras do cliente, ou explícita, onde o usuário determina quais são suas preferências.
+	\item ''Usuário que se adquiriram um produto X, também compraram Y'': O sistema de recomendação cria associações entre produtos avaliados por usuário para oferecer produtos relacionados ao que o cliente está adquirindo no momento.
+	\item Associação por conteúdo: Este tipo de recomendação é feita baseado no conteúdo de determinado item. Por exemplo: Clientes que compraram um livro de Redes de Computadores também compraram um livro sobre a linguagem Java.
+\end{itemize}
+
+\subsection{Técnicas de recomendação}
+Diversas técnicas foram definidas na literatura com o objetivo de identificar padrões de comportamento e filtragem de informação para obter recomendações e personalização para o usuário. As três técnicas mais utilizadas em sistemas de recomendação são a filtragem baseada em conteúdo, a filtragem colaborativa e a filtragem híbrida, que procura conciliar as vantagens das duas anteriores atacando seus principais problemas.
+
+\subsubsection{Filtragem baseada em conteúdo}
+A filtragem baseada em conteúdo tem suas raízes no processo chamado de recuperação de informação, onde o usuário apresenta ao sistema um formulário e recebe, como resultado, documentos associados a esses critérios \cite{Balabanovic1997}. O principal objetivo da recuperação de informação é encontrar documentos que casem com um determinado critério de busca \cite{Gabrielsson2006}. Em um sistema de recuperação de informação, o usuário fornece ao sistema palavras-chave que representam seus interesses ou necessidades atuais na busca por informação. O sistema então, realiza um busca por essas palavras em documentos armazenados numa base e retorna os documentos mais relevantes para aquela busca. 
+
+Ao contrário da recuperação de informação, a filtragem de informação mantém um perfil do usuário filtrando todo novo item relacionado a seus interesses a longo prazo, enquanto a recuperação de informação representa interesses de curto prazo \cite{Herlocker2000}. Os atuais sistemas de recomendação têm sua origem nos sistemas de filtragem de informação. Em 1982, \cite{Denning1982} já apontava para o problema da filtragem de informação. Neste artigo, Denning alerta para a facilidade de produção e transmissão de informação e que é necessário uma atenção maior para o processo de controlar e filtrar informação. Filtragem de informação e filtragem baseada em conteúdo são termos semelhantes e ambos possuem o mesmo objetivo: filtrar itens de acordo com seu conteúdo \cite{Gabrielsson2006}. 
+
+Na filtragem baseada em conteúdo as recomendações são feitas apenas baseadas em um perfil do usuário previamente construído a partir da análise do conteúdo de itens que este qualificou ou mostrou algum interesse no passado \cite{Balabanovic1997}. Quando um usuário de um sítio de comércio eletrônico, por exemplo, entra na página da loja e expõe suas necessidades através de palavras-chave na ferramenta de busca, ele está realizando uma recuperação de informação, pois o sistema vai procurar produtos que satisfaçam os simplesmente os critérios apresentados no momento. Quando este mesmo sítio armazena o perfil do usuário e apresenta produtos semelhantes aos que este usuário mostrou interesse no passado, caracteriza uma filtragem de informação. Uma das técnicas mais populares para representação dos itens em sistemas de filtragem baseada em conteúdo é a TF-IDF (Term-frequency Inverse-Document-Frequency). Esta técnica realiza comparação e cálculo de similaridade a partir da frequência de ocorrência de palavras-chave nos textos \cite{Filho2006}. Para criação do perfil do usuário, normalmente são utilizadas técnicas de computação inteligente, que podem aprender o comportamento de determinado usuário, por exemplo, algoritmos de classificação podem indentificar e fazer a divisão entre itens que o usuário gosta e itens que ele não gosta \cite{Gabrielsson2006}. O \textit{feedback} é muito importante na fase de aprendizado, podendo ser explícito, quando o usuário qualifica o item que lhe foi oferecido, ou implícito, quando o usuário demonstra interesse no item finalizando com a compra \cite{Terveen2001}. Exemplos de sistemas que utilizam a filtragem baseada em conteúdo são o NewsWeeder \cite{Lang1995} e o InfoFinder \cite{Krulwich1996}.
+
+A filtragem baseada em conteúdo possui pontos positivos e negativos, dentre suas vantagens pode-se citar: (i) não é necessário que um novo item tenha algum tipo de qualificação, bastando apenas que este seja semelhante ao perfil do usuário e (ii) por avaliar a semelhança entre todos os itens, a filtragem baseada em conteúdo não se restringe a itens já avaliados por outros usuários. Os principais problemas apresentados pela filtragem baseada em conteúdo são: (i) as representações de conteúdo de um item não conseguem capturar alguns aspectos, como qualidade de um texto, no caso sistemas de recomendação de documentos, ou informações de multimídia, no caso de sistemas que recomendam páginas da internet \cite{Balabanovic1997}; (ii) o segundo ponto negativo da filtragem baseada em conteúdo é a superespecialização. Como esse tipo de filtragem leva em consideração itens que o usuário já mostrou interesse, as recomendações ficam restritas a itens similares a itens já qualificados pelo usuário.
+
+\subsubsection{Filtragem colaborativa}
+A filtragem colaborativa é a técnica de recomendação mais comum e a mais largamente utilizada \cite{Burke2002}. A abordagem da filtragem colaborativa é recomendar itens baseados na similaridade entre usuários, deferentemente da filtragem baseada em conteúdo, que realiza similaridade entre itens. Basicamente, é formado um conjunto de usuários denominados ''vizinhos mais próximos'', que possuem itens classificados de forma semelhante ao usuário atual. Os itens que serão recomendados são itens que foram bem qualificados por esse grupo de usuários, partindo do pressuposto que esse grupo de usuários têm preferências em comum com o usuário atual. A priori, neste tipo de técnica nenhuma informação sobre os itens em si é conhecida, as recomendações são baseadas na semelhança entre os usuários \cite{Balabanovic1997}. Segundo descreve \cite{Burke2002}: ''O perfil de um usuário num sistema colaborativo consiste em um vetor de itens e suas qualificações, que é aperfeiçoado na medida que o usuário interage com o sistema ao longo do tempo.'' 
+
+Um dos primeiros sistemas a utilizar a filtragem colaborativa foi o Tapestry \cite{Goldberg1992}, já mencionado anteriormente neste trabalho. A idéia do Tapestry é fazer com que as pessoas colaborem entre si para realizar filtragens descrevendo suas percepções a documentos que leram. Essas percepções são armazenadas em comentários ou anotações que podem ser consultadas por qualquer outro usuário. Uma forma de utilização desse sistema seria um usuário buscar documentos que outro determinado usuário aprovou. Os principais representantes de sistemas que utilizam filtragem colaborativa, além do Tapesty, são o GroupLens \cite{Resnick1994}, Ringo \cite{Shardanand1995} e Bellcore \cite{Hill1995}. Podem-se citar algumas vantagens deste tipo de técnica:
+
+\begin{itemize}
+	\item Como as recomendações são baseadas em avaliações de outros usuários é possível tratar diferentes tipos de conteúdo, não somente documentos textuais.
+	\item A qualidade das recomendações é superior se comparado a sistemas que utilizam filtragem baseada em conteúdo. A justificativa está no fato de sistemas automatizados não serem eficientes em analisar a qualidade de um produto, por exemplo, mas quando se baseia na avaliação de outros usuários é possível produzir recomendações de qualidade.
+\end{itemize}
+
+Algumas das desvantagens da filtragem colaborativa são:
+
+\begin{itemize}
+	\item Se um novo item é introduzido no sistema, não será recomendado até que um dos usuários o avalie. O que traz outra consequência: se o número de usuários do sistema é reduzido em relação à quantidade de itens, ocorre um problema de cobertura, ou seja, a coleção de itens que podem ser recomendados será resumida.
+	\item Outro problema em sistemas utilizando filtragem colaborativa ocorre quando há um usuário cujas preferências diferem dos demais usuários, ou seja, não há vizinhos semelhantes ao usuário ativo, ocasionando em recomendações pobres.
+\end{itemize}
+
+\subsubsection{Filtragem híbrida}
+A abordagem da filtragem híbrida consiste em associar duas ou mais técnicas de recomendação com o objetivo de tratar os principais problemas inerentes a cada uma delas. \cite{Burke2002} realizou um estudo sobre sistemas de recomendação híbridos. Neste artigo ele aponta sete combinações possíveis entre técnicas de recomendação:
+
+\begin{enumerate}
+	\item Ponderado: A avaliação de um item é a combinação do resultado de todas as técnicas presentes no sistema. O sistema P-Tango \cite{Claypool1999} é um exemplo de uso desta técnica. A proposta do P-Tango é combinar as recomendações da filtragem baseada em conteúdo e da filtragem colaborativa através de médias ponderadas. Os pesos são ajustados de acordo com o peso de cada recomendação, isto é, ao passo que o número de usuários e avaliações de um determinado item cresce, a filtragem colaborativa tem seu peso aumentado.
+	\item Alternado: O sistema se utiliza de um critério para alternar entre as técnicas de recomendação. Por exemplo, se uma filtragem baseada em conteúdo não retorna resultados satisfatórios, então a recomendação é feita com a filtragem colaborativa.
+	\item Misto: Neste tipo de combinação, o sistema apresenta recomendações de diferentes técnicas numa mesma listagem. O sistema PTV \cite{Smyth2001} utiliza a filtragem baseada em conteúdo baseado nas descrições de programas de TV e a filtragem colaborativa baseado na preferência de outros usuários, o resultado das recomendações é uma combinação dos resultados das duas filtragens.
+	\item Combinação de características: Trata informações de um tipo de recomendação como simples características que são utilizadas por outra técnica para retornar recomendações mais significativas. \cite{Basu1998} apresenta um sistema de recomendação de filmes onde as informações da filtragem colaborativa (denominadas, neste artigo, características colaborativas) são influenciadas pelo conteúdo agregado aos filmes. Desta forma, é possível agrupar usuários semelhantes e que gostem do mesmo gênero de filmes.
+	\item Cascata: Nesta combinação, uma técnica, primeiramente, produz suas recomendações e uma segunda técnica é usada para refinar os resultados da anterior.
+	\item Acréscimo de característica: Primeiramente uma técnica é aplicada para gerar classificações para um item, então estas informações são incorporadas na técnica seguinte.
+	\item \textit{Meta-level}: Esta abordagem utiliza o modelo criado por uma técnica como entrada para outra técnica. No acréscimo de característica, um modelo gera características para serem usadas como entrada para outro modelo, na abordagem \textit{meta-level} o modelo completo é utilizado como entrada para outro modelo.
+\end{enumerate}
+
+\section{Mapas auto-organizáveis}
+O principal objetivo das redes neurais artificiais (RNAs) é aprender com o ambiente em que estão inseridas para adquirirem a capacidade de adaptação às mudanças nesse ambiente. O tipo de aprendizado das redes neurais pode ser dividido em duas classes: aprendizado supervisionado e aprendizado não-supervisionado. O método mais comumente utilizado é o aprendizado supervisionado, onde, além da entrada, a saída desejada para a rede são fornecidas por um supervisor externo \cite{Braga2000}. O objetivo é fazer o ajuste de parâmetros de forma que a rede possa representar novas entradas corretamente. O método de aprendizado supervisionado se limita, porém, a aplicações onde tanto os dados de entrada como as respostas desejadas são conhecidos. Algumas aplicações necessitam que o treinamento seja realizado sem um supervisor para a rede, todo o conhecimento deve ser adquirido somente através das entradas. Diversos algoritmos foram desenvolvidos para treinar redes sem supervisão, este trabalho irá tratar de um deles: os modelos \textit{self-organizing} ou auto-organizáveis.
+
+Os mapas \textit{self-organizing}, SOM (\textit{Self-organizing maps}) foram propostas por Teuvo Kohonen \cite{Kohonen1989}. A estrutura básica dessas redes é formada por uma camada de entrada, constituída de padrões fonte, e uma camada de saída que representa as entradas. A inspiração para o desenvolvimento das redes SOM está no mapa topologicamente organizado do córtex cerebral de animais mais desenvolvidos. O córtex cerebral humano é organizado de acordo com funções específicas, como fala e visão (Figura \ref{cortex}). Desta forma, neurônios que lidam com o mesmo tipo de estímulo estão localizados próximos uns dos outros. O modelo de Kohonen consiste em um mapa, onde os nós ou nodos que estão topologicamente próximos respondem a estímulos semelhantes, ou seja, padrões de entrada que possuem similaridade entre si. 
+
+\begin{figure}[htbp]
+\begin{center}
+		\includegraphics[width=0.30\textwidth]{imagens/cortex.jpg}
+	\caption{Córtex cerebral humano}
+	\label{cortex}
+\end{center}
+\end{figure}
+
+Na arquitetura de uma rede SOM, os nodos são dispostos em uma grade ou reticulado, geralmente bidimensional ou unidimensional, com raras exceções, há redes tridimensionais ou n-dimensionais. No modelo bidimensional, os neurônios estão organizados em linhas e colunas, como mostra a Figura \ref{mapa_som}. Cada nodo possui um conjunto de pesos que representam as sinapses do neurônio biológico, esses pesos são ajustados de maneira que o nodo represente um dado padrão de entrada. Os nodos de uma rede SOM funcionam como um extrator de características, quanto mais o vetor de pesos de um neurônio for semelhante a um padrão de entrada, maior será sua saída e mais representativo este nodo será para a entrada \cite{Braga2000}. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.40\textwidth]{imagens/mapa_som.jpg}
+	\caption{Rede SOM bidimensional}
+	\label{mapa_som}
+\end{figure}
+
+As redes SOM utilizam um processo de aprendizado competitivo, no qual os neurônios da camada de saída competem entre si para representar um dado padrão de entrada, assim, apenas um neurônio de saída ou neurônio por grupo estará ativo a qualquer instante de tempo. O neurônio que se sobressai entre os outros para representar a entrada é chamado de vencedor e a competição é chamada de \textit{winner-takes-all}, o vencedor leva tudo. Para implementar esta competição são normalmente utilizadas conexões laterais inibitórias entre os neurônios de saída. O modelo para esse tipo de conexão também provém das células do córtex cerebral, onde a ordenação topológica dos neurônios se dá graças ao \textit{feedback} lateral entre as células. Em RNAs este \textit{feedback} é modelado por uma função chamada chapéu mexicano. Segundo esta função, as interações laterais entre os neurônios podem ser divididas em três regiões distintas, como mostrado na Figura \ref{mexican_hat}: (1) área excitatória, vizinhos que estão mais próximos ao neurônio atual; (2) área inibitória, vizinhos que estão fora da área anterior, mas incluídos numa segunda área; e (3) área levemente excitatória, que rodeia a área inibitória, esta terceira área geralmente é ignorada.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.30\textwidth]{imagens/mexican_hat.jpg}
+	\caption{Função chapéu mexicano}
+	\label{mexican_hat}
+\end{figure}
+ 
+Para simular o efeito da função chapéu mexicano, a rede SOM utiliza o conceito de vizinhança topológica dos neurônios vencedores. Quando um neurônio vence a competição e é o escolhido para representar o padrão de entrada, ele tem seus pesos ajustados de forma a se aproximar mais da entrada, com o conceito de vizinhos topológicos, além do neurônio vencedor ter seus pesos ajustados, os neurônios localizados na vizinhança também têm seus pesos ajustados.
+
+Como dito anteriormente, o treinamento de redes SOM é competitivo e não-supervisionado. Primeiramente os pesos dos neurônios do mapa são inicializados com valores aleatórios, que serão ajustados ao longo do algoritmo de aprendizado, de forma que se aproximem dos padrões de entrada. Em seguida é apresentado um padrão \emph{p} à rede, neste momento a rede define o neurônio que melhor representa esta entrada, caracterizando o neurônio vencedor. Para a escolha do neurônio vencedor é definida uma função de ativação que é baseada na distância entre o peso do neurônio e o vetor de entrada. A função de ativação mais conveniente para a rede SOM é baseada na distância euclidiana \cite{Kohonen1990}, apresentada na equação \ref{dist_euclid}:
+
+\begin{equation}
+y_{j} = \sum\limits_{i=1}^n \left\|x_{i} - w_{ji} \right\|
+\label{dist_euclid}
+\end{equation}
+onde $y_{j}$ representa a saída do neurônio $j$, $x$ é o vetor de entrada e $w_{ji}$ é o peso do neurônio  $j$ associado ao elemento de entrada $x_{i}$.
+
+O neurônio que possui a menor distância é escolhido como o vencedor e irá representar o padrão de entrada. Após essa escolha dá-se início ao processo de atualização dos pesos. Nesta fase o neurônio vencedor e os vizinhos definidos pelo raio ou área de vizinhança atualizam seus pesos. A fim de implementar a interação lateral, é definida uma região de vizinhança $N_{c}$, tendo como centro o neurônio $c$, estabeleciso como vencedor pela função de ativação. Todos os neurônios internos a essa vizinhança terão os pesos atualizados, enquanto neurônios fora do limite serão deixados intactos. O valor do raio ou tamanho de $N_{c}$ deve, inicialmente, ser alto e diminuir monotonicamente no tempo \cite{Kohonen1990}. Tal valor pode, ao final do processo, abranger apenas o neurônio central ($N_{c} = \{c\}$), como se pode observar na Figura \ref{vizinho}. A equação \ref{atualiza_pesos} mostra como são atualizados os pesos do neurônio vencedor e dos neurônios vizinhos.
+
+\begin{equation}
+w_{ji}(t+1) = 
+\left\{ \begin{array}{l}
+w_{ji}(t) + \eta(t) (x_{i}(t) - w_{ji}(t)), \mbox{ se } j \in N_{c}(t) \\
+w_{ji}(t), \mbox{ se } j \notin N_{c}(t)
+\end{array} \right.
+\label{atualiza_pesos}
+\end{equation}
+onde $\eta(t)$ é a taxa de aprendizado.
+
+O cálculo da região de vizinhança do neurônio vencedor pode ser determinado pela seguinte equação, definindo $r_{c}$ e $r_{j}$ como as coordenadas dos neurônios $c$ (neurônio central ou vencedor) e $j$, respectivamente:
+
+\begin{equation}
+h_{ci} = h_{0} \exp(-\left\|r_{i} - r_{c} \right\|^2 / \sigma^2)
+\end{equation}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.30\textwidth]{imagens/vizinho.jpg}
+	\caption{Exemplo de vizinhança, onde o instante 2 é menor que o instante 1, que por sua vez é menor que o instante 0}
+	\label{vizinho}
+\end{figure}
