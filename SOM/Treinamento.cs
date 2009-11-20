@@ -49,11 +49,16 @@ namespace SOM
 
             foreach (PadraoEntrada padraoTeste in padroesTeste)
             {
-                resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " +
-                (mapa.GetVencedor(padraoTeste.Caracteristicas)).Coordenadas.ToString() + "\n");
-            }
+                padraoTeste.Neuronio = mapa.GetVencedor(padraoTeste.Caracteristicas);
+                resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " + 
+                    padraoTeste.Neuronio.Coordenadas.ToString() + "\n");
 
-            this.nearestNeighbours = this.GetNearestNeighbours(padroesTeste);
+                this.nearestNeighbours = this.GetNearestNeighbours(padraoTeste);
+                foreach (Neuronio vizinho in nearestNeighbours)
+                {
+                    resultadoTeste.Append("Padrão: " + padraoTeste.Label + "Vizinho: " + vizinho.Coordenadas.ToString() + "\n");
+                }
+            }
 
             return resultadoTeste;
         }
@@ -106,8 +111,7 @@ namespace SOM
             double menorDistancia = DistanciaEntreDoisPontos(padraoTeste.Neuronio.Coordenadas, this.padroesEntrada[0].Neuronio.Coordenadas);
             Neuronio nearestNeighbour = null;
 
-            for (int i = 0; i < nearestNeighbours.Count; i++)
-            {
+            
                 foreach (PadraoEntrada padrao in this.padroesEntrada)
                 {
                     if (!padrao.Equals(padraoTeste) && !nearestNeighbours.Contains(padrao.Neuronio))
@@ -124,7 +128,7 @@ namespace SOM
                 {
                     nearestNeighbours.Add(nearestNeighbour);
                 } 
-            }
+            
             return nearestNeighbours;
         }
     }
