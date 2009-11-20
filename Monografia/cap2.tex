@@ -4,19 +4,41 @@ Neste capítulo iremos apresentar os principais conceitos que ajudarão na compree
 \section{Sistemas de Recomendação}
 O uso de sistemas informatizados, principalmente da internet, resulta em um grande volume de informação sendo criada e transmitida no mundo todo \cite{Terveen2001}. Um estudo realizado em 2003 por pesquisadores da Universidade da Califórnia \cite{Lyman2003} estimou que cinco exabytes de informação foram criados no ano de 2002, onde a maior parte é armazenada em dispositivos magnéticos, em especial discos rígidos. Nasceu, então, a necessidade da criação de mecanismos que tenham a capacidade de filtrar ou recuperar rapidamente informação. Com o objetivo de facilitar a busca por informação foram criados mecanismos que pudesse indexar documentos na internet e, rapidamente, recuperá-los, trazendo ao usuário aquilo que ele precisa. Tais mecanimos são as ferramentas de busca como o google (www.google.com), que seleciona documentos na internet a partir de critérios que o usuário expressa através de palavras-chave.
 
-O comércio, principalmente a indústria do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam mais ter espaço físico, é possível realizar vendas e fazer negociações através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas não possuem ao menos lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como ir em busca da melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Frequentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinada escolha. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora.
+O comércio, principalmente a indústria do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam mais ter espaço físico, é possível realizar vendas e fazer negociações com segurança através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas nem possuem lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como ir em busca da melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Frequentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinado produto ou serviço. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora. Porém, nenhum deles pode fazer recomendações de acordo com preferências pessoais.
 
-Filtrar toda a informação que um usuário recebe, raramente é uma tarefa simples e eficiente. Um dos primeiros sistemas de filtragem criados foi o Tapestry \cite{Goldberg1992}, que filtrava documentos enviados por email, não somente pelo seu conteúdo, mas pelo interesse que outros usuários tinham por esses documentos. Os idealizadores desse projeto cunharam o termo ''filtragem colaborativa'', propondo um sistema onde a filtragem de documentos seria realizada com auxílio de grupos de interesse. Atualmente, os sítios de comércio eletrônico disponibilizam para seus clientes ferramentas computacionais com o objetivo de auxiliá-los no momento da compra. Essas ferramentas caracterizam os sistemas de recomendação. Tais sistemas consistem em mostrar ao usuário produtos que sejam de seu interesse, alguns sistemas ainda fornecem opiniões de outros clientes sobre aqueles produtos. 
+Filtrar toda a informação recebida por um usuário, raramente é uma tarefa simples e eficiente. Um dos primeiros sistemas de filtragem criados foi o Tapestry \cite{Goldberg1992}. Este sistema filtrava documentos enviados para a caixa de \textit{emails} de um usuário. O Tapestry analisava, não somente o conteúdo dos textos, mas também o interesse que outros usuários tinham por esses documentos. Os idealizadores desse projeto cunharam o termo ''filtragem colaborativa'', propondo um sistema onde a filtragem de documentos seria realizada com auxílio de grupos de pessoas com o mesmo interesse. Atualmente, os sítios de comércio eletrônico disponibilizam para seus clientes ferramentas computacionais com o objetivo de auxiliá-los no momento da compra. Essas ferramentas caracterizam os sistemas de recomendação. Tais sistemas consistem em mostrar ao usuário produtos que sejam de seu interesse, alguns sistemas ainda fornecem opiniões de outros clientes sobre aqueles produtos. 
 
 Auxiliar o cliente mostrando produtos relacionados a suas preferências é uma forma de personalização. A personalização é uma característica do \textit{marketing} direto. Diferente do \textit{marketing} de massa, cujo objetivo é alcançar o maior número de pessoas através dos diversos tipos de mídia, o \textit{marketing} direto é mais pessoal, ele se interessa pelo indivíduo. Personalizar resulta na fidelização do cliente, que é um grande diferencial entre empresas concorrentes \cite{Filho2006}. \cite{Reategui2005} cita algumas estratégias utilizadas pelos sítios de comércio eletrônico para recomendação de produtos:
 
 \begin{itemize}
 	\item Listas de recomendação: A loja mantém listas de produtos, como itens mais vendidos, itens que têm a melhor avaliação entre os clientes ou lista de presentes, entre outros.
-	\item Avaliação de usuários: Consiste em se obter notas do produto por clientes que já o adquiriram, além dessa avaliação usuários podem deixar comentários sobre determinado produto.
-	\item Suas recomendações: O sítio oferece alguns produtos baseado em interesses do cliente. Aqui pode-se ter dois tipos de recomendação: implícita, onde o sítio oferece produtos de acordo com o histórico de compras do cliente, ou explícita, onde o usuário determina quais são suas preferências.
-	\item ''Usuário que se adquiriram um produto X, também compraram Y'': O sistema de recomendação cria associações entre produtos avaliados por usuário para oferecer produtos relacionados ao que o cliente está adquirindo no momento.
+	\item Avaliação de usuários: Consiste em se obter notas do produto por clientes que já o adquiriram, além dessa avaliação usuários podem deixar comentários sobre determinado produto (Figura \ref{avaliacao}).
+	\item Suas recomendações: O sítio oferece alguns produtos baseado em interesses do cliente. Aqui pode-se ter dois tipos de recomendação: implícita, onde o sítio oferece produtos de acordo com o histórico de compras do cliente, ou explícita, onde o usuário determina quais são suas preferências (Figura \ref{amazon_tbcompra}).
+	\item ''Clientes que adquiriram um produto X, também compraram Y'': O sistema de recomendação cria associações entre produtos avaliados por usuário para oferecer produtos relacionados ao que o cliente está adquirindo no momento (Figura \ref{also_bought}).
 	\item Associação por conteúdo: Este tipo de recomendação é feita baseado no conteúdo de determinado item. Por exemplo: Clientes que compraram um livro de Redes de Computadores também compraram um livro sobre a linguagem Java.
 \end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1.00\textwidth]{imagens/avaliacao.JPG}
+	\caption{Avaliações de usuários no site da Amazon para uma câmera fotográfica.}
+	\label{avaliacao}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1.10\textwidth]{imagens/amazon_tbcompra.JPG}
+	\caption{Recomendações da Amazon de acordo com o histórico do cliente.}
+	\label{amazon_tbcompra}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1.00\textwidth]{imagens/also_bought.JPG}
+	\caption{Associação de produtos por clientes no site da Amazon}
+	\label{also_bought}
+\end{figure}
+
 
 \subsection{Técnicas de recomendação}
 Diversas técnicas foram definidas na literatura com o objetivo de identificar padrões de comportamento e filtragem de informação para obter recomendações e personalização para o usuário. As três técnicas mais utilizadas em sistemas de recomendação são a filtragem baseada em conteúdo, a filtragem colaborativa e a filtragem híbrida, que procura conciliar as vantagens das duas anteriores atacando seus principais problemas.

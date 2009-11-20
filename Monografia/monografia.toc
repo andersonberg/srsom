@@ -13,11 +13,11 @@
 \contentsline {chapter}{\numberline {2}Fundamenta\c c\~ao Te\'orica}{13}
 \contentsline {section}{\numberline {2.1}Sistemas de Recomenda\c c\~ao}{13}
 \contentsline {subsection}{\numberline {2.1.1}T\'ecnicas de recomenda\c c\~ao}{15}
-\contentsline {subsubsection}{\numberline {2.1.1.1}Filtragem baseada em conte\'udo}{15}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Filtragem baseada em conte\'udo}{16}
 \contentsline {subsubsection}{\numberline {2.1.1.2}Filtragem colaborativa}{17}
-\contentsline {subsubsection}{\numberline {2.1.1.3}Filtragem h\IeC {\'\i }brida}{18}
-\contentsline {section}{\numberline {2.2}Mapas auto-organiz\'aveis}{19}
-\contentsline {chapter}{\numberline {3}Modelo proposto}{24}
-\contentsline {chapter}{\numberline {4}Resultados}{26}
-\contentsline {chapter}{\numberline {5}Conclus\~oes}{27}
-\contentsline {chapter}{Refer\^encias}{28}
+\contentsline {subsubsection}{\numberline {2.1.1.3}Filtragem h\IeC {\'\i }brida}{19}
+\contentsline {section}{\numberline {2.2}Mapas auto-organiz\'aveis}{20}
+\contentsline {chapter}{\numberline {3}Modelo proposto}{25}
+\contentsline {chapter}{\numberline {4}Resultados}{27}
+\contentsline {chapter}{\numberline {5}Conclus\~oes}{28}
+\contentsline {chapter}{Refer\^encias}{29}
