@@ -1,8 +1,10 @@
 \chapter{Fundamentação Teórica}\label{cap:fundamentacao}
-Neste capítulo iremos apresentar os principais conceitos em que se baseia o resto do documento. Primeiramente serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, como também, suas características e usos mais frequentes.
+Neste capítulo iremos apresentar os principais conceitos que ajudarão na compreensão do resto do documento. Primeiramente serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, definindo sua arquitetura e o algoritmo de aprendizado.
 
 \section{Sistemas de Recomendação}
-O uso de sistemas informatizados, principalmente da internet, resulta em um grande volume de informação sendo criada e transmitida no mundo todo \cite{Terveen2001}. Um estudo realizado em 2003 por pesquisadores da Universidade da Califórnia \cite{Lyman2003} estimou que cinco exabytes de informação foram criados no ano de 2002, onde a maior parte é armazenada em dispositivos magnéticos, em especial discos rígidos. O comércio, principalmente a indústria do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam ter mais espaço físico, é possível fazer negociações através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas não possuem ao menos lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como ir em busca da melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Frequentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinada escolha. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora.
+O uso de sistemas informatizados, principalmente da internet, resulta em um grande volume de informação sendo criada e transmitida no mundo todo \cite{Terveen2001}. Um estudo realizado em 2003 por pesquisadores da Universidade da Califórnia \cite{Lyman2003} estimou que cinco exabytes de informação foram criados no ano de 2002, onde a maior parte é armazenada em dispositivos magnéticos, em especial discos rígidos. Nasceu, então, a necessidade da criação de mecanismos que tenham a capacidade de filtrar ou recuperar rapidamente informação. Com o objetivo de facilitar a busca por informação foram criados mecanismos que pudesse indexar documentos na internet e, rapidamente, recuperá-los, trazendo ao usuário aquilo que ele precisa. Tais mecanimos são as ferramentas de busca como o google (www.google.com), que seleciona documentos na internet a partir de critérios que o usuário expressa através de palavras-chave.
+
+O comércio, principalmente a indústria do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam mais ter espaço físico, é possível realizar vendas e fazer negociações através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas não possuem ao menos lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como ir em busca da melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Frequentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinada escolha. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora.
 
 Filtrar toda a informação que um usuário recebe, raramente é uma tarefa simples e eficiente. Um dos primeiros sistemas de filtragem criados foi o Tapestry \cite{Goldberg1992}, que filtrava documentos enviados por email, não somente pelo seu conteúdo, mas pelo interesse que outros usuários tinham por esses documentos. Os idealizadores desse projeto cunharam o termo ''filtragem colaborativa'', propondo um sistema onde a filtragem de documentos seria realizada com auxílio de grupos de interesse. Atualmente, os sítios de comércio eletrônico disponibilizam para seus clientes ferramentas computacionais com o objetivo de auxiliá-los no momento da compra. Essas ferramentas caracterizam os sistemas de recomendação. Tais sistemas consistem em mostrar ao usuário produtos que sejam de seu interesse, alguns sistemas ainda fornecem opiniões de outros clientes sobre aqueles produtos. 
 
@@ -61,11 +63,11 @@ A abordagem da filtragem híbrida consiste em associar duas ou mais técnicas de r
 \section{Mapas auto-organizáveis}
 O principal objetivo das redes neurais artificiais (RNAs) é aprender com o ambiente em que estão inseridas para adquirirem a capacidade de adaptação às mudanças nesse ambiente. O tipo de aprendizado das redes neurais pode ser dividido em duas classes: aprendizado supervisionado e aprendizado não-supervisionado. O método mais comumente utilizado é o aprendizado supervisionado, onde, além da entrada, a saída desejada para a rede são fornecidas por um supervisor externo \cite{Braga2000}. O objetivo é fazer o ajuste de parâmetros de forma que a rede possa representar novas entradas corretamente. O método de aprendizado supervisionado se limita, porém, a aplicações onde tanto os dados de entrada como as respostas desejadas são conhecidos. Algumas aplicações necessitam que o treinamento seja realizado sem um supervisor para a rede, todo o conhecimento deve ser adquirido somente através das entradas. Diversos algoritmos foram desenvolvidos para treinar redes sem supervisão, este trabalho irá tratar de um deles: os modelos \textit{self-organizing} ou auto-organizáveis.
 
-Os mapas \textit{self-organizing}, SOM (\textit{Self-organizing maps}) foram propostas por Teuvo Kohonen \cite{Kohonen1989}. A estrutura básica dessas redes é formada por uma camada de entrada, constituída de padrões fonte, e uma camada de saída que representa as entradas. A inspiração para o desenvolvimento das redes SOM está no mapa topologicamente organizado do córtex cerebral de animais mais desenvolvidos. O córtex cerebral humano é organizado de acordo com funções específicas, como fala e visão (Figura \ref{cortex}). Desta forma, neurônios que lidam com o mesmo tipo de estímulo estão localizados próximos uns dos outros. O modelo de Kohonen consiste em um mapa, onde os nós ou nodos que estão topologicamente próximos respondem a estímulos semelhantes, ou seja, padrões de entrada que possuem similaridade entre si. 
+Os mapas \textit{self-organizing}, SOM (\textit{Self-organizing maps}) foram propostas por Teuvo Kohonen \cite{Kohonen1989}. A estrutura básica dessas redes é formada por uma camada de entrada, constituída de padrões fonte, e uma camada de saída que representa as entradas. Não há camadas escondidas (hidden layer) no modelo de mapas auto-organizáveis como em outros tipos de redes neurais. A inspiração para o desenvolvimento das redes SOM está no mapa topologicamente organizado do córtex cerebral de animais mais desenvolvidos. O córtex cerebral humano é organizado de acordo com funções específicas, como fala e visão (Figura \ref{cortex}). Desta forma, neurônios que lidam com o mesmo tipo de estímulo estão localizados próximos uns dos outros. O modelo de Kohonen consiste em um mapa, onde os nós ou nodos que estão topologicamente próximos respondem a estímulos semelhantes, ou seja, padrões de entrada que possuem similaridade entre si. 
 
 \begin{figure}[htbp]
 \begin{center}
-		\includegraphics[width=0.30\textwidth]{imagens/cortex.jpg}
+		\includegraphics[width=0.50\textwidth]{imagens/cortex.jpg}
 	\caption{Córtex cerebral humano}
 	\label{cortex}
 \end{center}
@@ -75,7 +77,7 @@ Na arquitetura de uma rede SOM, os nodos são dispostos em uma grade ou reticulad
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.40\textwidth]{imagens/mapa_som.jpg}
+		\includegraphics[width=0.60\textwidth]{imagens/mapa_som.jpg}
 	\caption{Rede SOM bidimensional}
 	\label{mapa_som}
 \end{figure}
@@ -84,7 +86,7 @@ As redes SOM utilizam um processo de aprendizado competitivo, no qual os neurôni
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.30\textwidth]{imagens/mexican_hat.jpg}
+		\includegraphics[width=0.40\textwidth]{imagens/mexican_hat.jpg}
 	\caption{Função chapéu mexicano}
 	\label{mexican_hat}
 \end{figure}
@@ -104,19 +106,24 @@ O neurônio que possui a menor distância é escolhido como o vencedor e irá repres
 \begin{equation}
 w_{ji}(t+1) = 
 \left\{ \begin{array}{l}
-w_{ji}(t) + \eta(t) (x_{i}(t) - w_{ji}(t)), \mbox{ se } j \in N_{c}(t) \\
+w_{ji}(t) + \alpha(t) (x_{i}(t) - w_{ji}(t)), \mbox{ se } j \in N_{c}(t) \\
 w_{ji}(t), \mbox{ se } j \notin N_{c}(t)
 \end{array} \right.
 \label{atualiza_pesos}
 \end{equation}
-onde $\eta(t)$ é a taxa de aprendizado.
+onde $\alpha(t)$ é o valor da taxa de aprendizado $0<\alpha(t)<1$, que decresce no tempo.
 
-O cálculo da região de vizinhança do neurônio vencedor pode ser determinado pela seguinte equação, definindo $r_{c}$ e $r_{j}$ como as coordenadas dos neurônios $c$ (neurônio central ou vencedor) e $j$, respectivamente:
+Como alternativa pode ser introduzida uma função de vizinhança do neurônio vencedor, definido pela seguinte equação, com $r_{c}$ e $r_{j}$ como as coordenadas dos neurônios $c$ (neurônio central ou vencedor) e $j$, respectivamente:
 
 \begin{equation}
-h_{ci} = h_{0} \exp(-\left\|r_{i} - r_{c} \right\|^2 / \sigma^2)
+h_{ci}(t) = h_{0} \exp(-\left\|r_{i} - r_{c} \right\|^2 / \sigma^2)
 \end{equation}
-onde $h_{0} = h_{0}(t)$ e $\sigma = \sigma(t)$ são funções que devem decrescer no tempo. 
+onde $h_{0} = h_{0}(t)$ e $\sigma = \sigma(t)$ são funções que devem decrescer no tempo. O parâmetro $\sigma(t)$ corresponde ao raio de $N_{c}(t)$. O ajuste de pesos passa então a ser calculado desta forma:
+
+\begin{equation}
+w_{ji}(t+1) = w_{ji}(t) + h_{ci} (x_{i}(t) - w_{ji}(t))
+\label{ajuste}
+\end{equation}
 
 \begin{figure}[htbp]
 	\centering
@@ -125,4 +132,4 @@ onde $h_{0} = h_{0}(t)$ e $\sigma = \sigma(t)$ são funções que devem decrescer n
 	\label{vizinho}
 \end{figure}
 
-Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que durante os primeiros 1000 ciclos durante a fase de aprendizado, o valor de $\sigma(t)$ deve estar próximo de 1. A regra para o decréscimo de $\sigma$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\sigma(t) = 0.9(1-t/1000)$. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não será ordenado globalmente. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa.
+Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que o valor inicial de $\alpha(t)$ (taxa de aprendizado da rede) deve estar próximo de 1 e decair monotonicamente durante os primeiros 1000 ciclos da fase de aprendizado, porém mantendo o valor acima de 0,1. A regra para o decréscimo de $\alpha(t)$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\alpha(t) = 0.9(1-t/1000)$. É durante esta fase inicial do treinamento que ocorre a fase de ordenação da rede. Nas fases seguintes ocorre o ajuste fino da rede, chamado de fase de convergência. O número de ciclos da fase de aprendizado deve ser razoavelmente grande. Uma regra empírica é que este número deva ser 500 vezes maior que o número de neurônios na rede. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não teria uma boa ordenação global. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa.
