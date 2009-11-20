@@ -18,7 +18,7 @@ namespace SOM
         /// </summary>
         private int numeroEntradas;
 
-        private double sigmaInicial = 6;
+        private double sigmaInicial;
 
         private double taxaAprendizado;
 
@@ -60,6 +60,7 @@ namespace SOM
             coordenadas.Y = y;
             numeroEntradas = Math.Max(1, entradas);
             this.taxaAprendizado = taxaAprendizado;
+            this.sigmaInicial = numeroEntradas;
             InicializarPesos(random);
         }
 
