@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  21 NOV 2009 16:42
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  21 NOV 2009 17:22
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -319,19 +319,144 @@ Cap\'{\i }tulo 3.
 
 
 
-]) [26] (cap4.tex
+]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...utilizada para desenvolvimento foi C\sharp
+                                                   com o Microsoft\textregis...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 17.
+
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no á in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Command \c invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 17.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ã in font cmr12!
+
+Overfull \hbox (3456.19618pt too wide) in paragraph at lines 17--18
+\T1/cmr/m/n/12 zada para de-sen-vol-vi-mento foi C$\OML/cmm/m/it/12 ]comoMicrosoft[]VisualStudio[]\OT1/cmr/m/n/12 2008\O
+ML/cmm/m/it/12 comoIDEdeprogramao:Aescolhadestatecnologiasejustificaporserumalinguagemdefcilimplementaoesermaislargament
+eutilizadapeloautordestetrabalho:AFigura\OT1/cmr/m/n/12 8[]\OML/cmm/m/it/12 mostraosdiagramasdeclassesdomodeloimplementa
+do:MapaSOMumaclassequecomportatodososneurniodaredeerecebeoconjuntodeentradasparaserapresentadoduranteotreinamento:Cadane
+urniopossuicoordenadas$\T1/cmr/m/n/12 x$\OML/cmm/m/it/12 e$\T1/cmr/m/n/12 y$\OML/cmm/m/it/12 ; determinandosuaposionoret
+iculadodomapaeovetordepesosquesoinicializadosaleatoriamenteeajustadosduranteafasedeaprendizado:Cadapadrodeentradatemumco
+njuntodecaractersticasquesoextradosdobancodedadosdefilmes; almdeumneurnioquecaracterizaoneurniovencedorpararepresentarop
+adro:$ 
+ []
+
+<../DiagramaClasses.jpg, id=126, 592.46344pt x 271.0125pt>
+File: ../DiagramaClasses.jpg Graphic file (type jpg)
+ <use ../DiagramaClasses.jpg>) [26] [27 <E:/srsom/DiagramaClasses.jpg>] (cap4.tex
 Cap\'{\i }tulo 4.
-[27
+[28
 
 
 
-]) [28] (cap5.tex
+]) [29] (cap5.tex
 Cap\'{\i }tulo 5.
-) [29
+) [30
 
 
 
-] (Monografia.bbl [30
+] (Monografia.bbl [31
 
 
 ])
@@ -339,36 +464,37 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[31] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[32] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2614 strings out of 95265
- 33365 string characters out of 1181734
- 92515 words of memory out of 1500000
- 5724 multiletter control sequences out of 110000
- 19019 words of font info for 40 fonts, out of 3000000 for 5000
+ 2625 strings out of 95265
+ 33562 string characters out of 1181734
+ 92524 words of memory out of 1500000
+ 5732 multiletter control sequences out of 110000
+ 19783 words of font info for 41 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
  28i,13n,25p,1863b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Documents and Settings\All Users\Dado
-s de aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\All Users\Dados d
-e aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\All Users\Dados de a
-plicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and Settings\All Users\Dados de apli
-cativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\All Users\Dados de aplicat
-ivos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativo
-s\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\M
-iKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKT
-eX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\
-2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arq
-uivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Monografia.pdf (32 pages, 512031 bytes).
+s de aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Documents and Settings\All Users\Dados d
+e aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\All Users\Dados de a
+plicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\All Users\Dados de apli
+cativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and Settings\All Users\Dados de aplicat
+ivos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\All Users\Dados de aplicativo
+s\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\M
+iKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKT
+eX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\
+2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm2488.pk><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/A
+rquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arquiv
+os de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb>
+Output written on Monografia.pdf (33 pages, 625296 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
+ 690 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -113,7 +113,7 @@ namespace SOM
                 for (int j = 0; j < numeroNeuronios; j++)
                 {   
                     Random random = new Random((int)agora.TimeOfDay.TotalMilliseconds);
-                    this.neuronios[i, j] = new Neuronio(i, j, numeroEntradas, 0.01, random);
+                    this.neuronios[i, j] = new Neuronio(i, j, numeroEntradas, 0.01, random, numeroNeuronios);
                     agora = agora.AddHours(1);
                 }
             }
