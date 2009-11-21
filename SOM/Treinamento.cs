@@ -32,13 +32,16 @@ namespace SOM
         /// </summary>
         public Treinamento()
         {
+            //Lista de filmes
             List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data");
 
+            //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
-
+            //quantidade de padrões de entrada total
             this.numeroPadroes = padroesEntrada.Count;
 
-            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes));
+            //Número de neurônios do mapa
+            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes*2));
             int inteiro = Convert.ToInt32(raiz);
 
             this.mapa = new MapaSOM(inteiro, this.padroesEntrada);

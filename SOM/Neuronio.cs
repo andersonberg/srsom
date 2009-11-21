@@ -53,14 +53,14 @@ namespace SOM
 
         }
 
-        public Neuronio(int x, int y, int entradas, double taxaAprendizado, Random random)
+        public Neuronio(int x, int y, int entradas, double taxaAprendizado, Random random, int numeroNeuroniosMapa)
         {
             this.pesos = new List<double>();
             coordenadas.X = x;
             coordenadas.Y = y;
             numeroEntradas = Math.Max(1, entradas);
             this.taxaAprendizado = taxaAprendizado;
-            this.sigmaInicial = numeroEntradas;
+            this.sigmaInicial = 0.6 * numeroNeuroniosMapa * 2;
             InicializarPesos(random);
         }
 

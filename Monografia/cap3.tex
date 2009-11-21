@@ -14,4 +14,13 @@ O modelo proposto consiste em uma rede SOM composta por filmes contidos no histó
 Após o treinamento da rede, os filmes locados por um cliente estarão distribuídos no mapa. O cliente deve, então selecionar um filme do acervo da locadora e apresentar ao seu mapa individual. A rede irá calcular a posição deste novo filme e irá mostrar ao usuário 3 filmes que estejam próximos àquele, determinando que há semelhanças entre esses quatro títulos. Esta é uma forma de auxiliar o cliente, pois ele pode avaliar se irá gostar ou não do filme, partindo da satisfação que teve ao assistir os outros três. 
 
 \section{Implementação do modelo}
-A implementação da rede SOM utilizada no modelo deste trabalho foi feita baseada no algoritmo original proposto por Kohonen, como descrito no Capítulo 2. A linguagem utilizada para desenvolvimento foi C\# com Visual Studio 2008. A escolha desta tecnologia se justifica por ser uma linguagem de fácil implementação e ser mais largamente utilizada pelo autor deste trabalho.
+A implementação da rede SOM utilizada no modelo deste trabalho foi feita baseada no algoritmo original proposto por Kohonen, como descrito no Capítulo 2. A linguagem utilizada para desenvolvimento foi C\sharp com o Microsoft\textregistered Visual Studio \textregistered 2008 como IDE de programação. A escolha desta tecnologia se justifica por ser uma linguagem de fácil implementação e ser mais largamente utilizada pelo autor deste trabalho. A Figura \ref{DiagramaClasses} mostra os diagramas de classes do modelo implementado. MapaSOM é uma classe que comporta todos os neurônio da rede e recebe o conjunto de entradas para ser apresentado durante o treinamento. Cada neurônio possui coordenadas $x$ e $y$, determinando sua posição no reticulado do mapa e o vetor de pesos que são inicializados aleatoriamente e ajustados durante a fase de aprendizado. Cada padrão de entrada tem um conjunto de características que são extraídos do banco de dados de filmes, além de um neurônio que caracteriza o neurônio vencedor para representar o padrão.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1.00\textwidth]{../DiagramaClasses.jpg}
+	\caption{Diagrama de classes do modelo}
+	\label{DiagramaClasses}
+\end{figure}
+
+\section{Funcionamento do modelo}
