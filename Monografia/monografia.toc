@@ -18,6 +18,9 @@
 \contentsline {subsubsection}{\numberline {2.1.1.3}Filtragem h\IeC {\'\i }brida}{19}
 \contentsline {section}{\numberline {2.2}Mapas auto-organiz\'aveis}{20}
 \contentsline {chapter}{\numberline {3}Modelo proposto}{25}
-\contentsline {chapter}{\numberline {4}Resultados}{27}
-\contentsline {chapter}{\numberline {5}Conclus\~oes}{28}
-\contentsline {chapter}{Refer\^encias}{29}
+\contentsline {section}{\numberline {3.1}Vis\~ao Geral}{25}
+\contentsline {section}{\numberline {3.2}Implementa\c c\~ao do modelo}{26}
+\contentsline {chapter}{\numberline {4}Experimento e An\'alise de Resultados}{27}
+\contentsline {section}{\numberline {4.1}Base de dados}{27}
+\contentsline {chapter}{\numberline {5}Conclus\~oes}{29}
+\contentsline {chapter}{Refer\^encias}{30}
