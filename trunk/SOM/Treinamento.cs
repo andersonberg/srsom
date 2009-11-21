@@ -54,7 +54,7 @@ namespace SOM
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
             List<int> novoFilme = new List<int>();
-            novoFilme.Add(6);
+            novoFilme.Add(10);
 
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novoFilme);
 

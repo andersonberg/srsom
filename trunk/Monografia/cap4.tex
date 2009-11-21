@@ -1,2 +1,18 @@
-\chapter{Experimento e análise de resultados}\label{cap:resultados}
+\chapter{Experimento e Análise de Resultados}\label{cap:resultados}
 
+Este capítulo tem como objetivo descrever os experimentos realizados e resultados obtidos a partir da implementação do modelo descrito no Capítulo 3.
+
+\section{Base de dados}
+Como mencionado no capítulo anterior, o objetivo deste trabalho é auxiliar clientes na escolha de filmes em uma vídeo locadora. Foi desenvolvida uma rede auto-organizável, segundo o modelo de Teuvo Kohonen \cite{Kohonen1990}, com o fim de aprender o comportamento do usuário e poder guiá-lo em sua escolha. Para a realização dos testes foi utilizada uma base de dados real, extraindo as características que mais se adequam ao modelo proposto.
+
+Inicialmente estava sendo negociada a obtenção dos dados de uma vídeo locadora da cidade, mas devido a entraves na política da empresa que fornece o sistema para esta locadora, não foi possível coletar os dados para teste do sistema. A alternativa encontrada foi utilizar uma base, também real, disponível abertamente na internet. A base de dados utilizada foi a MovieLens Data Set (http://www.grouplens.org/node/73), fornecida pelo grupo de pesquisa GroupLens Research. Essa base conta com 100.000 avaliações para 1682 filmes por 943 usuários. A base MovieLens foi construída a partir do sítio de recomendações de filmes: movielens.org. A base de dados MovieLens é assim organizada: 
+
+\begin{itemize}
+	\item Arquivo u.data: arquivo contendo 100.000 avaliações de 943 usuários para 1682 filmes. Cada usuário avaliou, no mínimo 20 títulos.
+	\item Arquivo u.itme: contém informações sobre os filmes, título, data de lançamento e gênero.
+	\item Arquivo u.genre: lista de gêneros de filmes.
+	\item Arquivo u.user: informação demográfica sobre os usuários: nome, idade, gênero, profissão.
+	\item Arquivos de treinamento e teste: a base u.data é dividida em dois tipos de arquivos com a relação de 80\%/20\% para treinamento e teste, respectivamente.
+\end{itemize}
+
+Para o escopo deste trabalho, não serão utilizadas as avaliações dos usuários durante a fase de treinamento, pois foge ao objetivo que é fazer recomendações em ambientes de locadoras de filmes reais, onde não há o conceito de avaliação pelos clientes.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  21 NOV 2009 09:25
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  21 NOV 2009 16:42
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -321,17 +321,17 @@ Cap\'{\i }tulo 3.
 
 ]) [26] (cap4.tex
 Cap\'{\i }tulo 4.
-) [27
+[27
 
 
 
-] (cap5.tex
+]) [28] (cap5.tex
 Cap\'{\i }tulo 5.
-) [28
+) [29
 
 
 
-] (Monografia.bbl [29
+] (Monografia.bbl [30
 
 
 ])
@@ -339,7 +339,7 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[30] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[31] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
  2614 strings out of 95265
  33365 string characters out of 1181734
@@ -366,9 +366,9 @@ nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Use
 type1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arq
 uivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Monografia.pdf (31 pages, 502246 bytes).
+Output written on Monografia.pdf (32 pages, 512031 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
+ 680 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
