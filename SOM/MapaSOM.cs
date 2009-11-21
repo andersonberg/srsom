@@ -48,6 +48,23 @@ namespace SOM
             set { neuronios = value; }
         }
 
+
+        private List<double> NormalizaEntrada(List<double> entrada)
+        {
+            double nn = 0;
+            for (int i = 0; i < entrada.Count; i++)
+            {
+                nn += (entrada[i] * entrada[i]);
+            }
+            nn = Math.Sqrt(nn);
+            for (int i = 0; i < entrada.Count; i++)
+            {
+                entrada[i] /= nn;
+            }
+
+            return entrada;
+        }
+
         /// <summary>
         /// Método que apresenta uma determinada entrada ao mapa e chama outros métodos para calcular a saída.
         /// </summary>
@@ -58,14 +75,15 @@ namespace SOM
             Neuronio vencedor;
             int iteracao = 1;
             //TODO: Substituir o valor 500 por uma variável que represente o número de ciclos
-            while (iteracao < 500)
+            while (iteracao < 500 * numeroNeuronios)
             {
                 foreach (PadraoEntrada padraoEntrada in entradas)
                 {
+                    padraoEntrada.Caracteristicas = NormalizaEntrada(padraoEntrada.Caracteristicas);
                     //Neurônio que representa uma dada entrada
                     vencedor = GetVencedor(padraoEntrada.Caracteristicas);
 
-                    if (iteracao == 499)
+                    if (iteracao == (500 * numeroNeuronios -1))
                     {
                         saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n");
                         padraoEntrada.Neuronio = vencedor;

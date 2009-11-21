@@ -27,6 +27,9 @@ namespace SOM
             set { saida = value; }
         }
 
+        /// <summary>
+        /// Treinamento da rede
+        /// </summary>
         public Treinamento()
         {
             List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data");
@@ -42,6 +45,10 @@ namespace SOM
             this.saida = mapa.AlgoritmoAprendizado();
         }
 
+        /// <summary>
+        /// Teste da rede
+        /// </summary>
+        /// <returns></returns>
         public StringBuilder Teste()
         {
             StringBuilder resultadoTeste = new StringBuilder();
@@ -65,6 +72,7 @@ namespace SOM
                         if (padraoMapa.Neuronio.Equals(vizinho))
                         {
                             resultadoTeste.Append("Padrão: " + padraoMapa.Label + " Vizinho: " + vizinho.Coordenadas.ToString() + "\n");
+                            break;
                         }
                     }
                     
@@ -74,6 +82,12 @@ namespace SOM
             return resultadoTeste;
         }
 
+        /// <summary>
+        /// Lê um arquivo de texto e monta o array de padrões de entrada
+        /// </summary>
+        /// <param name="arquivo"></param>
+        /// <param name="filmes"></param>
+        /// <returns></returns>
         public List<PadraoEntrada> LerArquivo(string arquivo, List<int> filmes)
         {
             List<PadraoEntrada> padroes = new List<PadraoEntrada>();
@@ -107,6 +121,11 @@ namespace SOM
             return padroes;
         }
 
+        /// <summary>
+        /// Cria uma lista de filmes
+        /// </summary>
+        /// <param name="arquivoFilmes"></param>
+        /// <returns></returns>
         public List<int> ListaFilmes(string arquivoFilmes)
         {
             FileStream fileMovies = new FileStream(arquivoFilmes, FileMode.Open, FileAccess.Read);
