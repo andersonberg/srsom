@@ -29,7 +29,9 @@ namespace SOM
 
         public Treinamento()
         {
-            this.padroesEntrada = this.LerArquivo(@"E:\srsom\wine\wine_treina.data");
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data");
+
+            this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
 
             this.numeroPadroes = padroesEntrada.Count;
 
@@ -44,8 +46,10 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
+            List<int> novoFilme = new List<int>();
+            novoFilme.Add(6);
 
-            padroesTeste = this.LerArquivo(@"E:\srsom\wine\wine_testa.data");
+            padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novoFilme);
 
             foreach (PadraoEntrada padraoTeste in padroesTeste)
             {
@@ -56,14 +60,21 @@ namespace SOM
                 this.nearestNeighbours = this.GetNearestNeighbours(padraoTeste);
                 foreach (Neuronio vizinho in nearestNeighbours)
                 {
-                    resultadoTeste.Append("Padrão: " + padraoTeste.Label + "Vizinho: " + vizinho.Coordenadas.ToString() + "\n");
+                    foreach (PadraoEntrada padraoMapa in this.padroesEntrada)
+                    {
+                        if (padraoMapa.Neuronio.Equals(vizinho))
+                        {
+                            resultadoTeste.Append("Padrão: " + padraoMapa.Label + " Vizinho: " + vizinho.Coordenadas.ToString() + "\n");
+                        }
+                    }
+                    
                 }
             }
 
             return resultadoTeste;
         }
 
-        public List<PadraoEntrada> LerArquivo(string arquivo)
+        public List<PadraoEntrada> LerArquivo(string arquivo, List<int> filmes)
         {
             List<PadraoEntrada> padroes = new List<PadraoEntrada>();
 
@@ -74,16 +85,20 @@ namespace SOM
             while (!stream.EndOfStream)
             {
                 string line = stream.ReadLine();
-                string[] padraoString = line.Split(',');
-                PadraoEntrada padraoEntrada = new PadraoEntrada();
-                padraoEntrada.Label = padraoString[0];
+                string[] padraoString = line.Split('|');
 
-                for (int i = 1; i < padraoString.Length; i++)
+                if (filmes.Contains(Convert.ToInt32(padraoString[0])))
                 {
-                    padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
-                }
+                    PadraoEntrada padraoEntrada = new PadraoEntrada();
+                    padraoEntrada.Label = padraoString[1];
 
-                padroes.Add(padraoEntrada);
+                    for (int i = 2; i < padraoString.Length; i++)
+                    {
+                        padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
+                    }
+
+                    padroes.Add(padraoEntrada); 
+                }
             }
 
             stream.Close();
@@ -92,9 +107,25 @@ namespace SOM
             return padroes;
         }
 
+        public List<int> ListaFilmes(string arquivoFilmes)
+        {
+            FileStream fileMovies = new FileStream(arquivoFilmes, FileMode.Open, FileAccess.Read);
+            StreamReader fileMoviesReader = new StreamReader(fileMovies);
+
+            List<int> movies = new List<int>();
+
+            while (!fileMoviesReader.EndOfStream)
+            {
+                string movie = fileMoviesReader.ReadLine();
+                movies.Add(Convert.ToInt32(movie));
+            }
+
+            return movies;
+        }
+
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\wine\wine_result.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -108,10 +139,12 @@ namespace SOM
             double x = padraoTeste.Neuronio.Coordenadas.X;
             double y = padraoTeste.Neuronio.Coordenadas.Y;
             List<Neuronio> nearestNeighbours = new List<Neuronio>(3);
-            double menorDistancia = DistanciaEntreDoisPontos(padraoTeste.Neuronio.Coordenadas, this.padroesEntrada[0].Neuronio.Coordenadas);
-            Neuronio nearestNeighbour = null;
-
             
+            for (int i = 0; i < 3; i++ )
+            {
+                double menorDistancia = DistanciaEntreDoisPontos(padraoTeste.Neuronio.Coordenadas, this.padroesEntrada[0].Neuronio.Coordenadas);
+                Neuronio nearestNeighbour = this.padroesEntrada[0].Neuronio;
+
                 foreach (PadraoEntrada padrao in this.padroesEntrada)
                 {
                     if (!padrao.Equals(padraoTeste) && !nearestNeighbours.Contains(padrao.Neuronio))
@@ -124,10 +157,11 @@ namespace SOM
                         }
                     }
                 }
-                if (nearestNeighbour != null)
+                if (nearestNeighbour != null && !nearestNeighbours.Contains(nearestNeighbour))
                 {
                     nearestNeighbours.Add(nearestNeighbour);
-                } 
+                }
+            }
             
             return nearestNeighbours;
         }
