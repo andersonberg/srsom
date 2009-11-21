@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  21 NOV 2009 17:22
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  21 NOV 2009 17:38
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -177,6 +177,17 @@ File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 ("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen115
 )
+("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
 ("C:\Arquivos de programas\MiKTeX 2.7\tex\generic\babel\babel.sty"
 Package: babel 2008/07/06 v3.8l The Babel package
 
@@ -198,18 +209,18 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 Package babel Info: Making " an active character on input line 145.
 )) (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux)
 (cap4.aux) (cap5.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  ("C:\Arquivos de programas\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
@@ -217,11 +228,11 @@ LaTeX Font Info:    ... okay on input line 12.
 \scratchbox=\box52
 \nofMPsegments=\count104
 \nofMParguments=\count105
-\everyMPshowfont=\toks18
+\everyMPshowfont=\toks19
 \MPscratchCnt=\count106
 \MPscratchDim=\dimen118
 \MPnumerator=\count107
-\everyMPtoPDFconversion=\toks19
+\everyMPtoPDFconversion=\toks20
 ) (polilogo.tex <polilogo-1.pdf, id=1, 192.72pt x 108.405pt>
 File: polilogo-1.pdf Graphic file (type pdf)
  <use polilogo-1.pdf>
@@ -234,13 +245,16 @@ File: brasao_upe.pdf Graphic file (type pdf)
 
 {C:/Documents and Settings/All Users/Dados de aplicativos/MiKTeX/2.7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_d
 sc.pdf> <brasao_upe.pdf>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 50.
- [1] [2
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+
+("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+
+("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1] [2
 
 
 ] [3
@@ -248,14 +262,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [4
 
-]
-[5
+] [5
 
 ] (Monografia.toc [6
 
 ])
 \tf@toc=\write3
- [7] (Monografia.lof)
+ [7]
+(Monografia.lof)
 \tf@lof=\write4
  [8
 
@@ -320,131 +334,15 @@ Cap\'{\i }tulo 3.
 
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 ...utilizada para desenvolvimento foi C\sharp
-                                                   com o Microsoft\textregis...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 17.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \textregistered invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \c invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \c invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 17.
-
-Missing character: There is no ç in font cmr12!
-Missing character: There is no ã in font cmr12!
-Missing character: There is no á in font cmr12!
-Missing character: There is no ç in font cmr12!
-Missing character: There is no ã in font cmr12!
-Missing character: There is no é in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-LaTeX Warning: Command \c invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 17.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 17.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no ç in font cmr12!
-Missing character: There is no ã in font cmr12!
-Missing character: There is no ã in font cmr12!
-Missing character: There is no ã in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no ã in font cmr12!
-Missing character: There is no í in font cmr12!
-Missing character: There is no é in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ã in font cmr12!
-
-Overfull \hbox (3456.19618pt too wide) in paragraph at lines 17--18
-\T1/cmr/m/n/12 zada para de-sen-vol-vi-mento foi C$\OML/cmm/m/it/12 ]comoMicrosoft[]VisualStudio[]\OT1/cmr/m/n/12 2008\O
-ML/cmm/m/it/12 comoIDEdeprogramao:Aescolhadestatecnologiasejustificaporserumalinguagemdefcilimplementaoesermaislargament
-eutilizadapeloautordestetrabalho:AFigura\OT1/cmr/m/n/12 8[]\OML/cmm/m/it/12 mostraosdiagramasdeclassesdomodeloimplementa
-do:MapaSOMumaclassequecomportatodososneurniodaredeerecebeoconjuntodeentradasparaserapresentadoduranteotreinamento:Cadane
-urniopossuicoordenadas$\T1/cmr/m/n/12 x$\OML/cmm/m/it/12 e$\T1/cmr/m/n/12 y$\OML/cmm/m/it/12 ; determinandosuaposionoret
-iculadodomapaeovetordepesosquesoinicializadosaleatoriamenteeajustadosduranteafasedeaprendizado:Cadapadrodeentradatemumco
-njuntodecaractersticasquesoextradosdobancodedadosdefilmes; almdeumneurnioquecaracterizaoneurniovencedorpararepresentarop
-adro:$ 
- []
-
-<../DiagramaClasses.jpg, id=126, 592.46344pt x 271.0125pt>
+[26] <../DiagramaClasses.jpg, id=130, 592.46344pt x 271.0125pt>
 File: ../DiagramaClasses.jpg Graphic file (type jpg)
- <use ../DiagramaClasses.jpg>) [26] [27 <E:/srsom/DiagramaClasses.jpg>] (cap4.tex
+ <use ../DiagramaClasses.jpg>) [27 <E:/srsom/DiagramaClasses.jpg>] (cap4.tex
 Cap\'{\i }tulo 4.
 [28
 
@@ -466,33 +364,32 @@ Cap\'{\i }tulo 5.
 +-------------------------------------------------------------------+
 [32] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2625 strings out of 95265
- 33562 string characters out of 1181734
- 92524 words of memory out of 1500000
- 5732 multiletter control sequences out of 110000
- 19783 words of font info for 41 fonts, out of 3000000 for 5000
+ 2918 strings out of 95265
+ 36528 string characters out of 1181734
+ 93009 words of memory out of 1500000
+ 6005 multiletter control sequences out of 110000
+ 22339 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
  28i,13n,25p,1863b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Documents and Settings\All Users\Dado
-s de aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Documents and Settings\All Users\Dados d
-e aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\All Users\Dados de a
-plicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\All Users\Dados de apli
-cativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and Settings\All Users\Dados de aplicat
-ivos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\All Users\Dados de aplicativo
-s\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\M
-iKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKT
-eX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\
-2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk\lj
-four\jknappen\ec\dpi600\ecrm2488.pk><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/A
-rquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arquiv
-os de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb>
-Output written on Monografia.pdf (33 pages, 625296 bytes).
+s de aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\All Users\Dados d
+e aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\All Users\Dados de a
+plicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and Settings\All Users\Dados de apli
+cativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\All Users\Dados de aplicat
+ivos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativo
+s\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\M
+iKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKT
+eX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\
+2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arq
+uivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Monografia.pdf (33 pages, 626976 bytes).
 PDF statistics:
  690 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
