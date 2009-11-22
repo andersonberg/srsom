@@ -49,7 +49,7 @@ namespace SOM
         }
 
 
-        private List<double> NormalizaEntrada(List<double> entrada)
+        public List<double> NormalizaEntrada(List<double> entrada)
         {
             double nn = 0;
             for (int i = 0; i < entrada.Count; i++)
