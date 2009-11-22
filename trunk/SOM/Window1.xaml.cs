@@ -26,9 +26,16 @@ namespace SOM
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            DateTime inicio = DateTime.Now;
+
             Treinamento train = new Treinamento();
             StringBuilder texto = train.Saida;
             texto.Append(train.Teste());
+
+            DateTime fim = DateTime.Now;
+            TimeSpan duracao = fim.Subtract(inicio);
+
+            texto.Append("\n\nSimulação levou: " + duracao.Hours + ":" + duracao.Minutes + ":" + duracao.Seconds);
 
             train.EscreveArquivo(texto);
 

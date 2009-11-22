@@ -56,16 +56,18 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novoFilme = new List<int>();
-            novoFilme.Add(10);
-
-            padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novoFilme);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test");
+            
+            padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
             foreach (PadraoEntrada padraoTeste in padroesTeste)
             {
                 padraoTeste.Neuronio = mapa.GetVencedor(padraoTeste.Caracteristicas);
-                resultadoTeste.Append(" Padrão: " + padraoTeste.Label + " Neurônio: " + 
-                    padraoTeste.Neuronio.Coordenadas.ToString() + "\n");
+                resultadoTeste.Append("\nTítulo: " + padraoTeste.Label + 
+                    " Gênero: " + padraoTeste.Caracteristicas[1] + 
+                    " Número de locações: " + padraoTeste.Caracteristicas[2] +
+                    " Neurônio: " + padraoTeste.Neuronio.Coordenadas.ToString() + 
+                    "\n");
 
                 this.nearestNeighbours = this.GetNearestNeighbours(padraoTeste);
                 foreach (Neuronio vizinho in nearestNeighbours)
@@ -74,7 +76,8 @@ namespace SOM
                     {
                         if (padraoMapa.Neuronio.Equals(vizinho))
                         {
-                            resultadoTeste.Append("Padrão: " + padraoMapa.Label + " Vizinho: " + vizinho.Coordenadas.ToString() + "\n");
+                            resultadoTeste.Append("Título: " + padraoMapa.Label +
+                                " Neurônio: " + vizinho.Coordenadas.ToString() + "\n");
                             break;
                         }
                     }
@@ -111,7 +114,10 @@ namespace SOM
 
                     for (int i = 2; i < padraoString.Length; i++)
                     {
-                        padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
+                        if (!padraoString[i].Equals(string.Empty))
+                        {
+                            padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
+                        }
                     }
 
                     padroes.Add(padraoEntrada); 

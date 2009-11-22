@@ -24,6 +24,11 @@
 Dispon{\'\i}vel em:
   $<$http://www2.sims.berkeley.edu/research/projects/how-much-info-2003/$>$.}
 
+\bibitem{Resnick1997}
+\abntrefinfo{Resnik e Varian}{RESNIK; VARIAN}{1997}
+{RESNIK, P.; VARIAN, H.~R. Recommender systems.
+\emph{Communications of the ACM}, v.~40, n.~3, 1997.}
+
 \bibitem{Goldberg1992}
 \abntrefinfo{Goldberg et al.}{GOLDBERG et al.}{1992}
 {GOLDBERG, D. et al. Using collaborative filtering to weave an information
