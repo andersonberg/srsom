@@ -10,11 +10,32 @@ namespace SOM
         private List<double> caracteristicas;
         private string label;
         private Neuronio neuronio;
+        private int id;
+        private int genero;
+        private int locacoes;
 
         public PadraoEntrada()
         {
             this.label = string.Empty;
             this.Caracteristicas = new List<double>();
+        }
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
+        public int Genero
+        {
+            get { return genero; }
+            set { genero = value; }
+        }
+
+        public int Locacoes
+        {
+            get { return locacoes; }
+            set { locacoes = value; }
         }
 
         public Neuronio Neuronio

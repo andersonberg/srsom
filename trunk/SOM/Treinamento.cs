@@ -14,6 +14,8 @@ namespace SOM
         private StringBuilder saida;
         private MapaSOM mapa;
         private List<Neuronio> nearestNeighbours;
+        private Dictionary<int, int> baseRatings;
+        private Dictionary<int, int> testRatings;
 
         public List<Neuronio> NearestNeighbours
         {
@@ -33,7 +35,7 @@ namespace SOM
         public Treinamento()
         {
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data");
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -56,17 +58,19 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test");
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test", false);
             
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
             foreach (PadraoEntrada padraoTeste in padroesTeste)
             {
+                padraoTeste.Caracteristicas = mapa.NormalizaEntrada(padraoTeste.Caracteristicas);
                 padraoTeste.Neuronio = mapa.GetVencedor(padraoTeste.Caracteristicas);
                 resultadoTeste.Append("\nTítulo: " + padraoTeste.Label + 
-                    " Gênero: " + padraoTeste.Caracteristicas[1] + 
-                    " Número de locações: " + padraoTeste.Caracteristicas[2] +
+                    " Gênero: " + padraoTeste.Genero + 
+                    " Número de locações: " + padraoTeste.Locacoes +
                     " Neurônio: " + padraoTeste.Neuronio.Coordenadas.ToString() + 
+                    " Avaliação: " + this.baseRatings[padraoTeste.Id] + 
                     "\n");
 
                 this.nearestNeighbours = this.GetNearestNeighbours(padraoTeste);
@@ -77,7 +81,11 @@ namespace SOM
                         if (padraoMapa.Neuronio.Equals(vizinho))
                         {
                             resultadoTeste.Append("Título: " + padraoMapa.Label +
-                                " Neurônio: " + vizinho.Coordenadas.ToString() + "\n");
+                                " Gênero: " + padraoMapa.Genero +
+                                " Número de locações: " + padraoMapa.Locacoes +
+                                " Neurônio: " + vizinho.Coordenadas.ToString() +
+                                " Avaliação: " + this.testRatings[padraoMapa.Id] +
+                                "\n");
                             break;
                         }
                     }
@@ -111,6 +119,9 @@ namespace SOM
                 {
                     PadraoEntrada padraoEntrada = new PadraoEntrada();
                     padraoEntrada.Label = padraoString[1];
+                    padraoEntrada.Id = Convert.ToInt32(padraoString[0]);
+                    padraoEntrada.Genero = Convert.ToInt32(padraoString[3]);
+                    padraoEntrada.Locacoes = Convert.ToInt32(padraoString[4]);
 
                     for (int i = 2; i < padraoString.Length; i++)
                     {
@@ -135,7 +146,7 @@ namespace SOM
         /// </summary>
         /// <param name="arquivoFilmes"></param>
         /// <returns></returns>
-        public List<int> ListaFilmes(string arquivoFilmes)
+        public List<int> ListaFilmes(string arquivoFilmes, bool locados)
         {
             FileStream fileMovies = new FileStream(arquivoFilmes, FileMode.Open, FileAccess.Read);
             StreamReader fileMoviesReader = new StreamReader(fileMovies);
@@ -144,8 +155,27 @@ namespace SOM
 
             while (!fileMoviesReader.EndOfStream)
             {
-                string movie = fileMoviesReader.ReadLine();
-                movies.Add(Convert.ToInt32(movie));
+                string linha = fileMoviesReader.ReadLine();
+                string[] movie = linha.Split('\t');
+                int id = Convert.ToInt32(movie[0]);
+                int rate = Convert.ToInt32(movie[1]);
+
+                movies.Add(id);
+
+                if (locados)
+                {
+                    if (this.baseRatings != null && !this.baseRatings.Keys.Contains(id))
+                    {
+                        this.baseRatings.Add(id, rate);
+                    }
+                }
+                else
+                {
+                    if (this.testRatings != null && !this.testRatings.Keys.Contains(id))
+                    {
+                        this.testRatings.Add(id, rate);
+                    }
+                }
             }
 
             return movies;
