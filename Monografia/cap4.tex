@@ -1,5 +1,4 @@
-\chapter{Experimento e Análise de Resultados}\label{cap:resultados}
-
+\chapter{Experimentos e Análise de Resultados}\label{cap:resultados}
 Este capítulo tem como objetivo descrever os experimentos realizados e resultados obtidos a partir da implementação do modelo descrito no Capítulo 3.
 
 \section{Base de dados}
@@ -9,10 +8,16 @@ Inicialmente estava sendo negociada a obtenção dos dados de uma vídeo locadora d
 
 \begin{itemize}
 	\item Arquivo u.data: arquivo contendo 100.000 avaliações de 943 usuários para 1682 filmes. Cada usuário avaliou, no mínimo 20 títulos.
-	\item Arquivo u.itme: contém informações sobre os filmes, título, data de lançamento e gênero.
+	\item Arquivo u.item: contém informações sobre os filmes, título, data de lançamento e gênero.
 	\item Arquivo u.genre: lista de gêneros de filmes.
 	\item Arquivo u.user: informação demográfica sobre os usuários: nome, idade, gênero, profissão.
 	\item Arquivos de treinamento e teste: a base u.data é dividida em dois tipos de arquivos com a relação de 80\%/20\% para treinamento e teste, respectivamente.
 \end{itemize}
 
 Para o escopo deste trabalho, não serão utilizadas as avaliações dos usuários durante a fase de treinamento, pois foge ao objetivo que é fazer recomendações em ambientes de locadoras de filmes reais, onde não há o conceito de avaliação pelos clientes.
+
+O ambiente de experimentos foi assim determinado:
+
+Da base de filmes foram extraídos o número de identificação único do filme (ID), título do filme, ano de lançamento, gênero e número de vezes que aparece no arquivo de avaliações. Este último parâmetro representa, para a realidade do presente trabalho, o número de locações totais do filme na locadora. O arquivo de avaliações dos usuários representa as locações de cada cliente, portanto o mapa é construído cruzando as informações destas duas tabelas.
+
+O arquivo de testes representa os filmes que o cliente deseja locar, então esses padrões são apresentados ao sistema com a rede já treinada. 
