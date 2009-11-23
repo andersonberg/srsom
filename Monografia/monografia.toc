@@ -17,19 +17,19 @@
 \contentsline {subsubsection}{\numberline {2.1.1.2}Filtragem colaborativa}{18}
 \contentsline {subsubsection}{\numberline {2.1.1.3}Filtragem h\IeC {\'\i }brida}{19}
 \contentsline {subsection}{\numberline {2.1.2}Confian\c ca em sistemas de recomenda\c c\~ao}{20}
-\contentsline {section}{\numberline {2.2}Mapas auto-organiz\'aveis}{20}
+\contentsline {section}{\numberline {2.2}Mapas auto-organiz\'aveis}{21}
 \contentsline {subsection}{\numberline {2.2.1}Vis\~ao Geral}{21}
 \contentsline {subsection}{\numberline {2.2.2}Treinamento}{23}
-\contentsline {subsection}{\numberline {2.2.3}Aplica\c c\~oes}{26}
-\contentsline {subsection}{\numberline {2.2.4}Trabalhos relacionados}{26}
-\contentsline {chapter}{\numberline {3}Modelo proposto}{27}
-\contentsline {section}{\numberline {3.1}Vis\~ao Geral}{27}
-\contentsline {section}{\numberline {3.2}Implementa\c c\~ao do modelo}{28}
-\contentsline {section}{\numberline {3.3}Funcionamento do modelo}{29}
-\contentsline {chapter}{\numberline {4}Experimentos e An\'alise de Resultados}{31}
-\contentsline {section}{\numberline {4.1}Base de dados}{31}
-\contentsline {section}{\numberline {4.2}Resultados}{32}
-\contentsline {chapter}{\numberline {5}Conclus\~oes e Trabalhos Futuros}{36}
-\contentsline {section}{\numberline {5.1}Conclus\~oes}{36}
-\contentsline {section}{\numberline {5.2}Dificuldades e trabalhos futuros}{36}
-\contentsline {chapter}{Refer\^encias}{38}
+\contentsline {subsection}{\numberline {2.2.3}Aplica\c c\~oes}{27}
+\contentsline {subsection}{\numberline {2.2.4}Trabalhos relacionados}{27}
+\contentsline {chapter}{\numberline {3}Modelo proposto}{28}
+\contentsline {section}{\numberline {3.1}Vis\~ao Geral}{28}
+\contentsline {section}{\numberline {3.2}Implementa\c c\~ao do modelo}{29}
+\contentsline {section}{\numberline {3.3}Funcionamento do modelo}{30}
+\contentsline {chapter}{\numberline {4}Experimentos e An\'alise de Resultados}{32}
+\contentsline {section}{\numberline {4.1}Base de dados}{32}
+\contentsline {section}{\numberline {4.2}Resultados}{33}
+\contentsline {chapter}{\numberline {5}Conclus\~oes e Trabalhos Futuros}{37}
+\contentsline {section}{\numberline {5.1}Conclus\~oes}{37}
+\contentsline {section}{\numberline {5.2}Dificuldades e trabalhos futuros}{37}
+\contentsline {chapter}{Refer\^encias}{39}
