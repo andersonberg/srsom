@@ -27,5 +27,6 @@
 \contentsline {section}{\numberline {3.3}Funcionamento do modelo}{28}
 \contentsline {chapter}{\numberline {4}Experimentos e An\'alise de Resultados}{30}
 \contentsline {section}{\numberline {4.1}Base de dados}{30}
-\contentsline {chapter}{\numberline {5}Conclus\~oes e Trabalhos Futuros}{32}
-\contentsline {chapter}{Refer\^encias}{34}
+\contentsline {section}{\numberline {4.2}Resultados}{31}
+\contentsline {chapter}{\numberline {5}Conclus\~oes e Trabalhos Futuros}{33}
+\contentsline {chapter}{Refer\^encias}{35}

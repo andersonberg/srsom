@@ -21,3 +21,48 @@ O ambiente de experimentos foi assim determinado:
 Da base de filmes foram extraídos o número de identificação único do filme (ID), título do filme, ano de lançamento, gênero e número de vezes que aparece no arquivo de avaliações. Este último parâmetro representa, para a realidade do presente trabalho, o número de locações totais do filme na locadora. O arquivo de avaliações dos usuários representa as locações de cada cliente, portanto o mapa é construído cruzando as informações destas duas tabelas.
 
 O arquivo de testes representa os filmes que o cliente deseja locar, então esses padrões são apresentados ao sistema com a rede já treinada. 
+
+\section{Resultados}
+
+Foram criadas tabelas para visualização e estudo dos resultados obtidos com os experimentos realizados.
+
+O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, os três seguintes são os vizinhos mais próximos no mapa, que indicam ser semelhantes ao primeiro. Para a avaliação dos resultados foi considerada a nota ou avaliação que o usuário deu ao filme. Por exemplo, na Tabela \ref{Cliente1_Shangai}, o cliente 1 deseja locar o filme \emph{Shangai Triad}. Quando apresentado este filme à rede, o cliente obteve como resposta os filmes: \emph{Exotica}, \emph{Belle de jour} e \emph{Jude}, indicando que estes filmes têm similaridades com o primeiro. Observando os títulos que foram mostrados como relacionados, o cliente irá avaliar se vale a pena aluga o filme \emph{Shanghai Triad}. Para avaliar esse resultado, observa-se a coluna \textbf{Avaliação} da tabela, os filmes relacionados possuem avaliação de 4, 3 e 2, respectivamente, indicando que o cliente teve satisfação razoável a boa ao assistí-los. Portanto, o filme \emph{Shanghai Triad} deve ser um filme bom também. A avaliação para o filme \emph{Shanghai Triad} foi de 5, ou seja, a satisfação do usuário foi ótima.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Resultados para o cliente 1 e o filme Shangai Triad}
+		\begin{tabular}{|c|c|c|c|c|}
+		  \hline
+			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Locações} & \textbf{Avaliação} \\
+			\hline
+			Shanghai Triad & Drama & 1995 & 20 & 5 \\
+			\hline
+			Exotica & Drama & 1994 & 20 & 4 \\
+			\hline
+			Belle de jour & Drama & 1967 & 30 & 3 \\
+			\hline
+			Jude & Drama & 1996 & 18 & 2 \\
+			\hline
+		\end{tabular}
+	\label{Cliente1_Shangai}
+\end{table}
+
+\begin{table}[htbp]
+	\centering
+	\caption{Resultados para o cliente 1 e o filme From Dusk Till Dawn}
+		\begin{tabular}{|c|c|c|c|c|}
+		  \hline
+			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Locações} & \textbf{Avaliação} \\
+			\hline
+			From Dusk Till Dawn & Ação & 1996 & 72 & 3 \\
+			\hline
+			Muppet Treasure Island & Ação & 1996 & 68 & 1 \\
+			\hline
+			20,000 Leagues Under the Sea & Aventura & 1954 & 61 & 3 \\
+			\hline
+			Heavy Metal & Ação & 1981 & 54 & 2 \\
+			\hline
+		\end{tabular}
+	\label{Cliente1_Dusk}
+\end{table}
+
