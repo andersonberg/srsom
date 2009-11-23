@@ -13,7 +13,7 @@
 \makeatother
 \begin{document}
 \autor{Anderson Berg dos Santos Dantas}
-\titulo{Sistema de Recomendação para clientes de vídeo locadoras baseado em redes Kohonen}
+\titulo{Sistema de Recomendação para clientes de vídeo locadoras baseado em redes SOM}
 \orientador{Prof. Fernando Buarque de Lima Neto, PhD}
 
 \comentario{Monografia apresentada como requisito parcial para obtenção do diploma de Bacharel em Engenharia da Computação pela Escola Politécnica de Pernambuco - Universidade de Pernambuco.}
@@ -35,7 +35,7 @@
 \input{polilogo}
 \vfill
 \vspace{.10\textheight}
-{\Huge Sistema de Recomendação para clientes \par de vídeo locadoras baseado em redes Kohonen}\\[3cm]
+{\Huge Sistema de Recomendação para clientes \par de vídeo locadoras baseado em redes SOM}\\[3cm]
 
 {\Large \par Trabalho de Conclusão de Curso \par Engenharia da Computação}\\[4cm]
 \begin{flushleft}
@@ -60,15 +60,20 @@
 %\assinatura{Prof. Msc. Sérgio A. A. de Freitas\\ Orientador} \assinatura{Prof. Dr. %Flávio Miguel Varejão\\ Universidade Federal do Espírito Santo} \assinatura{Prof. Dr. %Raul Henriques Cardoso Lopes\\ Universidade Federal do Espírito Santo}
 %\end{folhadeaprovacao}
 \begin{resumo}
-
+Sistemas de recomendação têm sido largamente utilizados por sítios de comércio eletrônico como forma de cativar clientes facilitando o processo de compra e resolvendo o problema da sobrecarga de informação. Este trabalho desenvolveu uma abordagem de sistemas de recomendação para o ambiente de vídeo locadoras, onde a busca por recomendações é frequente, mas as opiniões nem sempre agradam o gosto do cliente. Para produzir boas recomendações é necessário criar um perfil para cada cliente. Numa vídeo locadora as informações disponíveis sobre um cliente para construção de um perfil estão em seu histórico de locações. No presente trabalho foi desenvolvido um sistema de recomendação baseado no conteúdo dos filmes presentes no histórico de locação de clientes de vídeo locadoras. Mapas auto-organizáveis de Kohonen foram utilizados para realizar o aprendizado e consequente criação dos perfis de usuários. As redes SOM (Self-Organizing map) organizam topologicamente os filmes, agrupando-os conforme semelhanças entre si. O objetivo é auxiliar o cliente no processo de locação, direcionando-o a realizar uma boa escolha. O sistema obteve bons resultados, deixando o cliente satisfeito na maioria das decisões tomadas.
 \end{resumo}
 \begin{abstract}
-
+E-commerce sites use recommender systems as a tool for making recommendations to customers. Recommendations make the buying process easy and fun, besides it can resolve the information overload problem. This work developed a recommender system approach for dvd rental stores. Make good recommendations for customers of this type of store is a hard task. Usually, the recommendations made by ''word of mouth'' are not so good for the customer. It's necessary to know more about this customer to help him make a good decision. Our approach build a user-profile from the rental history of the client in the store. Self-organizing maps were used to build the user-profile. The SOM algorithm organize movies topologically, clustering them by similarities. The central goal is help the user to make a good choice. The system performed well, satisfying the client in the most tests.
 \end{abstract}
 
 \chapter*{Dedicatória}
 
+
+\begin{flushright}
+\vspace{.70\textheight}
 A Deus e minha família, pois me ensinaram os passos que devo seguir.
+\end{flushright}
+
 
 \chapter*{Agradecimentos}
 
@@ -76,7 +81,7 @@ Agradeço a Deus pelo amor e ajuda a todo momento durante a graduação.
 
 Aos meus pais que sempre me apoiaram e me encorajaram a cursar uma faculdade. Agradecimento especial à minha mãe, que tem sido uma forte coluna.
 
-Ao meu irmão pela compreensão e ajuda. À minha irmã.
+Ao meu irmão pela compreensão e ajuda e à minha irmã pelo afeto.
 
 Agradeço aos colegas e professores pela confiança e credibilidade que me ajudaram a prosseguir.
 

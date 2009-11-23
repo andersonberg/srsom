@@ -1,5 +1,5 @@
 \chapter{Fundamentação Teórica}\label{cap:fundamentacao}
-Neste capítulo iremos apresentar os principais conceitos que ajudarão na compreensão do resto do documento. Primeiramente serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, definindo sua arquitetura e o algoritmo de aprendizado.
+Neste capítulo iremos apresentar os principais conceitos que ajudarão na compreensão do documento. Primeiramente serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, definindo sua arquitetura e o algoritmo de aprendizado.
 
 \section{Sistemas de Recomendação}
 O uso de sistemas informatizados, principalmente da internet, resulta em um grande volume de informação sendo criada e transmitida no mundo todo \cite{Terveen2001}. Um estudo realizado em 2003 por pesquisadores da Universidade da Califórnia \cite{Lyman2003} estimou que cinco exabytes de informação foram criados no ano de 2002, onde a maior parte é armazenada em dispositivos magnéticos, em especial discos rígidos. Nasceu, então, a necessidade da criação de mecanismos que tenham a capacidade de filtrar ou recuperar rapidamente informação. Com o objetivo de facilitar a busca por informação foram criados mecanismos que pudesse indexar documentos na internet e, rapidamente, recuperá-los, trazendo ao usuário aquilo que ele precisa. Tais mecanimos são as ferramentas de busca como o google (www.google.com), que seleciona documentos na internet a partir de critérios que o usuário expressa através de palavras-chave.
@@ -81,6 +81,9 @@ A abordagem da filtragem híbrida consiste em associar duas ou mais técnicas de r
 	\item \textit{Meta-level}: Esta abordagem utiliza o modelo criado por uma técnica como entrada para outra técnica. No acréscimo de característica, um modelo gera características para serem usadas como entrada para outro modelo, na abordagem \textit{meta-level} o modelo completo é utilizado como entrada para outro modelo.
 \end{enumerate}
 
+\subsection{Confiança em sistemas de recomendação}
+O objetivo central dos sistemas de recomendação é levar o cliente de uma loja a fazer melhores compras, tornando o mesmo satisfeito com o serviço. Para que o processo de recomendação seja realmente eficaz é importante convencer o usuário de que as recomendação são relevantes e estão relacionadas à satisfação do cliente \cite{Bezerra2004}. Prover argumentos e explicações sobre os dados que geraram a recomendação agrega maior confiança ao sistema. A tranparência em sistemas de recomendação melhora o entendimento pelo cliente e este se mostra mais propenso a aceitar as recomendações \cite{Gabrielsson2006}. 
+
 \section{Mapas auto-organizáveis}
 O principal objetivo das redes neurais artificiais (RNAs) é aprender com o ambiente em que estão inseridas para adquirirem a capacidade de adaptação às mudanças nesse ambiente. O tipo de aprendizado das redes neurais pode ser dividido em duas classes: aprendizado supervisionado e aprendizado não-supervisionado. O método mais comumente utilizado é o aprendizado supervisionado, onde, além da entrada, a saída desejada para a rede são fornecidas por um supervisor externo \cite{Braga2000}. O objetivo é fazer o ajuste de parâmetros de forma que a rede possa representar novas entradas corretamente. O método de aprendizado supervisionado se limita, porém, a aplicações onde tanto os dados de entrada como as respostas desejadas são conhecidos. Algumas aplicações necessitam que o treinamento seja realizado sem um supervisor para a rede, todo o conhecimento deve ser adquirido somente através das entradas. Diversos algoritmos foram desenvolvidos para treinar redes sem supervisão, este trabalho irá tratar de um deles: os modelos \textit{self-organizing} ou auto-organizáveis.
 
@@ -154,13 +157,20 @@ w_{ji}(t+1) = w_{ji}(t) + h_{ci} (x_{i}(t) - w_{ji}(t))
 	\label{vizinho}
 \end{figure}
 
-Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que o valor inicial de $\alpha(t)$ (taxa de aprendizado da rede) deve estar próximo de 1 e decair monotonicamente durante os primeiros 1000 ciclos da fase de aprendizado, porém mantendo o valor acima de 0,1. A regra para o decréscimo de $\alpha(t)$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\alpha(t) = 0.9(1-t/1000)$. É durante esta fase inicial do treinamento que ocorre a fase de ordenação da rede. Nas fases seguintes ocorre o ajuste fino da rede, chamado de fase de convergência. O número de ciclos da fase de aprendizado deve ser razoavelmente grande. Uma regra empírica é que este número deva ser 500 vezes maior que o número de neurônios na rede. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não teria uma boa ordenação global. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa. A Figura \ref{fluxo_som} apresenta um resumo da execução do algoritmo de aprendizado das redes SOM
+Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que o valor inicial de $\alpha(t)$ (taxa de aprendizado da rede) deve estar próximo de 1 e decair monotonicamente durante os primeiros 1000 ciclos da fase de aprendizado, porém mantendo o valor acima de 0,1. A regra para o decréscimo de $\alpha(t)$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\alpha(t) = 0.9(1-t/1000)$. É durante esta fase inicial do treinamento que ocorre a fase de ordenação da rede. Nas fases seguintes ocorre o ajuste fino da rede, chamado de fase de convergência. O número de ciclos da fase de aprendizado deve ser razoavelmente grande. Uma regra empírica é que este número deva ser 500 vezes maior que o número de neurônios na rede. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não teria uma boa ordenação global. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa. A Figura \ref{fluxo_som} apresenta um resumo da execução do algoritmo de aprendizado das redes SOM e a Figura \ref{fluxograma_som} apresenta o fluxograma do funcionamento deste processo.
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.50\textwidth]{imagens/fluxo_som.jpg}
+		\includegraphics[width=0.40\textwidth]{imagens/fluxo_som.jpg}
 	\caption{Resumo do algoritmo de aprendizado SOM}
 	\label{fluxo_som}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.80\textwidth]{imagens/fluxograma_som.jpg}
+	\caption{Fluxograma do algoritmo de aprendizado das redes SOM}
+	\label{fluxograma_som}
 \end{figure}
 
 

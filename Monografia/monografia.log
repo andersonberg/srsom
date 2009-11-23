@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.19)  23 NOV 2009 01:15
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.19)  23 NOV 2009 11:26
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -313,23 +313,26 @@ File: imagens/cortex.jpg Graphic file (type jpg)
  <use imagens/cortex.jpg>
 <imagens/mapa_som.jpg, id=102, 289.08pt x 186.6975pt>
 File: imagens/mapa_som.jpg Graphic file (type jpg)
- <use imagens/mapa_som.jpg> [21 <imagens/cortex.jpg> <imagens/mapa_som.jpg>] <imagens/mexican_hat.jpg, id=106, 178.41656
-pt x 155.83218pt>
+ <use imagens/mapa_som.jpg> [21 <imagens/cortex.jpg>]
+<imagens/mexican_hat.jpg, id=106, 178.41656pt x 155.83218pt>
 File: imagens/mexican_hat.jpg Graphic file (type jpg)
- <use imagens/mexican_hat.jpg>
-Overfull \hbox (22.28337pt too wide) in paragraph at lines 119--120
+ <use imagens/mexican_hat.jpg> [22 <imagens/mapa_som.jpg> <imagens/mexican_hat.jpg>]
+Overfull \hbox (22.28337pt too wide) in paragraph at lines 122--123
 []\T1/cmr/m/n/12 Como dito an-te-ri-or-mente, o trei-na-mento de re-des SOM é com-pe-ti-tivo e não-supervisionado.
  []
 
-[22 <imagens/mexican_hat.jpg>] [23] <imagens/vizinho.jpg, id=118, 247.6452pt x 241.8636pt>
+[23] <imagens/vizinho.jpg, id=118, 247.6452pt x 241.8636pt>
 File: imagens/vizinho.jpg Graphic file (type jpg)
  <use imagens/vizinho.jpg>
 <imagens/fluxo_som.jpg, id=119, 231.86626pt x 209.28188pt>
 File: imagens/fluxo_som.jpg Graphic file (type jpg)
- <use imagens/fluxo_som.jpg> [24 <imagens/vizinho.jpg>])
-[25 <imagens/fluxo_som.jpg>] (cap3.tex
+ <use imagens/fluxo_som.jpg>
+<imagens/fluxograma_som.jpg, id=120, 434.37282pt x 525.46312pt>
+File: imagens/fluxograma_som.jpg Graphic file (type jpg)
+ <use imagens/fluxograma_som.jpg> [24 <imagens/vizinho.jpg>] [25 <imagens/fluxo_som.jpg> <imagens/fluxograma_som.jpg>]) 
+[26] (cap3.tex
 Cap\'{\i }tulo 3.
-[26
+[27
 
 
 
@@ -340,15 +343,15 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
-[27] <../DiagramaClasses.jpg, id=134, 592.46344pt x 271.0125pt>
+[28] <../DiagramaClasses.jpg, id=138, 592.46344pt x 271.0125pt>
 File: ../DiagramaClasses.jpg Graphic file (type jpg)
- <use ../DiagramaClasses.jpg> [28 <E:/srsom/DiagramaClasses.jpg>]) [29] (cap4.tex
+ <use ../DiagramaClasses.jpg> [29 <E:/srsom/DiagramaClasses.jpg>]) [30] (cap4.tex
 Cap\'{\i }tulo 4.
-[30
+[31
 
 
 
-] [31]
+] [32]
 Overfull \hbox (3.49321pt too wide) in paragraph at lines 55--69
  [][] 
  []
@@ -363,13 +366,13 @@ Overfull \hbox (7.18523pt too wide) in paragraph at lines 156--170
  [][] 
  []
 
-) [32] [33] [34] (cap5.tex
+) [33] [34] [35] (cap5.tex
 Cap\'{\i }tulo 5.
-[35
+[36
 
 
 
-]) [36] (Monografia.bbl [37
+]) [37] (Monografia.bbl [38
 
 
 ])
@@ -377,12 +380,12 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[38] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[39] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2950 strings out of 95278
- 37082 string characters out of 1182346
- 103406 words of memory out of 1500000
- 6033 multiletter control sequences out of 110000
+ 2961 strings out of 95278
+ 37331 string characters out of 1182346
+ 103451 words of memory out of 1500000
+ 6043 multiletter control sequences out of 110000
  22348 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
  28i,13n,25p,1863b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -399,9 +402,9 @@ eX 2.7/fonts/type1/bluesky/cm/cmex10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts
 ogram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.p
 fb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/blues
 ky/cm/cmsy10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/ams/msam7.pfb>
-Output written on Monografia.pdf (39 pages, 646247 bytes).
+Output written on Monografia.pdf (40 pages, 705186 bytes).
 PDF statistics:
- 733 PDF objects out of 1000 (max. 8388607)
+ 742 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

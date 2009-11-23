@@ -3,8 +3,9 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Recomenda\c c\~oes da Amazon.com de acordo com o hist\'orico do cliente.}}{15}
 \contentsline {figure}{\numberline {3}{\ignorespaces Associa\c c\~ao de produtos por clientes na Amazon.com}}{16}
 \contentsline {figure}{\numberline {4}{\ignorespaces C\'ortex cerebral humano}}{21}
-\contentsline {figure}{\numberline {5}{\ignorespaces Rede SOM bidimensional}}{21}
+\contentsline {figure}{\numberline {5}{\ignorespaces Rede SOM bidimensional}}{22}
 \contentsline {figure}{\numberline {6}{\ignorespaces Fun\c c\~ao chap\'eu mexicano}}{22}
 \contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de vizinhan\c ca, onde o instante 2 \'e menor que o instante 1, que por sua vez \'e menor que o instante 0}}{24}
 \contentsline {figure}{\numberline {8}{\ignorespaces Resumo do algoritmo de aprendizado SOM}}{25}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagrama de classes do modelo}}{28}
+\contentsline {figure}{\numberline {9}{\ignorespaces Fluxograma do algoritmo de aprendizado das redes SOM}}{25}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagrama de classes do modelo}}{29}
