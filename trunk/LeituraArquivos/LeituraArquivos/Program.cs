@@ -78,7 +78,7 @@ namespace LeituraArquivos
             FileStream file = File.Open(@"E:\srsom\movieLens\u1.base", FileMode.Open, FileAccess.Read);
             StreamReader fileReader = new StreamReader(file);
 
-            FileStream fileToWrite = File.Create(@"E:\srsom\movieLens\locacoesCliente1.data");
+            FileStream fileToWrite = File.Create(@"E:\srsom\movieLens\locacoesCliente13.data");
             StreamWriter fileWriter = new StreamWriter(fileToWrite);
 
             while (!fileReader.EndOfStream)
@@ -86,7 +86,7 @@ namespace LeituraArquivos
                 string linha = fileReader.ReadLine();
                 string[] ratings = linha.Split('\t');
 
-                if (ratings[0].Equals("1"))
+                if (ratings[0].Equals("13"))
                 {
                     fileWriter.WriteLine(ratings[1] + "\t" + ratings[2]);
                 }
@@ -100,7 +100,7 @@ namespace LeituraArquivos
             FileStream file = File.Open(@"E:\srsom\movieLens\u1.test", FileMode.Open, FileAccess.Read);
             StreamReader fileReader = new StreamReader(file);
 
-            FileStream fileToWrite = File.Create(@"E:\srsom\movieLens\cliente1.test");
+            FileStream fileToWrite = File.Create(@"E:\srsom\movieLens\cliente13.test");
             StreamWriter fileWriter = new StreamWriter(fileToWrite);
 
             while (!fileReader.EndOfStream)
@@ -108,7 +108,7 @@ namespace LeituraArquivos
                 string linha = fileReader.ReadLine();
                 string[] ratings = linha.Split('\t');
 
-                if (ratings[0].Equals("1"))
+                if (ratings[0].Equals("13"))
                 {
                     fileWriter.WriteLine(ratings[1] + "\t" + ratings[2]);
                 }

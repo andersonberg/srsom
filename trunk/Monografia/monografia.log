@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  22 NOV 2009 00:20
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  22 NOV 2009 20:53
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -310,26 +310,26 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 30--31
 <imagens/also_bought.JPG, id=81, 676.02562pt x 176.15813pt>
 File: imagens/also_bought.JPG Graphic file (type jpg)
  <use imagens/also_bought.JPG> [15 <imagens/avaliacao.JPG> <imagens/amazon_tbcompra.JPG>] [16 <imagens/also_bought.JPG>]
- [17] [18] [19]
-<imagens/cortex.jpg, id=98, 351.3125pt x 229.85875pt>
+ [17] [18] [19] [20]
+<imagens/cortex.jpg, id=101, 351.3125pt x 229.85875pt>
 File: imagens/cortex.jpg Graphic file (type jpg)
- <use imagens/cortex.jpg> [20]
+ <use imagens/cortex.jpg>
 <imagens/mapa_som.jpg, id=102, 289.08pt x 186.6975pt>
 File: imagens/mapa_som.jpg Graphic file (type jpg)
  <use imagens/mapa_som.jpg> [21 <imagens/cortex.jpg> <imagens/mapa_som.jpg>] <imagens/mexican_hat.jpg, id=106, 178.41656
 pt x 155.83218pt>
 File: imagens/mexican_hat.jpg Graphic file (type jpg)
  <use imagens/mexican_hat.jpg>
-Overfull \hbox (22.28337pt too wide) in paragraph at lines 117--118
+Overfull \hbox (22.28337pt too wide) in paragraph at lines 119--120
 []\T1/cmr/m/n/12 Como dito an-te-ri-or-mente, o trei-na-mento de re-des SOM é com-pe-ti-tivo e não-supervisionado.
  []
 
-[22 <imagens/mexican_hat.jpg>] <imagens/vizinho.jpg, id=110, 247.6452pt x 241.8636pt>
+[22 <imagens/mexican_hat.jpg>] [23] <imagens/vizinho.jpg, id=118, 247.6452pt x 241.8636pt>
 File: imagens/vizinho.jpg Graphic file (type jpg)
- <use imagens/vizinho.jpg>)
-[23] [24 <imagens/vizinho.jpg>] (cap3.tex
+ <use imagens/vizinho.jpg>
+[24 <imagens/vizinho.jpg>]) [25] (cap3.tex
 Cap\'{\i }tulo 3.
-[25
+[26
 
 
 
@@ -340,21 +340,21 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
-[26] <../DiagramaClasses.jpg, id=130, 592.46344pt x 271.0125pt>
+[27] <../DiagramaClasses.jpg, id=133, 592.46344pt x 271.0125pt>
 File: ../DiagramaClasses.jpg Graphic file (type jpg)
- <use ../DiagramaClasses.jpg> [27 <E:/srsom/DiagramaClasses.jpg>]) [28] (cap4.tex
+ <use ../DiagramaClasses.jpg> [28 <E:/srsom/DiagramaClasses.jpg>]) [29] (cap4.tex
 Cap\'{\i }tulo 4.
-[29
+[30
 
 
 
-]) [30] (cap5.tex
+]) [31] (cap5.tex
 Cap\'{\i }tulo 5.
-) [31
+[32
 
 
 
-] [32] (Monografia.bbl [33
+]) [33] (Monografia.bbl [34
 
 
 ])
@@ -362,12 +362,12 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[34] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[35] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2923 strings out of 95265
- 36620 string characters out of 1181734
- 93056 words of memory out of 1500000
- 6010 multiletter control sequences out of 110000
+ 2943 strings out of 95265
+ 36958 string characters out of 1181734
+ 93230 words of memory out of 1500000
+ 6030 multiletter control sequences out of 110000
  22339 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
  28i,13n,25p,1863b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -389,9 +389,9 @@ nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Use
 type1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arq
 uivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Monografia.pdf (35 pages, 635038 bytes).
+Output written on Monografia.pdf (36 pages, 642390 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
+ 712 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
