@@ -42,6 +42,13 @@ Dispon{\'\i}vel em:
   tapestry.
 \emph{Communications of the ACM}, v.~35, n.~12, p. 61--70, 1992.}
 
+\bibitem{Bezerra2004}
+\abntrefinfo{Bezerra}{BEZERRA}{2004}
+{BEZERRA, B. L.~D.
+\emph{Uma solução em filtragem de informação para sistemas de recomendação
+  baseada em análise de dados simbólicos}.
+Dissertação (Mestrado) --- Universidade Federal de Pernambuco, 2004.}
+
 \bibitem{Reategui2005}
 \abntrefinfo{Reategui e Cazella}{REATEGUI; CAZELLA}{2005}
 {REATEGUI, E.~B.; CAZELLA, S.~B. Sistemas de recomendação. mini-curso.
@@ -122,13 +129,6 @@ Tese (Doutorado) --- University of Minnesota, 2000.}
   content-based information in recommendation. In:  \emph{Proceedings of the
   15th National Conference on Artificial Intelligence}. [S.l.: s.n.], 1998. p.
   714--720.}
-
-\bibitem{Bezerra2004}
-\abntrefinfo{Bezerra}{BEZERRA}{2004}
-{BEZERRA, B. L.~D.
-\emph{Uma solução em filtragem de informação para sistemas de recomendação
-  baseada em análise de dados simbólicos}.
-Dissertação (Mestrado) --- Universidade Federal de Pernambuco, 2004.}
 
 \bibitem{Braga2000}
 \abntrefinfo{Braga, Carvalho e Ludermir}{BRAGA; CARVALHO; LUDERMIR}{2000}
