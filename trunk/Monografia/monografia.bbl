@@ -10,6 +10,13 @@
 {ANDERSON, C. \emph{A Cauda Longa: do mercado de massa para o mercado de
   nicho}. [S.l.]: Elsevier, 2006.}
 
+\bibitem{Filho2006}
+\abntrefinfo{Filho}{FILHO}{2006}
+{FILHO, V.~M. e-recommender: Sistema inteligente de recomendação para comércio
+  eletrônico.
+\emph{Trabalho de Conclusão do Curso de Engenharia da Computação}, Universidade
+  de Pernambuco, 2006.}
+
 \bibitem{Terveen2001}
 \abntrefinfo{Terveen e Hill}{TERVEEN; HILL}{2001}
 {TERVEEN, L.; HILL, W. Beyond recommender systems: Helping people help each
@@ -34,13 +41,6 @@ Dispon{\'\i}vel em:
 {GOLDBERG, D. et al. Using collaborative filtering to weave an information
   tapestry.
 \emph{Communications of the ACM}, v.~35, n.~12, p. 61--70, 1992.}
-
-\bibitem{Filho2006}
-\abntrefinfo{Filho}{FILHO}{2006}
-{FILHO, V.~M. e-recommender: Sistema inteligente de recomendação para comércio
-  eletrônico.
-\emph{Trabalho de Conclusão do Curso de Engenharia da Computação}, Universidade
-  de Pernambuco, 2006.}
 
 \bibitem{Reategui2005}
 \abntrefinfo{Reategui e Cazella}{REATEGUI; CAZELLA}{2005}
@@ -122,6 +122,13 @@ Tese (Doutorado) --- University of Minnesota, 2000.}
   content-based information in recommendation. In:  \emph{Proceedings of the
   15th National Conference on Artificial Intelligence}. [S.l.: s.n.], 1998. p.
   714--720.}
+
+\bibitem{Bezerra2004}
+\abntrefinfo{Bezerra}{BEZERRA}{2004}
+{BEZERRA, B. L.~D.
+\emph{Uma solução em filtragem de informação para sistemas de recomendação
+  baseada em análise de dados simbólicos}.
+Dissertação (Mestrado) --- Universidade Federal de Pernambuco, 2004.}
 
 \bibitem{Braga2000}
 \abntrefinfo{Braga, Carvalho e Ludermir}{BRAGA; CARVALHO; LUDERMIR}{2000}
