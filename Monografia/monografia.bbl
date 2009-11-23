@@ -138,4 +138,29 @@ Tese (Doutorado) --- University of Minnesota, 2000.}
 {KOHONEN, T. The self-organizing map. In:  \emph{Proceedings of the IEEE}.
   [S.l.: s.n.], 1990. v.~78, n.~9, p. 1464--1480.}
 
+\bibitem{Kohonen1988}
+\abntrefinfo{Kohonen}{KOHONEN}{1988}
+{KOHONEN, T. The ''neural'' phonetic typewriter.
+\emph{IEEE Computer}, v.~21, n.~3, p. 11--22, 1988.}
+
+\bibitem{Kohonen2000}
+\abntrefinfo{Kohonen et al.}{KOHONEN et al.}{2000}
+{KOHONEN, T. et al. Self organizing of a massive document collection.
+\emph{IEEE Trasactions on Neural Networks}, v.~11, n.~3, 2000.}
+
+\bibitem{Graef2002}
+\abntrefinfo{Graef e Schaefer}{GRAEF; SCHAEFER}{2002}
+{GRAEF, G.; SCHAEFER, C. Application of art2 networks and self-organizing maps
+  to collaborative filtering.
+\emph{Revised Papers from the nternational Workshops OHS-7, SC-3, and AH-3 on
+  Hypermedia: Openness, Structural Awareness, and Adaptivity}, p. 182--184,
+  2002.}
+
+\bibitem{Lee2002}
+\abntrefinfo{Lee, Choi e Woo}{LEE; CHOI; WOO}{2002}
+{LEE, M.; CHOI, P.; WOO, Y. A hybrid recommender system combining collaborative
+  filtering with neural network. In:  \emph{AH '02: Proceedings of the Second
+  International Conference on Adaptive Hypermedia and Adaptive Web-Based
+  Systems}. [S.l.: s.n.], 2002. p. 531--534.}
+
 \end{thebibliography}

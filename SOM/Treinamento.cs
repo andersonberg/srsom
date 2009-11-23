@@ -34,8 +34,11 @@ namespace SOM
         /// </summary>
         public Treinamento()
         {
+            this.baseRatings = new Dictionary<int, int>();
+            this.testRatings = new Dictionary<int, int>();
+
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente13.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -58,7 +61,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente13.test", false);
             
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
@@ -69,8 +72,8 @@ namespace SOM
                 resultadoTeste.Append("\nTítulo: " + padraoTeste.Label + 
                     " Gênero: " + padraoTeste.Genero + 
                     " Número de locações: " + padraoTeste.Locacoes +
-                    " Neurônio: " + padraoTeste.Neuronio.Coordenadas.ToString() + 
-                    " Avaliação: " + this.baseRatings[padraoTeste.Id] + 
+                    " Neurônio: " + padraoTeste.Neuronio.Coordenadas.ToString() +
+                    " Avaliação: " + this.testRatings[padraoTeste.Id] + 
                     "\n");
 
                 this.nearestNeighbours = this.GetNearestNeighbours(padraoTeste);
@@ -84,7 +87,7 @@ namespace SOM
                                 " Gênero: " + padraoMapa.Genero +
                                 " Número de locações: " + padraoMapa.Locacoes +
                                 " Neurônio: " + vizinho.Coordenadas.ToString() +
-                                " Avaliação: " + this.testRatings[padraoMapa.Id] +
+                                " Avaliação: " + this.baseRatings[padraoMapa.Id] +
                                 "\n");
                             break;
                         }
@@ -127,6 +130,11 @@ namespace SOM
                     {
                         if (!padraoString[i].Equals(string.Empty))
                         {
+                            if (i == 3)
+                            {
+                                int genero = Convert.ToInt32(padraoString[i]);
+                                padraoString[i] = (genero*genero).ToString();
+                            }
                             padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
                         }
                     }
@@ -183,7 +191,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente13_simulacao1.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
