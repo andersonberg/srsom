@@ -14,11 +14,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=cap5.tex
+Document=cap1.tex
 
 [Frame0_View0,0]
 TopLine=0
-Cursor=2470
+Cursor=2162
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=abss.bib
+Document=cap2.tex
 
 [Frame1_View0,0]
-TopLine=179
-Cursor=6098
+TopLine=261
+Cursor=950
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=cap4.tex
+Document=Monografia.tex
 
 [Frame2_View0,0]
-TopLine=8
-Cursor=2963
+TopLine=49
+Cursor=2183
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=cap3.tex
+Document=cap4.tex
 
 [Frame3_View0,0]
-TopLine=54
-Cursor=7517
+TopLine=173
+Cursor=9509
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=cap2.tex
+Document=cap3.tex
 
 [Frame4_View0,0]
-TopLine=12
-Cursor=4303
+TopLine=54
+Cursor=6686
 
 [Frame5]
 Flags=0
@@ -104,11 +104,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=Monografia.tex
+Document=abss.bib
 
 [Frame5_View0,0]
-TopLine=0
-Cursor=363
+TopLine=216
+Cursor=7359
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=26
 NormalPos.right=1125
 NormalPos.bottom=564
 Class=LaTeXView
-Document=cap1.tex
+Document=cap5.tex
 
 [Frame6_View0,0]
-TopLine=0
-Cursor=0
+TopLine=1
+Cursor=1224
 
 [SessionInfo]
 FrameCount=7
