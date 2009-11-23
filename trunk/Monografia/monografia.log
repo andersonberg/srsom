@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  22 NOV 2009 20:53
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  22 NOV 2009 22:30
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -348,13 +348,13 @@ Cap\'{\i }tulo 4.
 
 
 
-]) [31] (cap5.tex
+]) [31] [32] (cap5.tex
 Cap\'{\i }tulo 5.
-[32
+[33
 
 
 
-]) [33] (Monografia.bbl [34
+]) [34] (Monografia.bbl [35
 
 
 ])
@@ -362,12 +362,12 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[35] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[36] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2943 strings out of 95265
- 36958 string characters out of 1181734
- 93230 words of memory out of 1500000
- 6030 multiletter control sequences out of 110000
+ 2945 strings out of 95265
+ 36991 string characters out of 1181734
+ 95248 words of memory out of 1500000
+ 6032 multiletter control sequences out of 110000
  22339 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
  28i,13n,25p,1863b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -389,9 +389,9 @@ nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Use
 type1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arq
 uivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Monografia.pdf (36 pages, 642390 bytes).
+Output written on Monografia.pdf (37 pages, 646687 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
+ 721 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
