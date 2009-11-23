@@ -154,7 +154,15 @@ w_{ji}(t+1) = w_{ji}(t) + h_{ci} (x_{i}(t) - w_{ji}(t))
 	\label{vizinho}
 \end{figure}
 
-Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que o valor inicial de $\alpha(t)$ (taxa de aprendizado da rede) deve estar próximo de 1 e decair monotonicamente durante os primeiros 1000 ciclos da fase de aprendizado, porém mantendo o valor acima de 0,1. A regra para o decréscimo de $\alpha(t)$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\alpha(t) = 0.9(1-t/1000)$. É durante esta fase inicial do treinamento que ocorre a fase de ordenação da rede. Nas fases seguintes ocorre o ajuste fino da rede, chamado de fase de convergência. O número de ciclos da fase de aprendizado deve ser razoavelmente grande. Uma regra empírica é que este número deva ser 500 vezes maior que o número de neurônios na rede. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não teria uma boa ordenação global. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa.
+Segundo estudos e experiências na escolha dos parâmetros, Kohonen \cite{Kohonen1990} recomenda que o valor inicial de $\alpha(t)$ (taxa de aprendizado da rede) deve estar próximo de 1 e decair monotonicamente durante os primeiros 1000 ciclos da fase de aprendizado, porém mantendo o valor acima de 0,1. A regra para o decréscimo de $\alpha(t)$ pode ser uma função linear, exponencial ou inversamente proporcional a $t$, por exemplo: $\alpha(t) = 0.9(1-t/1000)$. É durante esta fase inicial do treinamento que ocorre a fase de ordenação da rede. Nas fases seguintes ocorre o ajuste fino da rede, chamado de fase de convergência. O número de ciclos da fase de aprendizado deve ser razoavelmente grande. Uma regra empírica é que este número deva ser 500 vezes maior que o número de neurônios na rede. O tamanho da vizinhança de um neurônio não pode ser muito pequeno inicialmente, pois o mapa não teria uma boa ordenação global. A princípio o raio ou tamanho inicial da vizinhança pode ser maior que a metade do tamanho do mapa. A Figura \ref{fluxo_som} apresenta um resumo da execução do algoritmo de aprendizado das redes SOM
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.50\textwidth]{imagens/fluxo_som.jpg}
+	\caption{Resumo do algoritmo de aprendizado SOM}
+	\label{fluxo_som}
+\end{figure}
+
 
 \subsection{Aplicações}
 
