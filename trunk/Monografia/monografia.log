@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.19)  23 NOV 2009 12:21
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.23)  23 NOV 2009 15:07
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -188,6 +188,9 @@ Package: amsfonts 2001/10/25 v2.2f
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
+\@glossaryfile=\write3
+
+Writing glossary file Monografia.glo 
 ("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\babel.sty"
 Package: babel 2008/07/06 v3.8l The Babel package
 
@@ -209,18 +212,18 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 Package babel Info: Making " an active character on input line 145.
 )) (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux)
 (cap4.aux) (cap5.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  ("E:\Win7 Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
@@ -244,11 +247,11 @@ File: brasao_upe.pdf Graphic file (type pdf)
  <use brasao_upe.pdf>) [1
 
 {C:/ProgramData/MiKTeX/2.7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_dsc.pdf> <brasao_upe.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
  ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ) [1] [2
@@ -264,15 +267,15 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ] (Monografia.toc [6
 
 ])
-\tf@toc=\write3
+\tf@toc=\write4
  [7]
 (Monografia.lof)
-\tf@lof=\write4
+\tf@lof=\write5
  [8
 
 
 ] (Monografia.lot)
-\tf@lot=\write5
+\tf@lot=\write6
  [9
 
 ] (cap1.tex
@@ -307,32 +310,66 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 30--31
 <imagens/also_bought.JPG, id=81, 676.02562pt x 176.15813pt>
 File: imagens/also_bought.JPG Graphic file (type jpg)
  <use imagens/also_bought.JPG> [15 <imagens/avaliacao.JPG> <imagens/amazon_tbcompra.JPG>] [16 <imagens/also_bought.JPG>]
- [17] [18] [19] [20]
-<imagens/cortex.jpg, id=101, 351.3125pt x 229.85875pt>
+ [17] [18]
+Underfull \hbox (badness 4699) in paragraph at lines 87--87
+[]\T1/cmr/m/n/12 É pos-sí-vel tra-tar
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 87--87
+[]\T1/cmr/m/n/12 Problema da pri-
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 87--87
+[]\T1/cmr/m/n/12 Não é ne-ces-sá-rio
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 87--87
+\T1/cmr/m/n/12 te-nha al-gum tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]\T1/cmr/m/n/12 Usuário ''ovelha-
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 89--89
+\T1/cmr/m/n/12 itens já ava-li-a-dos
+ []
+
+
+Overfull \hbox (0.98376pt too wide) in paragraph at lines 89--90
+[]\T1/cmr/m/n/12 Superespecialização
+ []
+
+[19] [20] <imagens/cortex.jpg, id=101, 351.3125pt x 229.85875pt>
 File: imagens/cortex.jpg Graphic file (type jpg)
- <use imagens/cortex.jpg>
-<imagens/mapa_som.jpg, id=102, 289.08pt x 186.6975pt>
+ <use imagens/cortex.jpg> [21]
+<imagens/mapa_som.jpg, id=105, 289.08pt x 186.6975pt>
 File: imagens/mapa_som.jpg Graphic file (type jpg)
- <use imagens/mapa_som.jpg> [21 <imagens/cortex.jpg>]
-<imagens/mexican_hat.jpg, id=106, 178.41656pt x 155.83218pt>
+ <use imagens/mapa_som.jpg> [22 <imagens/cortex.jpg> <imagens/mapa_som.jpg>] <imagens/mexican_hat.jpg, id=109, 178.41656
+pt x 155.83218pt>
 File: imagens/mexican_hat.jpg Graphic file (type jpg)
- <use imagens/mexican_hat.jpg> [22 <imagens/mapa_som.jpg> <imagens/mexican_hat.jpg>]
-Overfull \hbox (22.28337pt too wide) in paragraph at lines 122--123
+ <use imagens/mexican_hat.jpg>
+Overfull \hbox (22.28337pt too wide) in paragraph at lines 145--146
 []\T1/cmr/m/n/12 Como dito an-te-ri-or-mente, o trei-na-mento de re-des SOM é com-pe-ti-tivo e não-supervisionado.
  []
 
-[23] <imagens/vizinho.jpg, id=118, 247.6452pt x 241.8636pt>
+[23 <imagens/mexican_hat.jpg>] <imagens/vizinho.jpg, id=113, 247.6452pt x 241.8636pt>
 File: imagens/vizinho.jpg Graphic file (type jpg)
- <use imagens/vizinho.jpg>
-<imagens/fluxo_som.jpg, id=119, 231.86626pt x 209.28188pt>
+ <use imagens/vizinho.jpg> [24]
+<imagens/fluxo_som.jpg, id=123, 231.86626pt x 209.28188pt>
 File: imagens/fluxo_som.jpg Graphic file (type jpg)
  <use imagens/fluxo_som.jpg>
-<imagens/fluxograma_som.jpg, id=120, 434.37282pt x 525.46312pt>
+<imagens/fluxograma_som.jpg, id=124, 434.37282pt x 525.46312pt>
 File: imagens/fluxograma_som.jpg Graphic file (type jpg)
- <use imagens/fluxograma_som.jpg> [24 <imagens/vizinho.jpg>] [25 <imagens/fluxo_som.jpg> <imagens/fluxograma_som.jpg>]) 
-[26] (cap3.tex
+ <use imagens/fluxograma_som.jpg> [25 <imagens/vizinho.jpg> <imagens/fluxo_som.jpg>] [26 <imagens/fluxograma_som.jpg>]) 
+[27] (cap3.tex
 Cap\'{\i }tulo 3.
-[27
+[28
 
 
 
@@ -343,15 +380,15 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
 
-[28] <../DiagramaClasses.jpg, id=138, 592.46344pt x 271.0125pt>
+[29] <../DiagramaClasses.jpg, id=141, 592.46344pt x 271.0125pt>
 File: ../DiagramaClasses.jpg Graphic file (type jpg)
- <use ../DiagramaClasses.jpg> [29 <E:/srsom/DiagramaClasses.jpg>]) [30] (cap4.tex
+ <use ../DiagramaClasses.jpg> [30 <E:/srsom/DiagramaClasses.jpg>]) [31] (cap4.tex
 Cap\'{\i }tulo 4.
-[31
+[32
 
 
 
-] [32]
+] [33]
 Overfull \hbox (3.49321pt too wide) in paragraph at lines 55--69
  [][] 
  []
@@ -366,13 +403,13 @@ Overfull \hbox (7.18523pt too wide) in paragraph at lines 156--170
  [][] 
  []
 
-) [33] [34] [35] (cap5.tex
+) [34] [35] [36] (cap5.tex
 Cap\'{\i }tulo 5.
-[36
+[37
 
 
 
-]) [37] (Monografia.bbl [38
+]) [38] (Monografia.bbl [39
 
 
 ])
@@ -380,15 +417,15 @@ Cap\'{\i }tulo 5.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[39] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+[40] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2961 strings out of 95278
- 37331 string characters out of 1182346
- 103451 words of memory out of 1500000
- 6043 multiletter control sequences out of 110000
+ 2971 strings out of 95278
+ 37499 string characters out of 1182346
+ 103510 words of memory out of 1500000
+ 6052 multiletter control sequences out of 110000
  22348 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
- 28i,13n,25p,1863b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,13n,25p,1872b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecti1095.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Program
 Data\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\d
@@ -402,9 +439,9 @@ eX 2.7/fonts/type1/bluesky/cm/cmex10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts
 ogram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.p
 fb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/blues
 ky/cm/cmsy10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/ams/msam7.pfb>
-Output written on Monografia.pdf (40 pages, 705303 bytes).
+Output written on Monografia.pdf (41 pages, 707442 bytes).
 PDF statistics:
- 742 PDF objects out of 1000 (max. 8388607)
+ 745 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
