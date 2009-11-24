@@ -1,0 +1,10 @@
+E:\Projetos\VisualStudio\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.exe
+E:\Projetos\VisualStudio\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.pdb
+E:\Projetos\VisualStudio\LeituraArquivos\LeituraArquivos\obj\Debug\ResolveAssemblyReference.cache
+E:\Projetos\VisualStudio\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.exe
+E:\Projetos\VisualStudio\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.pdb
+E:\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.exe
+E:\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.pdb
+E:\srsom\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.exe
+E:\srsom\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.pdb
+E:\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\ResolveAssemblyReference.cache

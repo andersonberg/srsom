@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>This is my first Visifire Chart</title>
+    <script type="text/javascript" src="Visifire2.js"></script>
+</head>
+    
+<body>
+    
+    <div id="VisifireChart0" >
+
+        <script type="text/javascript" >
+
+            // Create Visifire object
+            var vChart = new Visifire2('SL.Visifire.Charts.xap', "MyChart", 400, 350);
+            
+            // vChart1.setLogLevel(0); // If you want to disable logging.
+            
+            // Chart Data XML
+            var chartXml = '<vc:Chart xmlns:vc="clr-namespace:Visifire.Charts;assembly=SLVisifire.Charts"'
+			   +'	Width="400" Height="350" Theme="Theme1" BorderBrush="Gray" Padding="8" View3D="true">'
+
+		           +' <vc:Chart.Titles>'
+                           +'    <vc:Title Text="Product Sales - 2008"/>'
+		           +' </vc:Chart.Titles>'
+
+            		   +' <vc:Chart.Series>'
+                           +'     <vc:DataSeries RenderAs="SectionFunnel" LabelText="#AxisXLabel, #YValue" SelectionEnabled="True">'
+                           +'            <vc:DataSeries.DataPoints>'
+                           +'                 <vc:DataPoint AxisXLabel="USA" YValue="320"/>'
+                           +'                 <vc:DataPoint AxisXLabel="UK" YValue="260"/>'
+                           +'                 <vc:DataPoint AxisXLabel="Germany" YValue="180"/>'
+			   +'                 <vc:DataPoint AxisXLabel="France" YValue="120"/>'
+			   +'                 <vc:DataPoint AxisXLabel="Others" YValue="158"/>'
+			   +'             </vc:DataSeries.DataPoints>'
+			   +'     </vc:DataSeries>'
+			   +'  </vc:Chart.Series>'
+			   +'</vc:Chart>';
+
+            // Set Chart Data XML
+            vChart.setDataXml(chartXml);
+
+            // Render chart
+            vChart.render("VisifireChart0");
+            
+        </script>
+        
+    </div>
+    
+</body>
+
+</html>

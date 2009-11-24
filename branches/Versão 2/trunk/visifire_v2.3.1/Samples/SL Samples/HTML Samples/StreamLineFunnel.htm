@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>This is my first Visifire Chart</title>
+    <script type="text/javascript" src="Visifire2.js"></script>
+</head>
+    
+<body>
+    
+    <div id="VisifireChart0" >
+
+        <script type="text/javascript" >
+
+            // Create Visifire object
+            var vChart = new Visifire2('SL.Visifire.Charts.xap', "MyChart", 400, 350);
+            
+            // vChart1.setLogLevel(0); // If you want to disable logging.
+            
+            // Chart Data XML
+            var chartXml = '<vc:Chart xmlns:vc="clr-namespace:Visifire.Charts;assembly=SLVisifire.Charts"'
+			   +'	Width="400" Height="350" Theme="Theme1" View3D="True" BorderBrush="Gray">'
+
+		           +' <vc:Chart.Titles>'
+                           +'    <vc:Title Text="Interview Process" Padding="6"/>'
+		           +' </vc:Chart.Titles>'
+
+            		   +' <vc:Chart.Series>'
+                           +'     <vc:DataSeries RenderAs="StreamLineFunnel" ShowInLegend="False" LabelText="#AxisXLabel, #Percentage%" Exploded="True">'
+                           +'            <vc:DataSeries.DataPoints>'
+                           +'                 <vc:DataPoint AxisXLabel="No of Candidates Applied" YValue="80"/>'
+                           +'                      <vc:DataPoint AxisXLabel="Aptitude Test" YValue="50"/>'
+                           +'                      <vc:DataPoint AxisXLabel="Technical Interview" YValue="28"/>'
+			   +'                      <vc:DataPoint AxisXLabel="HR Interview" YValue="12"/>'
+			   +'                      <vc:DataPoint AxisXLabel="Candidates Recruited" YValue="4"/>'
+			   +'                 </vc:DataSeries.DataPoints>'
+			   +'            </vc:DataSeries>'
+			   +'      </vc:Chart.Series>'
+			   +'   </vc:Chart>';
+
+            // Set Chart Data XML
+            vChart.setDataXml(chartXml);
+
+            // Render chart
+            vChart.render("VisifireChart0");
+            
+        </script>
+        
+    </div>
+    
+</body>
+
+</html>
