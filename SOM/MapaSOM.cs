@@ -32,7 +32,7 @@ namespace SOM
         {
             this.numeroNeuronios = tamanhoMapa;
             this.entradas = padroesEntrada;
-            this.numeroEntradas = padroesEntrada[0].Caracteristicas.Count;
+            this.numeroEntradas = 7; //padroesEntrada[0].Caracteristicas.Count;
             PreencheMapa(this.numeroEntradas);
         }
 

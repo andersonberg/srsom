@@ -10,9 +10,9 @@ namespace LeituraArquivos
     {
         static void Main(string[] args)
         {
-            //ArquivoFilmes();
-            ArquivoCliente();
-            ArquivoTeste();
+            ArquivoFilmes();
+            //ArquivoCliente();
+            //ArquivoTeste();
         }
 
         public static void ArquivoFilmes()
@@ -41,16 +41,17 @@ namespace LeituraArquivos
 
 
                 int filmeCount = 0;
+                StringBuilder filmeGenre = new StringBuilder();
 
                 int count = 0;
                 for (int i = 5; i < dadosFilme.Length; i++)
                 {
                     count++;
                     if (dadosFilme[i] == "1")
-                        break;
+                        filmeGenre.Append("|" + count.ToString());
                 }
 
-                string filmeGenre = count.ToString();
+                //string filmeGenre = count.ToString();
 
                 FileStream arquivoRatings = File.Open(@"E:\srsom\movieLens\u1.base", FileMode.Open, FileAccess.Read);
                 StreamReader arquivoRatingsReader = new StreamReader(arquivoRatings);
@@ -67,7 +68,7 @@ namespace LeituraArquivos
                 }
                 arquivoRatingsReader.Close();
 
-                fileWriter.WriteLine(filmeID + "|" + filmeNome + "|" + filmeAnoRelease + "|" + filmeGenre + "|" + filmeCount);
+                fileWriter.WriteLine(filmeID + "|" + filmeNome + "|" + filmeAnoRelease + "|" + filmeCount + filmeGenre);
             }
             fileReader.Close();
             fileWriter.Close();

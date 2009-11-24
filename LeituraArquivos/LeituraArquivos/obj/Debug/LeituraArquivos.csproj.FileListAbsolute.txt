@@ -8,3 +8,8 @@ E:\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.pdb
 E:\srsom\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.exe
 E:\srsom\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.pdb
 E:\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\absd.CESAR\My Documents\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.exe
+C:\Documents and Settings\absd.CESAR\My Documents\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\LeituraArquivos.pdb
+C:\Documents and Settings\absd.CESAR\My Documents\srsom\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.exe
+C:\Documents and Settings\absd.CESAR\My Documents\srsom\LeituraArquivos\LeituraArquivos\bin\Debug\LeituraArquivos.pdb
+C:\Documents and Settings\absd.CESAR\My Documents\srsom\LeituraArquivos\LeituraArquivos\obj\Debug\ResolveAssemblyReference.cache
