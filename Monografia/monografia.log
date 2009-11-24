@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.23)  23 NOV 2009 15:07
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.23)  23 NOV 2009 21:58
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -188,9 +188,6 @@ Package: amsfonts 2001/10/25 v2.2f
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
-\@glossaryfile=\write3
-
-Writing glossary file Monografia.glo 
 ("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\babel.sty"
 Package: babel 2008/07/06 v3.8l The Babel package
 
@@ -212,18 +209,18 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 Package babel Info: Making " an active character on input line 145.
 )) (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux)
 (cap4.aux) (cap5.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  ("E:\Win7 Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
@@ -247,11 +244,11 @@ File: brasao_upe.pdf Graphic file (type pdf)
  <use brasao_upe.pdf>) [1
 
 {C:/ProgramData/MiKTeX/2.7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_dsc.pdf> <brasao_upe.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
  ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ) [1] [2
@@ -267,15 +264,15 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ] (Monografia.toc [6
 
 ])
-\tf@toc=\write4
+\tf@toc=\write3
  [7]
 (Monografia.lof)
-\tf@lof=\write5
+\tf@lof=\write4
  [8
 
 
 ] (Monografia.lot)
-\tf@lot=\write6
+\tf@lot=\write5
  [9
 
 ] (cap1.tex
@@ -419,9 +416,9 @@ Cap\'{\i }tulo 5.
 +-------------------------------------------------------------------+
 [40] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2971 strings out of 95278
- 37499 string characters out of 1182346
- 103510 words of memory out of 1500000
+ 2970 strings out of 95278
+ 37495 string characters out of 1182346
+ 103566 words of memory out of 1500000
  6052 multiletter control sequences out of 110000
  22348 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
@@ -439,7 +436,7 @@ eX 2.7/fonts/type1/bluesky/cm/cmex10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts
 ogram Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.p
 fb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/blues
 ky/cm/cmsy10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/ams/msam7.pfb>
-Output written on Monografia.pdf (41 pages, 707442 bytes).
+Output written on Monografia.pdf (41 pages, 707439 bytes).
 PDF statistics:
  745 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

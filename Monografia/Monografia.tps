@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=cap2.tex
 
 [Frame0_View0,0]
-TopLine=39
-Cursor=5259
+TopLine=121
+Cursor=12436
 
 [Frame1]
 Flags=0
@@ -36,7 +36,7 @@ Document=cap3.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=512
+Cursor=317
 
 [Frame2]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=Monografia.tex
 
 [Frame2_View0,0]
-TopLine=33
-Cursor=2183
+TopLine=99
+Cursor=5215
 
 [Frame3]
 Flags=0
@@ -71,8 +71,8 @@ Class=LaTeXView
 Document=cap4.tex
 
 [Frame3_View0,0]
-TopLine=174
-Cursor=9509
+TopLine=42
+Cursor=5204
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=abss.bib
+Document=cap5.tex
 
 [Frame4_View0,0]
-TopLine=213
-Cursor=7359
+TopLine=0
+Cursor=1224
 
 [Frame5]
 Flags=0
@@ -104,11 +104,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=cap5.tex
+Document=cap1.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=1224
+Cursor=2162
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=cap1.tex
+Document=abss.bib
 
 [Frame6_View0,0]
-TopLine=0
-Cursor=2162
+TopLine=218
+Cursor=7550
 
 [SessionInfo]
 FrameCount=7
