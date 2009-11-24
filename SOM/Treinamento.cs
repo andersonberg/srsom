@@ -137,7 +137,7 @@ namespace SOM
                             {
                                 padraoEntrada.Genero.Add(Convert.ToInt32(padraoString[i]));
                                 int genero = Convert.ToInt32(padraoString[i]);
-                                padraoString[i] = (genero * genero).ToString();
+                                padraoString[i] = (genero * 300).ToString();
                             }
                             padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
                         }
