@@ -11,13 +11,30 @@ namespace SOM
         private string label;
         private Neuronio neuronio;
         private int id;
-        private int genero;
+        private List<int> genero;
         private int locacoes;
 
         public PadraoEntrada()
         {
             this.label = string.Empty;
             this.Caracteristicas = new List<double>();
+            this.genero = new List<int>();
+        }
+
+        public override string ToString()
+        {
+            string padrao;
+            StringBuilder generos = new StringBuilder();
+
+            foreach (int genre in this.genero)
+            {
+                generos.Append(Treinamento.generosFilmes[genre-1] + " ");
+            }
+
+            padrao = "Título: " + this.label + " Gêneros: " + generos + " Número de locações: " + locacoes + 
+                " Neurônio: " + this.neuronio.Coordenadas;
+
+            return padrao;
         }
 
         public int Id
@@ -26,7 +43,7 @@ namespace SOM
             set { id = value; }
         }
 
-        public int Genero
+        public List<int> Genero
         {
             get { return genero; }
             set { genero = value; }
