@@ -41,7 +41,7 @@ namespace SOM
             this.testRatings = new Dictionary<int, int>();
 
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente7.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -64,7 +64,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente7.test", false);
             
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
@@ -143,14 +143,14 @@ namespace SOM
                         }
                     }
 
-                    if (padraoEntrada.Caracteristicas.Count < 7)
-                    {
-                        int dif = 7 - padraoEntrada.Caracteristicas.Count;
-                        for (int j = 0; j < dif; j++)
-                        {
-                            padraoEntrada.Caracteristicas.Add(0.0);
-                        }
-                    }
+                    //if (padraoEntrada.Caracteristicas.Count < 7)
+                    //{
+                    //    int dif = 7 - padraoEntrada.Caracteristicas.Count;
+                    //    for (int j = 0; j < dif; j++)
+                    //    {
+                    //        padraoEntrada.Caracteristicas.Add(0.0);
+                    //    }
+                    //}
 
                     padroes.Add(padraoEntrada); 
                 }
@@ -218,7 +218,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente1_simulacao5.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente7_simulacao2.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)

@@ -10,7 +10,7 @@ namespace LeituraArquivos
     {
         static void Main(string[] args)
         {
-            ArquivoFilmes();
+            //ArquivoFilmes();
             //ArquivoCliente();
             //ArquivoTeste();
         }
@@ -43,12 +43,10 @@ namespace LeituraArquivos
                 int filmeCount = 0;
                 StringBuilder filmeGenre = new StringBuilder();
 
-                int count = 0;
+                //int count = 0;
                 for (int i = 5; i < dadosFilme.Length; i++)
                 {
-                    count++;
-                    if (dadosFilme[i] == "1")
-                        filmeGenre.Append("|" + count.ToString());
+                    filmeGenre.Append("|" + dadosFilme[i]);
                 }
 
                 //string filmeGenre = count.ToString();
