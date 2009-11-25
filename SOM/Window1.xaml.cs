@@ -39,7 +39,9 @@ namespace SOM
 
             train.EscreveArquivo(texto);
 
-            this.Close();
+            train.CreateChart(gridPrincipal);
+
+            //this.Close();
         }
     }
 }
