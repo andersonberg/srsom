@@ -1,0 +1,13 @@
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\ResolveAssemblyReference.cache
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\App.g.cs
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\FirstTryVisifire_MarkupCompile.cache
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\bin\Debug\FirstTryVisifire.exe
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\bin\Debug\FirstTryVisifire.pdb
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\bin\Debug\WPFVisifire.Charts.dll
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\Window1.baml
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\Window1.g.cs
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\FirstTryVisifire.g.resources
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\FirstTryVisifire.Properties.Resources.resources
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\FirstTryVisifire.csproj.GenerateResource.Cache
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\FirstTryVisifire.exe
+E:\Projetos\VisualStudio\FirstTryVisifire\FirstTryVisifire\obj\Debug\FirstTryVisifire.pdb
