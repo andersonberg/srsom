@@ -26,9 +26,12 @@ namespace SOM
             string padrao;
             StringBuilder generos = new StringBuilder();
 
-            foreach (int genre in this.genero)
+            for (int i = 0; i < this.genero.Count; i++)
             {
-                generos.Append(Treinamento.generosFilmes[genre-1] + " ");
+                if (this.genero[i] == 1)
+                {
+                    generos.Append(Treinamento.generosFilmes[i] + " ");
+                }
             }
 
             padrao = "Título: " + this.label + " Gêneros: " + generos + " Número de locações: " + locacoes + 

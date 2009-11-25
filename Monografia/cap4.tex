@@ -26,7 +26,7 @@ O arquivo de testes representa os filmes que o cliente deseja locar, então esses
 
 Foram criadas tabelas para visualização e estudo dos resultados obtidos com os experimentos realizados.
 
-O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, os três seguintes são os vizinhos mais próximos no mapa, que indicam ser semelhantes ao primeiro. Para a avaliação dos resultados foi considerada a nota ou avaliação que o usuário deu ao filme. Por exemplo, na Tabela \ref{Cliente1_Shangai}, o cliente 1 deseja locar o filme \emph{Shangai Triad}. Quando apresentado este filme à rede, o cliente obteve como resposta os filmes: \emph{Exotica}, \emph{Belle de jour} e \emph{Jude}, indicando que estes filmes têm similaridades com o primeiro. Observando os títulos que foram mostrados como relacionados, o cliente irá avaliar se vale a pena aluga o filme \emph{Shanghai Triad}. Para avaliar esse resultado, observa-se a coluna \textbf{Avaliação} da tabela, os filmes relacionados possuem avaliação de 4, 3 e 2, respectivamente, indicando que o cliente teve satisfação razoável a boa ao assistí-los. Portanto, o filme \emph{Shanghai Triad} deve ser um filme bom também. A avaliação para o filme \emph{Shanghai Triad} foi de 5, ou seja, a satisfação do usuário foi ótima.
+O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, os três seguintes são os vizinhos mais próximos no mapa, que indicam ser semelhantes ao primeiro. Para a avaliação dos resultados foi considerada a nota ou avaliação que o usuário deu ao filme. Por exemplo, na Tabela \ref{Cliente1_Shangai}, o cliente 1 deseja locar o filme \emph{Shangai Triad}. Quando apresentado este filme à rede, o cliente obteve como resposta os filmes: \emph{The White Balloon}, \emph{Belle de jour} e \emph{Jean de Florette}, indicando que estes filmes têm similaridades com o primeiro. Observando os títulos que foram mostrados como relacionados, o cliente irá avaliar se vale a pena aluga o filme \emph{Shanghai Triad}. Para avaliar esse resultado, observa-se a coluna \textbf{Avaliação} da tabela, os filmes relacionados possuem avaliação de 4, 3 e 5, respectivamente, indicando que o cliente teve satisfação razoável a ótima ao assistí-los. Portanto, o filme \emph{Shanghai Triad} provavelmente irá agradar o cliente. A avaliação para o filme \emph{Shanghai Triad} foi de 5, ou seja, a satisfação do usuário foi muito boa.
 
 \begin{table}[htbp]
 	\centering
@@ -37,32 +37,32 @@ O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, 
 			\hline
 			Shanghai Triad & Drama & 1995 & 20 & 5 \\
 			\hline
-			Exotica & Drama & 1994 & 20 & 4 \\
+			White Balloon, The & Drama & 1995 & 7 & 4 \\
 			\hline
 			Belle de jour & Drama & 1967 & 30 & 3 \\
 			\hline
-			Jude & Drama & 1996 & 18 & 2 \\
+			Jean de Florette & Drama & 1986 & 55 & 5 \\
 			\hline
 		\end{tabular}
 	\label{Cliente1_Shangai}
 \end{table}
 
-O cliente 1 tem 135 títulos em seu histórico, quantidade que rendeu um bom aprendizado para a rede. De forma geral, foi observado que a rede conseguiu gerar um bom perfil para este cliente. A tabela \ref{Cliente1_Dusk} mostra outro resultado para o cliente 1, a análise é feita de modo análogo à tabela anterior.
+O cliente 1 tem 135 títulos em seu histórico, quantidade que rendeu um bom aprendizado para a rede. De forma geral, foi observado que a rede conseguiu gerar um bom perfil para este cliente. A tabela \ref{Cliente1_Dusk} mostra outro resultado para o cliente 1, a análise é feita de modo análogo à tabela anterior. O primeiro título representa o filme que o cliente ainda não locou, os três seguintes são os filmes mais similares ao primeiro. Observa-se que eles possuem alta similaridade em relação ao gênero e ao ano de lançamento. A satisfação do cliente é confirmada pela avaliação que deu aos filmes.
 
 \begin{table}[htbp]
 	\centering
-	\caption{Resultados para o cliente 1 e o filme \emph{From Dusk Till Dawn}}
+	\caption{Resultados para o cliente 1 e o filme \emph{The Usual Suspects}}
 		\begin{tabular}{|c|c|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
-			From Dusk Till Dawn & Ação & 1996 & 72 & 3 \\
+			Usual Suspects, The & Crime\/Suspense & 1995 & 211 & 5 \\
 			\hline
-			Muppet Treasure Island & Ação & 1996 & 68 & 1 \\
+			Seven (Se7en) & Crime\/Suspense  & 1995 & 195 & 2 \\
 			\hline
-			20,000 Leagues Under the Sea & Aventura & 1954 & 61 & 3 \\
+			Copycat & Crime\/Drama\/Suspense & 1995 & 69 & 3 \\
 			\hline
-			Heavy Metal & Ação & 1981 & 54 & 2 \\
+			Four Rooms & Suspense & 1995 & 75 & 4 \\
 			\hline
 		\end{tabular}
 	\label{Cliente1_Dusk}

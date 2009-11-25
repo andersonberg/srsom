@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
-Document=cap2.tex
+Document=cap4.tex
 
 [Frame0_View0,0]
-TopLine=121
-Cursor=12436
+TopLine=72
+Cursor=5353
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
 Document=cap3.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=317
+TopLine=9
+Cursor=2561
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
-Document=Monografia.tex
+Document=cap5.tex
 
 [Frame2_View0,0]
-TopLine=99
-Cursor=5215
+TopLine=0
+Cursor=1224
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
-Document=cap4.tex
+Document=cap1.tex
 
 [Frame3_View0,0]
-TopLine=42
-Cursor=5204
+TopLine=21
+Cursor=3458
 
 [Frame4]
 Flags=0
@@ -83,14 +83,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
-Document=cap5.tex
+Document=cap2.tex
 
 [Frame4_View0,0]
-TopLine=0
-Cursor=1224
+TopLine=199
+Cursor=12436
 
 [Frame5]
 Flags=0
@@ -101,14 +101,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
-Document=cap1.tex
+Document=abss.bib
 
 [Frame5_View0,0]
-TopLine=0
-Cursor=2162
+TopLine=219
+Cursor=7550
 
 [Frame6]
 Flags=0
@@ -119,14 +119,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1022
-NormalPos.bottom=588
+NormalPos.right=1125
+NormalPos.bottom=564
 Class=LaTeXView
-Document=abss.bib
+Document=Monografia.tex
 
 [Frame6_View0,0]
-TopLine=218
-Cursor=7550
+TopLine=91
+Cursor=5215
 
 [SessionInfo]
 FrameCount=7
