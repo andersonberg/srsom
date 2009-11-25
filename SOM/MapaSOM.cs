@@ -87,6 +87,7 @@ namespace SOM
                     {
                         saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n");
                         padraoEntrada.Neuronio = vencedor;
+                        vencedor.Movies += padraoEntrada.Label + "/";
                     }
 
                     foreach (Neuronio neuron in this.neuronios)

@@ -78,6 +78,7 @@ namespace SOM
                 resultadoTeste.Append("\n"+padraoTeste.ToString() +
                     " Avaliação: " + this.testRatings[padraoTeste.Id] + 
                     "\n");
+                padraoTeste.Neuronio.Movies += padraoTeste.Label;
 
                 this.nearestNeighbours = this.GetNearestNeighbours(padraoTeste);
                 foreach (Neuronio vizinho in nearestNeighbours)
@@ -130,12 +131,6 @@ namespace SOM
                     {
                         if (!padraoString[i].Equals(string.Empty))
                         {
-                            //if (i == 3)
-                            //{
-                            //    int genero = Convert.ToInt32(padraoString[i]);
-                            //    padraoString[i] = (genero*genero).ToString();
-                            //}
-
                             if (i > 3)
                             {
                                 padraoEntrada.Genero.Add(Convert.ToInt32(padraoString[i]));
@@ -145,15 +140,6 @@ namespace SOM
                             padraoEntrada.Caracteristicas.Add(Convert.ToDouble(padraoString[i]));
                         }
                     }
-
-                    //if (padraoEntrada.Caracteristicas.Count < 7)
-                    //{
-                    //    int dif = 7 - padraoEntrada.Caracteristicas.Count;
-                    //    for (int j = 0; j < dif; j++)
-                    //    {
-                    //        padraoEntrada.Caracteristicas.Add(0.0);
-                    //    }
-                    //}
 
                     padroes.Add(padraoEntrada); 
                 }
@@ -221,7 +207,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente2_simulacao2.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente2_simulacao3.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -269,7 +255,7 @@ namespace SOM
             chart.Theme = "Theme1";
 
             Title title = new Title();
-            title.Text = "Filmes Cliente 1";
+            title.Text = "Filmes Cliente 2";
             chart.Titles.Add(title);
 
             DataSeries dataSeries = new DataSeries();
@@ -281,6 +267,12 @@ namespace SOM
                 dataPoint.XValue = neuronio.Coordenadas.X;
                 dataPoint.YValue = neuronio.Coordenadas.Y;
 
+                //Remove o último caractere '/'
+                if (neuronio.Movies != null && !neuronio.Movies.Equals(string.Empty))
+                {
+                    neuronio.Movies.TrimEnd('/');
+                    dataPoint.ToolTipText = neuronio.Movies;
+                }
                 dataSeries.DataPoints.Add(dataPoint);
             }
 

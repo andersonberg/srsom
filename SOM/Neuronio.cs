@@ -22,6 +22,8 @@ namespace SOM
 
         private double taxaAprendizado;
 
+        private string movies;
+
         /// <summary>
         /// Coordenadas do neurônio no mapa
         /// </summary>
@@ -48,9 +50,15 @@ namespace SOM
             set { coordenadas = value; }
         }
 
+        public string Movies
+        {
+            get { return movies; }
+            set { movies = value; }
+        }
+
         public Neuronio()
         {
-
+            //this.movies = string.Empty;
         }
 
         public Neuronio(int x, int y, int entradas, double taxaAprendizado, Random random, int numeroNeuroniosMapa)
