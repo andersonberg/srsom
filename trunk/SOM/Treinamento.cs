@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Windows;
+using System.Windows.Controls;
+using Visifire.Charts;
+using Visifire.Commons;
 
 namespace SOM
 {
@@ -41,7 +44,7 @@ namespace SOM
             this.testRatings = new Dictionary<int, int>();
 
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente7.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -64,7 +67,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente7.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test", false);
             
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
@@ -218,7 +221,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente7_simulacao2.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente1_simulacao7.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -257,6 +260,33 @@ namespace SOM
             }
             
             return nearestNeighbours;
+        }
+
+        public void CreateChart(Grid gridPrincipal)
+        {
+            Chart chart = new Chart();
+
+            chart.Theme = "Theme1";
+
+            Title title = new Title();
+            title.Text = "Filmes Cliente 1";
+            chart.Titles.Add(title);
+
+            DataSeries dataSeries = new DataSeries();
+            dataSeries.RenderAs = RenderAs.Point;
+
+            foreach (Neuronio neuronio in mapa.Neuronios)
+            {
+                DataPoint dataPoint = new DataPoint();
+                dataPoint.XValue = neuronio.Coordenadas.X;
+                dataPoint.YValue = neuronio.Coordenadas.Y;
+
+                dataSeries.DataPoints.Add(dataPoint);
+            }
+
+            chart.Series.Add(dataSeries);
+
+            gridPrincipal.Children.Add(chart);
         }
     }
 }
