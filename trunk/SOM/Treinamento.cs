@@ -44,7 +44,7 @@ namespace SOM
             this.testRatings = new Dictionary<int, int>();
 
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente1.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente2.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -67,7 +67,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente1.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente2.test", false);
             
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
@@ -221,7 +221,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente1_simulacao7.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente2_simulacao2.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
