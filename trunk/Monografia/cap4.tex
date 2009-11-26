@@ -47,7 +47,7 @@ O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, 
 	\label{Cliente1_Shangai}
 \end{table}
 
-O cliente 1 tem 135 títulos em seu histórico, quantidade que rendeu um bom aprendizado para a rede. De forma geral, foi observado que a rede conseguiu gerar um bom perfil para este cliente. A tabela \ref{Cliente1_Dusk} mostra outro resultado para o cliente 1, a análise é feita de modo análogo à tabela anterior. O primeiro título representa o filme que o cliente ainda não locou, os três seguintes são os filmes mais similares ao primeiro. Observa-se que eles possuem alta similaridade em relação ao gênero e ao ano de lançamento. A satisfação do cliente é confirmada pela avaliação que deu aos filmes.
+O cliente 1 tem 135 títulos em seu histórico, quantidade que rendeu um bom aprendizado para a rede. De forma geral, foi observado que a rede conseguiu gerar um bom perfil para este cliente. A tabela \ref{Cliente1_Usual} mostra outro resultado para o cliente 1, a análise é feita de modo análogo à tabela anterior. O primeiro título representa o filme que o cliente ainda não locou, os três seguintes são os filmes mais similares ao primeiro. Observa-se que eles possuem alta similaridade em relação ao gênero e ao ano de lançamento. A satisfação do cliente é confirmada pela avaliação que deu aos filmes.
 
 \begin{table}[htbp]
 	\centering
@@ -65,31 +65,29 @@ O cliente 1 tem 135 títulos em seu histórico, quantidade que rendeu um bom apren
 			Four Rooms & Suspense & 1995 & 75 & 4 \\
 			\hline
 		\end{tabular}
-	\label{Cliente1_Dusk}
+	\label{Cliente1_Usual}
 \end{table}
 
-Resultados um pouco diferentes foram obtidos para o cliente 2. Este cliente só possui 40 títulos no histórico, que é uma quantidade baixa para treinar uma rede neural. Observa-se na Tabela \ref{Cliente2_Shall}, que a rede relacionou filmes de gêneros distintos, porém lançados na mesma época: meados dos anos 90. A Tabela \ref{Cliente2_Shall} mostra que a avaliação do cliente para os filmes foi aproximada, indicando que estes filmes têm realmente uma relação no perfil de preferências do usuário.
+A Tabela \ref{Cliente2_Mighty} mostra o resultado para o cliente 2, desejando alugar o filme \textit{Mighty Aphrodite}. Neste exemplo a rede também teve um bom desempenho em relação a encontrar filmes fortemente relacionados e que representam as preferências do cliente. O cliente 2 possui apenas 40 títulos no seu histórico. Observando a coluna Avaliação, que representa a satisfação do usuário, pode-se perceber que o sistema obteve bons resultados para este filme. Considerando esta métrica, os resultados para o cliente 2 foram, na maioria, satisfatórios, tendo o sistema errado poucas vezes no agrupamento dos títulos. 
 
 \begin{table}[htbp]
 	\centering
-	\caption{Resultados para o cliente 2 e o filme \emph{Shall We Dance?}}
+	\caption{Resultados para o cliente 2 e o filme \emph{Mighty Aphrodite}}
 		\begin{tabular}{|c|c|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
-			Shall We Dance? & Comédia & 1996 & 34 & 5 \\
-			\hline
-			Breakdown & Ação & 1997 & 60 & 4 \\
+			Mighty Aphrodite & Comédia & 1995 & 134 & 4 \\
 			\hline
 			Kolya & Comédia & 1996 & 94 & 5 \\
 			\hline
-			Restoration & Drama & 1995 & 52 & 4 \\
+			Birdcage, The & Comédia & 1996 & 231 & 4 \\
+			\hline
+			Tin Cup & Comédia & 1996 & 161 & 4 \\
 			\hline
 		\end{tabular}
-	\label{Cliente2_Shall}
+	\label{Cliente2_Mighty}
 \end{table}
-
-Ainda para o cliente 2, a Tabela \ref{Cliente2_Apt} mostra um resultado não muito satisfatório. O cliente apresentou o filme \emph{Apt Pupil} e o mapa respondeu com três filmes que o usuário ficou satisfeito. Isso o levaria a crer que o filme que ele está para locar também será de seu gosto, porém pode-se observar que o cliente 2 deu nota 1 para o filme.
 
 \begin{table}[htbp]
 	\centering
@@ -100,7 +98,7 @@ Ainda para o cliente 2, a Tabela \ref{Cliente2_Apt} mostra um resultado não muit
 			\hline
 			Apt Pupil & Drama & 1998 & 136 & 1 \\
 			\hline
-			Secrets \& Lies & Drama & 1996 & 135 & 5 \\
+			Secrets \& Lies & Drama\/Thriller & 1996 & 135 & 5 \\
 			\hline
 			Good Will Hunting & Drama & 1997 & 154 & 5 \\
 			\hline
