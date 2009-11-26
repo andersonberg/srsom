@@ -26,6 +26,7 @@ namespace SOM
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            this.Hide();
             DateTime inicio = DateTime.Now;
 
             Treinamento train = new Treinamento();
@@ -40,6 +41,8 @@ namespace SOM
             train.EscreveArquivo(texto);
 
             train.CreateChart(gridPrincipal);
+
+            this.Show();
 
             //this.Close();
         }

@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using Visifire.Charts;
 using Visifire.Commons;
+using System.Windows.Media;
 
 namespace SOM
 {
@@ -52,7 +53,7 @@ namespace SOM
             this.numeroPadroes = padroesEntrada.Count;
 
             //Número de neurônios do mapa
-            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes*2));
+            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes+500));
             int inteiro = Convert.ToInt32(raiz);
 
             this.mapa = new MapaSOM(inteiro, this.padroesEntrada);
@@ -69,6 +70,7 @@ namespace SOM
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
             List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente2.test", false);
             
+
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
 
             foreach (PadraoEntrada padraoTeste in padroesTeste)
@@ -207,7 +209,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente2_simulacao3.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente2_simulacao4.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -266,12 +268,15 @@ namespace SOM
                 DataPoint dataPoint = new DataPoint();
                 dataPoint.XValue = neuronio.Coordenadas.X;
                 dataPoint.YValue = neuronio.Coordenadas.Y;
+                dataPoint.Color = Brushes.Blue;
 
                 //Remove o último caractere '/'
                 if (neuronio.Movies != null && !neuronio.Movies.Equals(string.Empty))
                 {
                     neuronio.Movies.TrimEnd('/');
                     dataPoint.ToolTipText = neuronio.Movies;
+                    dataPoint.LabelEnabled = true;
+                    dataPoint.LabelText = neuronio.Movies;
                 }
                 dataSeries.DataPoints.Add(dataPoint);
             }
