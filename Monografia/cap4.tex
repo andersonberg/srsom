@@ -31,7 +31,7 @@ O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, 
 \begin{table}[htbp]
 	\centering
 	\caption{Resultados para o cliente 1 e o filme \emph{Shangai Triad}}
-		\begin{tabular}{|c|c|c|c|c|}
+		\begin{tabular}{|l|c|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
@@ -52,15 +52,15 @@ O cliente 1 tem 135 títulos em seu histórico, quantidade que rendeu um bom apren
 \begin{table}[htbp]
 	\centering
 	\caption{Resultados para o cliente 1 e o filme \emph{The Usual Suspects}}
-		\begin{tabular}{|c|c|c|c|c|}
+		\begin{tabular}{|l|p{3cm}|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
-			Usual Suspects, The & Crime\/Suspense & 1995 & 211 & 5 \\
+			Usual Suspects, The & Crime/Suspense & 1995 & 211 & 5 \\
 			\hline
-			Seven (Se7en) & Crime\/Suspense  & 1995 & 195 & 2 \\
+			Seven (Se7en) & Crime/Suspense  & 1995 & 195 & 2 \\
 			\hline
-			Copycat & Crime\/Drama\/Suspense & 1995 & 69 & 3 \\
+			Copycat & Crime/Drama/ Suspense & 1995 & 69 & 3 \\
 			\hline
 			Four Rooms & Suspense & 1995 & 75 & 4 \\
 			\hline
@@ -73,7 +73,7 @@ A Tabela \ref{Cliente2_Mighty} mostra o resultado para o cliente 2, desejando al
 \begin{table}[htbp]
 	\centering
 	\caption{Resultados para o cliente 2 e o filme \emph{Mighty Aphrodite}}
-		\begin{tabular}{|c|c|c|c|c|}
+		\begin{tabular}{|l|c|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
@@ -83,26 +83,28 @@ A Tabela \ref{Cliente2_Mighty} mostra o resultado para o cliente 2, desejando al
 			\hline
 			Birdcage, The & Comédia & 1996 & 231 & 4 \\
 			\hline
-			Tin Cup & Comédia & 1996 & 161 & 4 \\
+			Full Monty, The & Comédia & 1997 & 252 & 4 \\
 			\hline
 		\end{tabular}
 	\label{Cliente2_Mighty}
 \end{table}
 
+Devido à pouca quantidade de padrões para treinamento para o cliente 2, é possível observar na Tabela \ref{Cliente2_Apt} que o filme \emph{Apt Pupil}, com baixa avaliação, relaciona-se com outros que foram bem aprovados pelo cliente.
+
 \begin{table}[htbp]
 	\centering
 	\caption{Resultados para o cliente 2 e o filme \emph{Apt Pupil}}
-		\begin{tabular}{|c|c|c|c|c|}
+		\begin{tabular}{|p{3.1cm}|p{3cm}|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
 			Apt Pupil & Drama & 1998 & 136 & 1 \\
 			\hline
-			Secrets \& Lies & Drama\/Thriller & 1996 & 135 & 5 \\
+			Wings of the Dove, The  & Drama/Romance/ Suspense & 1997 & 65 & 5 \\
 			\hline
-			Good Will Hunting & Drama & 1997 & 154 & 5 \\
+			Restoration & Drama & 1995 & 52 & 4 \\
 			\hline
-			Rainmaker, The & Drama & 1997 & 124 & 4 \\
+			Promesse, La & Drama & 1996 & 6 & 3 \\
 			\hline
 		\end{tabular}
 	\label{Cliente2_Apt}
@@ -112,59 +114,21 @@ Nas tabelas seguintes é possível observar os resultados dos experimentos para ou
 
 \begin{table}[htbp]
 	\centering
-	\caption{Resultados para o cliente 6 e o filme \emph{Four Weddings and a Funeral}}
-		\begin{tabular}{|c|c|c|c|c|}
+	\caption{Resultados para o cliente 6 e o filme \emph{Il Postino}}
+		\begin{tabular}{|p{3cm}|c|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
-			Four Weddings and a Funeral & Comédia & 1994 & 198 & 3 \\
+			Postino, Il & Drama/Romance & 1994 & 140 & 5 \\
 			\hline
-			Fish Called Wanda, A & Comédia & 1988 & 197 & 4 \\
+			Chasing Amy  & Drama/Romance & 1997 & 203 & 3 \\
 			\hline
-			Sting, The & Comédia & 1973 & 189 & 4 \\
+			Like Water For Chocolate & Drama/Romance & 1992 & 121 & 5 \\
 			\hline
-			Groundhog Day & Comédia & 1993 & 224 & 3 \\
-			\hline
-		\end{tabular}
-	\label{Cliente6_Weddings}
-\end{table}
-
-\begin{table}[htbp]
-	\centering
-	\caption{Resultados para o cliente 7 e o filme \emph{Cat People}}
-		\begin{tabular}{|c|c|c|c|c|}
-		  \hline
-			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
-			\hline
-			Cat People & Terror & 1982 & 39 & 2 \\
-			\hline
-			Blob, The & Terror & 1958 & 39 & 5 \\
-			\hline
-			Tales From the Crypt Presents & Terror & 1995 & 30 & 4 \\
-			\hline
-			Amityville Horror, The & Terror & 1979 & 42 & 2 \\
+			Jerry Maguire & Drama/Romance & 1996 & 309 & 2 \\
 			\hline
 		\end{tabular}
-	\label{Cliente7_Cat}
-\end{table}
-
-\begin{table}[htbp]
-	\centering
-	\caption{Resultados para o cliente 13 e o filme \emph{Wyatt Earp}}
-		\begin{tabular}{|c|c|c|c|c|}
-		  \hline
-			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
-			\hline
-			Wyatt Earp & Western & 1994 & 40 & 5 \\
-			\hline
-			Once Upon a Time in the West & Western & 1969 & 34 & 4 \\
-			\hline
-			Davy Crockett & Western & 1955 & 9 & 4 \\
-			\hline
-			High Noon & Western & 1952 & 70 & 5 \\
-			\hline
-		\end{tabular}
-	\label{Cliente13_Wyatt}
+	\label{Cliente6_Postino}
 \end{table}
 
 De forma geral, o sistema correspondeu às expectativas, conseguiu ser um auxiliar nas decisões do cliente, trazendo boas respostas na maioria dos casos testados.

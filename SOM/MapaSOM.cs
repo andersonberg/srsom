@@ -87,6 +87,7 @@ namespace SOM
                     {
                         saida.Append("Iteração: " + iteracao.ToString() + " Padrão: " + padraoEntrada.Label + " Neurônio: " + vencedor.Coordenadas.ToString() + "\n");
                         padraoEntrada.Neuronio = vencedor;
+                        padraoEntrada.Neuronio.Teste = false;
                         vencedor.Movies += padraoEntrada.Label + " / ";
                     }
 

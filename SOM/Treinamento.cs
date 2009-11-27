@@ -45,7 +45,7 @@ namespace SOM
             this.testRatings = new Dictionary<int, int>();
 
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente6.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente13.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -53,7 +53,7 @@ namespace SOM
             this.numeroPadroes = padroesEntrada.Count;
 
             //Número de neurônios do mapa
-            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes+100));
+            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes));
             int inteiro = Convert.ToInt32(raiz);
 
             this.mapa = new MapaSOM(inteiro, this.padroesEntrada);
@@ -68,7 +68,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente6.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente13.test", false);
             
 
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
@@ -77,6 +77,7 @@ namespace SOM
             {
                 padraoTeste.Caracteristicas = mapa.NormalizaEntrada(padraoTeste.Caracteristicas);
                 padraoTeste.Neuronio = mapa.GetVencedor(padraoTeste.Caracteristicas);
+                padraoTeste.Neuronio.Teste = true;
                 resultadoTeste.Append("\n"+padraoTeste.ToString() +
                     " Avaliação: " + this.testRatings[padraoTeste.Id] + 
                     "\n");
@@ -209,7 +210,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente6_simulacao3.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente13_simulacao2.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -257,7 +258,7 @@ namespace SOM
             chart.Theme = "Theme1";
 
             Title title = new Title();
-            title.Text = "Filmes Cliente 6";
+            title.Text = "Filmes Cliente 13";
             chart.Titles.Add(title);
 
             DataSeries dataSeries = new DataSeries();
@@ -272,11 +273,20 @@ namespace SOM
                 //Remove o último caractere '/'
                 if (neuronio.Movies != null && !neuronio.Movies.Equals(string.Empty))
                 {
-                    neuronio.Movies.TrimEnd('/');
+                    if (neuronio.Movies[neuronio.Movies.Length - 1].Equals("/"))
+                    {
+                        neuronio.Movies.Remove(neuronio.Movies.Length - 1);
+                    }
                     dataPoint.ToolTipText = neuronio.Movies;
-                    //dataPoint.LabelEnabled = true;
-                    //dataPoint.LabelText = neuronio.Movies;
-                    dataPoint.Color = Brushes.Orange;
+                    
+                    if (neuronio.Teste)
+                    {
+                        dataPoint.Color = Brushes.Red;
+                    }
+                    else
+                    {
+                        dataPoint.Color = Brushes.Orange;
+                    }
                 }
                 else
                 {
