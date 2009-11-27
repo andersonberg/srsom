@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.23)  27 NOV 2009 13:39
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.23)  27 NOV 2009 13:59
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
@@ -426,7 +426,7 @@ Cap\'{\i }tulo 5.
 ]) [41] (Monografia.bbl [42
 
 
-]) [43] (apendice1.tex
+] [43]) [44] (apendice1.tex
 Underfull \hbox (badness 5652) in paragraph at lines 14--14
 []\T1/cmr/m/n/12 Bridge on the
  []
@@ -601,10 +601,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []\T1/cmr/m/n/12 Drama/Mistério/
  []
 
-) [44
+) [45
 
 
-] [45] [46] [47]
+] [46] [47] [48]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -621,7 +621,7 @@ Here is how much of TeX's memory you used:
  6088 multiletter control sequences out of 110000
  22348 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
- 28i,13n,25p,1872b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,13n,25p,1872b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour
 \jknappen\ec\dpi600\ecbx1728.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\ProgramD
 ata\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dp
@@ -635,9 +635,9 @@ onts/type1/bluesky/cm/cmmi12.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/b
 es/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><E:/Win
 7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/ams/m
 sam7.pfb>
-Output written on Monografia.pdf (48 pages, 895603 bytes).
+Output written on Monografia.pdf (49 pages, 897107 bytes).
 PDF statistics:
- 781 PDF objects out of 1000 (max. 8388607)
+ 786 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
