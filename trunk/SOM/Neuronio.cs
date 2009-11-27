@@ -24,6 +24,14 @@ namespace SOM
 
         private string movies;
 
+        private bool teste;
+
+        public bool Teste
+        {
+            get { return teste; }
+            set { teste = value; }
+        }
+
         /// <summary>
         /// Coordenadas do neurônio no mapa
         /// </summary>
