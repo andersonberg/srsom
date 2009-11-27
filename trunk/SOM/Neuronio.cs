@@ -20,7 +20,7 @@ namespace SOM
 
         private double sigmaInicial;
 
-        private double taxaAprendizado;
+        private double taxaAprendizadoInicial;
 
         private string movies;
 
@@ -39,6 +39,16 @@ namespace SOM
             double valor = 1000 / Math.Log(sigmaInicial);
             double sigma = sigmaInicial * Math.Exp(-iteracao / valor);
             return sigma;
+        }
+
+        private double TaxaAprendizado(int iteracao)
+        {
+            double valor = 0.9 * (1 - ((double)iteracao / 1000));
+            if (valor < taxaAprendizadoInicial)
+            {
+                valor = taxaAprendizadoInicial;
+            }
+            return valor;
         }
 
         /// <summary>
@@ -67,7 +77,7 @@ namespace SOM
             coordenadas.X = x;
             coordenadas.Y = y;
             numeroEntradas = Math.Max(1, entradas);
-            this.taxaAprendizado = taxaAprendizado;
+            this.taxaAprendizadoInicial = taxaAprendizado;
             this.sigmaInicial = 0.6 * numeroNeuroniosMapa * 2;
             InicializarPesos(random);
         }
@@ -117,7 +127,7 @@ namespace SOM
             double novoPeso = 0;
             for (int i = 0; i < pesos.Count(); i++)
             {
-                novoPeso = taxaAprendizado * Gaussiana(coordenadasVencedor, iteracao) * (entrada[i] - pesos[i]);
+                novoPeso = TaxaAprendizado(iteracao) * Gaussiana(coordenadasVencedor, iteracao) * (entrada[i] - pesos[i]);
                 pesos[i] += novoPeso;
             }
         }
