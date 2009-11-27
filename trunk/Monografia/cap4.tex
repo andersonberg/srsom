@@ -1,10 +1,10 @@
-\chapter{Experimentos e Análise de Resultados}\label{cap:resultados}
+\chapter{Experimentos e Análise de Resultados}\label{resultados}
 Este capítulo tem como objetivo descrever os experimentos realizados e resultados obtidos a partir da implementação do modelo descrito no Capítulo 3.
 
 \section{Base de dados}
 Como mencionado no capítulo anterior, o objetivo deste trabalho é auxiliar clientes na escolha de filmes em uma vídeo locadora. Foi desenvolvida uma rede auto-organizável, segundo o modelo de Teuvo Kohonen \cite{Kohonen1990}, com o fim de aprender o comportamento do usuário e poder guiá-lo em sua escolha. Para a realização dos testes foi utilizada uma base de dados real, extraindo as características que mais se adequam ao modelo proposto.
 
-Inicialmente estava sendo negociada a obtenção dos dados de uma vídeo locadora da cidade, mas devido a entraves na política da empresa que fornece o sistema para esta locadora, não foi possível coletar os dados para teste do sistema. A alternativa encontrada foi utilizar uma base, também real, disponível abertamente na internet. A base de dados utilizada foi a MovieLens Data Set (http://www.grouplens.org/node/73), fornecida pelo grupo de pesquisa GroupLens Research. Essa base conta com 100.000 avaliações para 1682 filmes por 943 usuários. A base MovieLens foi construída a partir do sítio de recomendações de filmes: movielens.org. A base de dados MovieLens é assim organizada: 
+Inicialmente estava sendo negociada a obtenção dos dados de uma vídeo locadora da cidade, mas devido a entraves na política de segurança da empresa que fornece o sistema para esta locadora, não foi possível coletar os dados reais para teste de campo do sistema. A alternativa encaminhada foi utilizar uma base, também real, disponível abertamente na internet. A base de dados utilizada foi a MovieLens Data Set (http://www.grouplens.org/node/73), fornecida pelo grupo de pesquisa GroupLens Research. Essa base conta com 100.000 avaliações para 1682 filmes por 943 usuários. A base MovieLens foi construída a partir do sítio de recomendações de filmes: movielens.org. A base de dados MovieLens é assim organizada: 
 
 \begin{itemize}
 	\item Arquivo u.data: arquivo contendo 100.000 avaliações de 943 usuários para 1682 filmes. Cada usuário avaliou, no mínimo 20 títulos.
@@ -14,7 +14,7 @@ Inicialmente estava sendo negociada a obtenção dos dados de uma vídeo locadora d
 	\item Arquivos de treinamento e teste: a base u.data é dividida em dois tipos de arquivos com a relação de 80\%/20\% para treinamento e teste, respectivamente.
 \end{itemize}
 
-Para o escopo deste trabalho, não serão utilizadas as avaliações dos usuários durante a fase de treinamento, pois foge ao objetivo que é fazer recomendações em ambientes de locadoras de filmes reais, onde não há o conceito de avaliação pelos clientes.
+Para o escopo deste trabalho, não serão utilizadas as avaliações dos usuários durante a fase de treinamento, pois fugiria ao objetivo que é fazer recomendações em ambientes de locadoras de filmes reais, onde não há o conceito de avaliação pelos clientes.
 
 O ambiente de experimentos foi assim determinado:
 
@@ -26,7 +26,7 @@ O arquivo de testes representa os filmes que o cliente deseja locar, então esses
 
 Foram criadas tabelas para visualização e estudo dos resultados obtidos com os experimentos realizados.
 
-O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, os três seguintes são os vizinhos mais próximos no mapa, que indicam ser semelhantes ao primeiro. Para a avaliação dos resultados foi considerada a nota ou avaliação que o usuário deu ao filme. Por exemplo, na Tabela \ref{Cliente1_Shangai}, o cliente 1 deseja locar o filme \emph{Shangai Triad}. Quando apresentado este filme à rede, o cliente obteve como resposta os filmes: \emph{The White Balloon}, \emph{Belle de jour} e \emph{Jean de Florette}, indicando que estes filmes têm similaridades com o primeiro. Observando os títulos que foram mostrados como relacionados, o cliente irá avaliar se vale a pena aluga o filme \emph{Shanghai Triad}. Para avaliar esse resultado, observa-se a coluna \textbf{Avaliação} da tabela, os filmes relacionados possuem avaliação de 4, 3 e 5, respectivamente, indicando que o cliente teve satisfação razoável a ótima ao assistí-los. Portanto, o filme \emph{Shanghai Triad} provavelmente irá agradar o cliente. A avaliação para o filme \emph{Shanghai Triad} foi de 5, ou seja, a satisfação do usuário foi muito boa.
+O primeiro título apresentado nas tabelas é o filme que o cliente deseja locar, os três seguintes são os vizinhos mais próximos no mapa, que indicam ser semelhantes ao primeiro. Para a avaliação dos resultados foi considerada a nota ou avaliação que o usuário deu ao filme. Por exemplo, na Tabela \ref{Cliente1_Shangai}, o cliente 1 deseja locar o filme \emph{Shangai Triad}. Quando apresentado este filme à rede, o cliente obteve como resposta os filmes: \emph{The White Balloon}, \emph{Belle de jour} e \emph{Jean de Florette}, evidenciando factualmente que estes filmes têm similaridades com o primeiro. Observando os títulos que foram mostrados como relacionados, o cliente irá avaliar se vale a pena aluga o filme \emph{Shanghai Triad}. Para avaliar esse resultado, observa-se a coluna \textbf{Avaliação} da tabela, os filmes relacionados possuem avaliação de 4, 3 e 5, respectivamente, indicando que o cliente teve satisfação razoável a ótima ao assistí-los. Portanto, a interpretação desse resultado é que o filme \emph{Shanghai Triad} provavelmente irá agradar o cliente. A avaliação para o filme \emph{Shanghai Triad} foi de 5, ou seja, a satisfação do usuário foi muito boa.
 
 \begin{table}[htbp]
 	\centering
@@ -89,12 +89,12 @@ A Tabela \ref{Cliente2_Mighty} mostra o resultado para o cliente 2, desejando al
 	\label{Cliente2_Mighty}
 \end{table}
 
-Devido à pouca quantidade de padrões para treinamento para o cliente 2, é possível observar na Tabela \ref{Cliente2_Apt} que o filme \emph{Apt Pupil}, com baixa avaliação, relaciona-se com outros que foram bem aprovados pelo cliente.
+Devido à pouca quantidade de padrões para treinamento para o cliente 2, é possível observar na Tabela \ref{Cliente2_Apt} que o filme \emph{Apt Pupil}, com baixa avaliação, relaciona-se com outros que foram bem aprovados pelo cliente. Obviamente, a nota baixa não necessariamente deve ser encarado como uma evidência de que o sistema errou, pois fatores externos como um filme de tema, atores e produção boa, pode ter sido mal dirigido (na opinião do cliente).
 
 \begin{table}[htbp]
 	\centering
 	\caption{Resultados para o cliente 2 e o filme \emph{Apt Pupil}}
-		\begin{tabular}{|p{3.1cm}|p{3cm}|c|c|c|}
+		\begin{tabular}{|p{3.5cm}|p{3cm}|c|c|c|}
 		  \hline
 			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
 			\hline
@@ -131,4 +131,23 @@ Nas tabelas seguintes é possível observar os resultados dos experimentos para ou
 	\label{Cliente6_Postino}
 \end{table}
 
-De forma geral, o sistema correspondeu às expectativas, conseguiu ser um auxiliar nas decisões do cliente, trazendo boas respostas na maioria dos casos testados.
+\begin{table}[htbp]
+	\centering
+	\caption{Resultados para o cliente 6 e o filme \emph{Pulp Fiction}}
+		\begin{tabular}{|p{3cm}|c|c|c|c|}
+		  \hline
+			\textbf{Título} & \textbf{Gênero} & \textbf{Ano} & \textbf{Número de locações} & \textbf{Avaliação} \\
+			\hline
+			Pulp Fiction & Crime/Drama & 1994 & 312 & 4 \\
+			\hline
+			GoodFellas  & Crime/Drama & 1990 & 177 & 4 \\
+			\hline
+			Donnie Brasco & Crime/Drama & 1997 & 129 & 3 \\
+			\hline
+			Godfather, The & Crime/Drama & 1972 & 340 & 5 \\
+			\hline
+		\end{tabular}
+	\label{Cliente6_Pulp}
+\end{table}
+
+Esses resultados experimentais, nos levam a crer que nossa proposta (i.e. o sistema proposto) correspondeu às expectativas, pois conseguiu ser um auxiliar nas decisões do cliente, trazendo boas respostas na maioria dos casos testados.

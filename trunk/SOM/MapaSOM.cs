@@ -74,7 +74,7 @@ namespace SOM
             StringBuilder saida = new StringBuilder();
             Neuronio vencedor;
             int iteracao = 1;
-            //TODO: Substituir o valor 500 por uma variável que represente o número de ciclos
+            
             while (iteracao < 500 * numeroNeuronios)
             {
                 foreach (PadraoEntrada padraoEntrada in entradas)
