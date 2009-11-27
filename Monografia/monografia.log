@@ -1,31 +1,31 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.10.26)  26 NOV 2009 22:03
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.11.23)  27 NOV 2009 13:39
 entering extended mode
 **E:/srsom/Monografia/Monografia.tex
 (E:/srsom/Monografia/Monografia.tex
-LaTeX2e <2009/09/24>
+LaTeX2e <2005/12/01>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, german, ngerman, german-x-2008-06-18, ngerm
-an-x-2008-06-18, french, latin, portuguese, loaded.
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\abnt.cls"
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+an-x-2008-06-18, french, portuguese, loaded.
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abnt.cls"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 Document Class: abnt 2004/11/02 v1.27.2.1 Classe abnt (NBR6024, NBR6027, NBR6028, NBR14724)
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\ifthen.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\tools\calc.sty"
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\tools\calc.sty"
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
 \calc@Adimen=\dimen102
 \calc@Bdimen=\dimen103
 \calc@Askip=\skip41
 \calc@Bskip=\skip42
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\tools\multicol.sty"
-Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\tools\multicol.sty"
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \c@tracingmulticols=\count82
 \mult@box=\box26
 \multicol@leftmargin=\dimen104
@@ -71,10 +71,10 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\report.cls"
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\size12.clo"
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\report.cls"
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\size12.clo"
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count90
 \c@chapter=\count91
@@ -89,7 +89,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip47
 \bibindent=\dimen112
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\setspace\setspace.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\setspace\setspace.sty"
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
@@ -98,42 +98,42 @@ Package: `setspace' 6.7 <2000/12/01>
 \ABNTsignwidth=\skip49
 \ABNTsignthickness=\skip50
 \ABNTsignskip=\skip51
- ("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\tools\indentfirst.sty"
+ ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ))
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\fontenc.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\t1enc.def"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\inputenc.sty"
+Package: inputenc 2006/05/05 v1.1b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\latin1.def"
-File: latin1.def 2008/03/30 v1.1d Input encoding file
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\latin1.def"
+File: latin1.def 2006/05/05 v1.1b Input encoding file
 ))
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\abntcite.sty"
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abntcite.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\abntex-abrev.sty"
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abntex-abrev.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\nbr10522-1988.def"
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\nbr10522-1988.def"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:1988)
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\abntex-abrev-pt_BR.def"
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\abntex-abrev-pt_BR.def"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traducao de termos en_US/pt_BR
 ))
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\nbr10520-2002.def"
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\nbr10520-2002.def"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\abntex\cvs-id.def")
 File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002)
 )
 \minimumbiblabelwidth=\skip52
@@ -141,7 +141,7 @@ File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002)
 \c@ABCIaux=\count99
 \c@ABCImax=\count100
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\ltxmisc\relsize.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip54
@@ -149,58 +149,58 @@ LaTeX Info: Redefining \newblock on input line 562.
 LaTeX Info: Redefining \cite on input line 831.
 \ABCItoken=\toks16
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\graphics\trig.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 90.
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
 \Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\multirow\multirow.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen115
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2009/06/22 v3.00
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2002/01/22 v2.2d
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2001/10/25 v2.2f
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
-("C:\Arquivos de programas\MiKTeX 2.7\tex\generic\babel\babel.sty"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\babel.sty"
 Package: babel 2008/07/06 v3.8l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\00miktex\bblopts.cfg"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Arquivos de programas\MiKTeX 2.7\tex\generic\babel\portuges.ldf"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-("C:\Arquivos de programas\MiKTeX 2.7\tex\generic\babel\babel.def"
+("E:\Win7 Program Files\MiKTeX 2.7\tex\generic\babel\babel.def"
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count102
 \U@D=\dimen116
@@ -208,7 +208,14 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 )) (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux)
-(cap4.aux) (cap5.aux))
+(cap4.aux) (cap5.aux) (apendice1.aux
+
+LaTeX Warning: Label `Cliente1_Postino' multiply defined.
+
+
+LaTeX Warning: Label `Cliente1_Platoon' multiply defined.
+
+))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -221,7 +228,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
- ("C:\Arquivos de programas\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+ ("E:\Win7 Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen117
@@ -243,17 +250,14 @@ File: marca_dsc.pdf Graphic file (type pdf)
 File: brasao_upe.pdf Graphic file (type pdf)
  <use brasao_upe.pdf>) [1
 
-{C:/Documents and Settings/All Users/Dados de aplicativos/MiKTeX/2.7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_d
-sc.pdf> <brasao_upe.pdf>]
+{C:/ProgramData/MiKTeX/2.7/pdftex/config/pdftex.map} <polilogo-1.pdf> <marca_dsc.pdf> <brasao_upe.pdf>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 52.
-
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+ ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 52.
-
-("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ) [1] [2
 
 
@@ -278,39 +282,39 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@lot=\write5
  [9
 
-] (cap1.tex
+] [10] (cap1.tex
 Cap\'{\i }tulo 1.
-[10
+[11
 
 
-] [11]) [12] (cap2.tex
+] [12]) [13] (cap2.tex
 Cap\'{\i }tulo 2.
-[13
+[14
 
 
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
- ("C:\Arquivos de programas\MiKTeX 2.7\tex\latex\base\omscmr.fd"
+ ("E:\Win7 Program Files\MiKTeX 2.7\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
- [14]
-<imagens/avaliacao.JPG, id=79, 467.49657pt x 137.7647pt>
+ [15]
+<imagens/avaliacao.JPG, id=81, 467.49657pt x 137.7647pt>
 File: imagens/avaliacao.JPG Graphic file (type jpg)
  <use imagens/avaliacao.JPG>
-<imagens/amazon_tbcompra.JPG, id=80, 845.40843pt x 240.9pt>
+<imagens/amazon_tbcompra.JPG, id=82, 845.40843pt x 240.9pt>
 File: imagens/amazon_tbcompra.JPG Graphic file (type jpg)
  <use imagens/amazon_tbcompra.JPG>
 Overfull \hbox (45.52718pt too wide) in paragraph at lines 30--31
  [][] 
  []
 
-<imagens/also_bought.JPG, id=81, 676.02562pt x 176.15813pt>
+<imagens/also_bought.JPG, id=83, 676.02562pt x 176.15813pt>
 File: imagens/also_bought.JPG Graphic file (type jpg)
- <use imagens/also_bought.JPG> [15 <imagens/avaliacao.JPG> <imagens/amazon_tbcompra.JPG>] [16 <imagens/also_bought.JPG>]
- [17] [18]
+ <use imagens/also_bought.JPG> [16 <imagens/avaliacao.JPG>]
+[17 <imagens/amazon_tbcompra.JPG> <imagens/also_bought.JPG>] [18] [19]
 Underfull \hbox (badness 4699) in paragraph at lines 87--87
 []\T1/cmr/m/n/12 É pos-sí-vel tra-tar
  []
@@ -345,108 +349,295 @@ Overfull \hbox (0.98376pt too wide) in paragraph at lines 89--90
 []\T1/cmr/m/n/12 Superespecialização
  []
 
-[19] [20] <imagens/cortex.jpg, id=101, 351.3125pt x 229.85875pt>
+[20] [21] <imagens/cortex.jpg, id=104, 351.3125pt x 229.85875pt>
 File: imagens/cortex.jpg Graphic file (type jpg)
- <use imagens/cortex.jpg> [21]
-<imagens/mapa_som.jpg, id=105, 289.08pt x 186.6975pt>
+ <use imagens/cortex.jpg> [22]
+<imagens/mapa_som.jpg, id=108, 289.08pt x 186.6975pt>
 File: imagens/mapa_som.jpg Graphic file (type jpg)
- <use imagens/mapa_som.jpg> [22 <imagens/cortex.jpg> <imagens/mapa_som.jpg>] <imagens/mexican_hat.jpg, id=109, 178.41656
+ <use imagens/mapa_som.jpg> [23 <imagens/cortex.jpg> <imagens/mapa_som.jpg>] <imagens/mexican_hat.jpg, id=112, 178.41656
 pt x 155.83218pt>
 File: imagens/mexican_hat.jpg Graphic file (type jpg)
- <use imagens/mexican_hat.jpg>
-Overfull \hbox (22.28337pt too wide) in paragraph at lines 145--146
-[]\T1/cmr/m/n/12 Como dito an-te-ri-or-mente, o trei-na-mento de re-des SOM é com-pe-ti-tivo e não-supervisionado.
- []
-
-[23 <imagens/mexican_hat.jpg>] <imagens/vizinho.jpg, id=113, 247.6452pt x 241.8636pt>
+ <use imagens/mexican_hat.jpg> [24 <imagens/mexican_hat.jpg>] [25] <imagens/vizinho.jpg, id=125, 247.6452pt x 241.8636pt
+>
 File: imagens/vizinho.jpg Graphic file (type jpg)
- <use imagens/vizinho.jpg> [24]
-<imagens/fluxo_som.jpg, id=123, 231.86626pt x 209.28188pt>
+ <use imagens/vizinho.jpg>
+<imagens/fluxo_som.jpg, id=126, 231.86626pt x 209.28188pt>
 File: imagens/fluxo_som.jpg Graphic file (type jpg)
  <use imagens/fluxo_som.jpg>
-<imagens/fluxograma_som.jpg, id=124, 434.37282pt x 525.46312pt>
+<imagens/fluxograma_som.jpg, id=127, 434.37282pt x 525.46312pt>
 File: imagens/fluxograma_som.jpg Graphic file (type jpg)
- <use imagens/fluxograma_som.jpg> [25 <imagens/vizinho.jpg> <imagens/fluxo_som.jpg>] [26 <imagens/fluxograma_som.jpg>]) 
-[27] (cap3.tex
+ <use imagens/fluxograma_som.jpg> [26 <imagens/vizinho.jpg>] [27 <imagens/fluxo_som.jpg> <imagens/fluxograma_som.jpg>]) 
+[28] (cap3.tex
 Cap\'{\i }tulo 3.
-[28
+[29
 
 
 
-]
+] <imagens/fluxo_modelo.JPG, id=140, 176.91093pt x 313.17pt>
+File: imagens/fluxo_modelo.JPG Graphic file (type jpg)
+ <use imagens/fluxo_modelo.JPG>
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 28.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 17.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 28.
 
-[29] <../DiagramaClasses.jpg, id=141, 592.46344pt x 271.0125pt>
+[30] <../DiagramaClasses.jpg, id=145, 592.46344pt x 271.0125pt>
 File: ../DiagramaClasses.jpg Graphic file (type jpg)
- <use ../DiagramaClasses.jpg> [30 <E:/srsom/DiagramaClasses.jpg>]) [31] (cap4.tex
+ <use ../DiagramaClasses.jpg> [31 <imagens/fluxo_modelo.JPG>] <imagens/sequenciaTreinamento.png, id=150, 570.13pt x 361.
+35pt>
+File: imagens/sequenciaTreinamento.png Graphic file (type png)
+ <use imagens/sequenciaTreinamento.png> [32 <E:/srsom/DiagramaClasses.jpg> <imagens/sequenciaTreinamento.png>] [33]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 60.
+
+<imagens/mapa_cliente1.JPG, id=159, 963.6pt x 552.56438pt>
+File: imagens/mapa_cliente1.JPG Graphic file (type jpg)
+ <use imagens/mapa_cliente1.JPG>
+<imagens/mapa_cliente2.JPG, id=160, 963.6pt x 555.57562pt>
+File: imagens/mapa_cliente2.JPG Graphic file (type jpg)
+ <use imagens/mapa_cliente2.JPG>) [34] [35 <imagens/mapa_cliente1.JPG> <imagens/mapa_cliente2.JPG>] (cap4.tex
 Cap\'{\i }tulo 4.
-[32
 
-
-
-] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]\T1/cmr/m/n/12 Crime/Drama/
+Overfull \hbox (45.12637pt too wide) in paragraph at lines 7--8
+\T1/cmr/m/n/12 in-ter-net. A base de da-dos uti-li-zada foi a Mo-vi-e-Lens Data Set (http://www.grouplens.org/node/73),
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]\T1/cmr/m/n/12 Wings of the
- []
-
-
-Overfull \hbox (8.61461pt too wide) in paragraph at lines 103--103
-[]\T1/cmr/m/n/12 Drama/Romance/
- []
-
-[34]) [35] (cap5.tex
-Cap\'{\i }tulo 5.
 [36
 
 
 
-]) [37] (Monografia.bbl [38
+] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]\T1/cmr/m/n/12 Crime/Drama/
+ []
+
+[38]
+Overfull \hbox (8.61461pt too wide) in paragraph at lines 103--103
+[]\T1/cmr/m/n/12 Drama/Romance/
+ []
+
+) [39] (cap5.tex
+Cap\'{\i }tulo 5.
+[40
 
 
-])
+
+]) [41] (Monografia.bbl [42
+
+
+]) [43] (apendice1.tex
+Underfull \hbox (badness 5652) in paragraph at lines 14--14
+[]\T1/cmr/m/n/12 Bridge on the
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 16--16
+[]\T1/cmr/m/n/12 Gone with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]\T1/cmr/m/n/12 Drama/Romance/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]\T1/cmr/m/n/12 Ação/Aventura/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/cmr/m/n/12 Ação/Aventura/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]\T1/cmr/m/n/12 Muppet Tre-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]\T1/cmr/m/n/12 Ação/Aventura/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/cmr/m/n/12 Co-mé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/cmr/m/n/12 dia/Musical/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]\T1/cmr/m/n/12 Ação/Aventura/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\T1/cmr/m/n/12 Ani-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\T1/cmr/m/n/12 ção/Terror/
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 71--71
+[]\T1/cmr/m/n/12 Bridge on the
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 73--73
+[]\T1/cmr/m/n/12 Gone with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/cmr/m/n/12 Drama/Guerra/
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 90--90
+[]\T1/cmr/m/n/12 Bridge on the
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 92--92
+[]\T1/cmr/m/n/12 Gone with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]\T1/cmr/m/n/12 Drama/Guerra/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]\T1/cmr/m/n/12 Ação/Drama/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]\T1/cmr/m/n/12 Ação/Suspense/
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 151--151
+[]\T1/cmr/m/n/12 Usual Sus-pects,
+ []
+
+
+Overfull \hbox (10.0332pt too wide) in paragraph at lines 164--164
+[]\T1/cmr/m/n/12 Comédia/Romance/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\T1/cmr/m/n/12 Truth About
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 166--166
+\T1/cmr/m/n/12 Cats & Dogs,
+ []
+
+
+Overfull \hbox (4.15964pt too wide) in paragraph at lines 166--166
+[]\T1/cmr/m/n/12 Comédia/Romance| 
+ []
+
+
+Overfull \hbox (4.15964pt too wide) in paragraph at lines 168--168
+[]\T1/cmr/m/n/12 Comédia/Romance| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]\T1/cmr/m/n/12 Cinema Pa-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]\T1/cmr/m/n/12 Comédia/Drama/
+ []
+
+
+Overfull \hbox (6.60065pt too wide) in paragraph at lines 202--202
+[]\T1/cmr/m/n/12 Animação/Infantil/
+ []
+
+
+Overfull \hbox (6.60065pt too wide) in paragraph at lines 204--204
+[]\T1/cmr/m/n/12 Animação/Infantil/
+ []
+
+
+Overfull \hbox (6.60065pt too wide) in paragraph at lines 208--208
+[]\T1/cmr/m/n/12 Animação/Infantil/
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 223--223
+[]\T1/cmr/m/n/12 Mr. Hol-land's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]\T1/cmr/m/n/12 Brady Bunch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]\T1/cmr/m/n/12 Drama/Mistério/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
+[]\T1/cmr/m/n/12 Drama/Mistério/
+ []
+
+) [44
+
+
+] [45] [46] [47]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[39] (Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux)) ) 
+(Monografia.aux (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux) (cap5.aux) (apendice1.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2974 strings out of 95265
- 37581 string characters out of 1181734
- 99444 words of memory out of 1500000
- 6059 multiletter control sequences out of 110000
- 22339 words of font info for 53 fonts, out of 3000000 for 5000
+ 3017 strings out of 95278
+ 38482 string characters out of 1182346
+ 127082 words of memory out of 1500000
+ 6088 multiletter control sequences out of 110000
+ 22348 words of font info for 53 fonts, out of 3000000 for 5000
  16 hyphenation exceptions out of 8191
  28i,13n,25p,1872b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Documents and Settings\All Users\Dado
-s de aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Documents and Settings\All Users\Dados d
-e aplicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and Settings\All Users\Dados de a
-plicativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings\All Users\Dados de apli
-cativos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\All Users\Dados de aplicat
-ivos\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativo
-s\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\M
-iKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKT
-eX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\
-2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Documents and Settings\All Users\Dados de aplicativos\MiKTeX\2.7\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Arq
-uivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Arquivos de programas/MiKTeX 2.7/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Monografia.pdf (40 pages, 743823 bytes).
+ <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx1728.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\ProgramD
+ata\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1200.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2488.pk> <C:\ProgramData\MiKTeX\2.7\
+fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.p
+k> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi2074.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx1440.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\ProgramD
+ata\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\ProgramData\MiKTeX\2.7\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecrm2488.pk><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmex10.pfb><E:/Win7 Program Files/MiKTeX 2.7/f
+onts/type1/bluesky/cm/cmmi12.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmmi8.pfb><E:/Win7 Program Fil
+es/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr12.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmr8.pfb><E:/Win
+7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy10.pfb><E:/Win7 Program Files/MiKTeX 2.7/fonts/type1/bluesky/ams/m
+sam7.pfb>
+Output written on Monografia.pdf (48 pages, 895603 bytes).
 PDF statistics:
- 738 PDF objects out of 1000 (max. 8388607)
+ 781 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

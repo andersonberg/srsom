@@ -135,7 +135,7 @@ namespace SOM
             double novoPeso = 0;
             for (int i = 0; i < pesos.Count(); i++)
             {
-                novoPeso = TaxaAprendizado(iteracao) * Gaussiana(coordenadasVencedor, iteracao) * (entrada[i] - pesos[i]);
+                novoPeso = taxaAprendizadoInicial * Gaussiana(coordenadasVencedor, iteracao) * (entrada[i] - pesos[i]);
                 pesos[i] += novoPeso;
             }
         }

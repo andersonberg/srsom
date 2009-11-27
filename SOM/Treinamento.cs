@@ -45,7 +45,7 @@ namespace SOM
             this.testRatings = new Dictionary<int, int>();
 
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente13.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente11.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -53,7 +53,7 @@ namespace SOM
             this.numeroPadroes = padroesEntrada.Count;
 
             //Número de neurônios do mapa
-            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes));
+            double raiz = Math.Ceiling(Math.Sqrt((double)this.numeroPadroes+50));
             int inteiro = Convert.ToInt32(raiz);
 
             this.mapa = new MapaSOM(inteiro, this.padroesEntrada);
@@ -68,7 +68,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente13.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente11_small.test", false);
             
 
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
@@ -210,7 +210,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente13_simulacao2.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente11_simulacao2.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -258,11 +258,17 @@ namespace SOM
             chart.Theme = "Theme1";
 
             Title title = new Title();
-            title.Text = "Filmes Cliente 13";
+            title.Text = "Filmes Cliente 11";
             chart.Titles.Add(title);
 
-            DataSeries dataSeries = new DataSeries();
-            dataSeries.RenderAs = RenderAs.Point;
+            DataSeries dataSeries1 = new DataSeries();
+            dataSeries1.RenderAs = RenderAs.Point;
+
+            DataSeries dataSeries2 = new DataSeries();
+            dataSeries2.RenderAs = RenderAs.Point;
+
+            DataSeries dataSeries3 = new DataSeries();
+            dataSeries3.RenderAs = RenderAs.Point;
 
             foreach (Neuronio neuronio in mapa.Neuronios)
             {
@@ -273,29 +279,36 @@ namespace SOM
                 //Remove o último caractere '/'
                 if (neuronio.Movies != null && !neuronio.Movies.Equals(string.Empty))
                 {
-                    if (neuronio.Movies[neuronio.Movies.Length - 1].Equals("/"))
-                    {
-                        neuronio.Movies.Remove(neuronio.Movies.Length - 1);
-                    }
+                    neuronio.Movies.Trim();
+                    neuronio.Movies.TrimEnd('/');
                     dataPoint.ToolTipText = neuronio.Movies;
                     
                     if (neuronio.Teste)
                     {
                         dataPoint.Color = Brushes.Red;
+                        dataSeries1.DataPoints.Add(dataPoint);
+                        
                     }
                     else
                     {
                         dataPoint.Color = Brushes.Orange;
+                        dataSeries2.DataPoints.Add(dataPoint);
+                        
                     }
                 }
                 else
                 {
                     dataPoint.Color = Brushes.Blue;
+                    dataSeries3.DataPoints.Add(dataPoint);
                 }
-                dataSeries.DataPoints.Add(dataPoint);
             }
+            dataSeries1.LegendText = "Filme desejado";
+            dataSeries2.LegendText = "Filme do histórico";
+            dataSeries3.LegendText = "Sem filme";
 
-            chart.Series.Add(dataSeries);
+            chart.Series.Add(dataSeries1);
+            chart.Series.Add(dataSeries2);
+            chart.Series.Add(dataSeries3);
 
             gridPrincipal.Children.Add(chart);
         }

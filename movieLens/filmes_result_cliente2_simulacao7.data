@@ -1,0 +1,92 @@
+Iteração: 5999 Padrão: Toy Story (1995) Neurônio: 0;0
+Iteração: 5999 Padrão: Richard III (1995) Neurônio: 11;11
+Iteração: 5999 Padrão: Postino, Il (1994) Neurônio: 3;9
+Iteração: 5999 Padrão: Birdcage, The (1996) Neurônio: 2;3
+Iteração: 5999 Padrão: Fargo (1996) Neurônio: 11;4
+Iteração: 5999 Padrão: Truth About Cats & Dogs, The (1996) Neurônio: 0;5
+Iteração: 5999 Padrão: Godfather, The (1972) Neurônio: 10;4
+Iteração: 5999 Padrão: Jerry Maguire (1996) Neurônio: 2;11
+Iteração: 5999 Padrão: Kolya (1996) Neurônio: 3;4
+Iteração: 5999 Padrão: My Best Friend's Wedding (1997) Neurônio: 0;7
+Iteração: 5999 Padrão: Contact (1997) Neurônio: 11;6
+Iteração: 5999 Padrão: Full Monty, The (1997) Neurônio: 1;3
+Iteração: 5999 Padrão: Good Will Hunting (1997) Neurônio: 8;8
+Iteração: 5999 Padrão: Heat (1995) Neurônio: 11;2
+Iteração: 5999 Padrão: Sabrina (1995) Neurônio: 1;7
+Iteração: 5999 Padrão: Sense and Sensibility (1995) Neurônio: 2;10
+Iteração: 5999 Padrão: Leaving Las Vegas (1995) Neurônio: 2;10
+Iteração: 5999 Padrão: Restoration (1995) Neurônio: 9;11
+Iteração: 5999 Padrão: Bed of Roses (1996) Neurônio: 5;8
+Iteração: 5999 Padrão: Time to Kill, A (1996) Neurônio: 9;7
+Iteração: 5999 Padrão: Emma (1996) Neurônio: 3;9
+Iteração: 5999 Padrão: Tin Cup (1996) Neurônio: 1;7
+Iteração: 5999 Padrão: Secrets & Lies (1996) Neurônio: 9;9
+Iteração: 5999 Padrão: English Patient, The (1996) Neurônio: 0;11
+Iteração: 5999 Padrão: Marvin's Room (1996) Neurônio: 8;10
+Iteração: 5999 Padrão: Scream (1996) Neurônio: 11;0
+Iteração: 5999 Padrão: Evita (1996) Neurônio: 11;8
+Iteração: 5999 Padrão: Absolute Power (1997) Neurônio: 6;0
+Iteração: 5999 Padrão: Donnie Brasco (1997) Neurônio: 7;6
+Iteração: 5999 Padrão: Liar Liar (1997) Neurônio: 0;2
+Iteração: 5999 Padrão: Breakdown (1997) Neurônio: 11;1
+Iteração: 5999 Padrão: Promesse, La (1996) Neurônio: 8;11
+Iteração: 5999 Padrão: Air Force One (1997) Neurônio: 10;0
+Iteração: 5999 Padrão: L.A. Confidential (1997) Neurônio: 8;0
+Iteração: 5999 Padrão: Fly Away Home (1996) Neurônio: 4;0
+Iteração: 5999 Padrão: Ice Storm, The (1997) Neurônio: 8;10
+Iteração: 5999 Padrão: Mrs. Brown (Her Majesty, Mrs. Brown) (1997) Neurônio: 4;8
+Iteração: 5999 Padrão: Deceiver (1997) Neurônio: 6;4
+Iteração: 5999 Padrão: Rainmaker, The (1997) Neurônio: 9;9
+Iteração: 5999 Padrão: Wings of the Dove, The (1997) Neurônio: 5;11
+
+Título: Mighty Aphrodite (1995) Gêneros: Comedy  Número de locações: 134 Neurônio: 3;5 Avaliação: 4
+Título: Kolya (1996) Gêneros: Comedy  Número de locações: 94 Neurônio: 3;4 Avaliação: 5
+Título: Birdcage, The (1996) Gêneros: Comedy  Número de locações: 231 Neurônio: 2;3 Avaliação: 4
+Título: Full Monty, The (1997) Gêneros: Comedy  Número de locações: 252 Neurônio: 1;3 Avaliação: 4
+
+Título: Antonia's Line (1995) Gêneros: Drama  Número de locações: 59 Neurônio: 7;10 Avaliação: 3
+Título: Marvin's Room (1996) Gêneros: Drama  Número de locações: 61 Neurônio: 8;10 Avaliação: 3
+Título: Promesse, La (1996) Gêneros: Drama  Número de locações: 6 Neurônio: 8;11 Avaliação: 3
+Título: Good Will Hunting (1997) Gêneros: Drama  Número de locações: 154 Neurônio: 8;8 Avaliação: 5
+
+Título: Star Wars (1977) Gêneros: Action Adventure Romance Sci-Fi War  Número de locações: 484 Neurônio: 0;11 Avaliação: 5
+Título: English Patient, The (1996) Gêneros: Drama Romance War  Número de locações: 388 Neurônio: 0;11 Avaliação: 4
+Título: Jerry Maguire (1996) Gêneros: Drama Romance  Número de locações: 309 Neurônio: 2;11 Avaliação: 4
+Título: Sense and Sensibility (1995) Gêneros: Drama Romance  Número de locações: 217 Neurônio: 2;10 Avaliação: 5
+
+Título: Shall We Dance? (1996) Gêneros: Comedy  Número de locações: 34 Neurônio: 3;4 Avaliação: 5
+Título: Kolya (1996) Gêneros: Comedy  Número de locações: 94 Neurônio: 3;4 Avaliação: 5
+Título: Birdcage, The (1996) Gêneros: Comedy  Número de locações: 231 Neurônio: 2;3 Avaliação: 4
+Título: Full Monty, The (1997) Gêneros: Comedy  Número de locações: 252 Neurônio: 1;3 Avaliação: 4
+
+Título: Men in Black (1997) Gêneros: Action Adventure Comedy Sci-Fi  Número de locações: 251 Neurônio: 2;1 Avaliação: 4
+Título: Birdcage, The (1996) Gêneros: Comedy  Número de locações: 231 Neurônio: 2;3 Avaliação: 4
+Título: Toy Story (1995) Gêneros: Animation Children's Comedy  Número de locações: 383 Neurônio: 0;0 Avaliação: 4
+
+Título: Once Upon a Time... When We Were Colored (1995) Gêneros: Drama  Número de locações: 21 Neurônio: 8;11 Avaliação: 4
+Título: Promesse, La (1996) Gêneros: Drama  Número de locações: 6 Neurônio: 8;11 Avaliação: 3
+Título: Restoration (1995) Gêneros: Drama  Número de locações: 52 Neurônio: 9;11 Avaliação: 4
+Título: Marvin's Room (1996) Gêneros: Drama  Número de locações: 61 Neurônio: 8;10 Avaliação: 3
+
+Título: Up Close and Personal (1996) Gêneros: Drama Romance  Número de locações: 73 Neurônio: 4;8 Avaliação: 3
+Título: Mrs. Brown (Her Majesty, Mrs. Brown) (1997) Gêneros: Drama Romance  Número de locações: 75 Neurônio: 4;8 Avaliação: 4
+Título: Bed of Roses (1996) Gêneros: Drama Romance  Número de locações: 46 Neurônio: 5;8 Avaliação: 3
+Título: Postino, Il (1994) Gêneros: Drama Romance  Número de locações: 140 Neurônio: 3;9 Avaliação: 4
+
+Título: River Wild, The (1994) Gêneros: Action Thriller  Número de locações: 113 Neurônio: 11;1 Avaliação: 3
+Título: Breakdown (1997) Gêneros: Action Thriller  Número de locações: 60 Neurônio: 11;1 Avaliação: 4
+Título: Heat (1995) Gêneros: Action Crime Thriller  Número de locações: 185 Neurônio: 11;2 Avaliação: 4
+Título: Scream (1996) Gêneros: Horror Thriller  Número de locações: 391 Neurônio: 11;0 Avaliação: 3
+
+Título: Fierce Creatures (1997) Gêneros: Comedy  Número de locações: 76 Neurônio: 3;4 Avaliação: 3
+Título: Kolya (1996) Gêneros: Comedy  Número de locações: 94 Neurônio: 3;4 Avaliação: 5
+Título: Birdcage, The (1996) Gêneros: Comedy  Número de locações: 231 Neurônio: 2;3 Avaliação: 4
+Título: Full Monty, The (1997) Gêneros: Comedy  Número de locações: 252 Neurônio: 1;3 Avaliação: 4
+
+Título: 3 Ninjas: High Noon At Mega Mountain (1998) Gêneros: Action Children's  Número de locações: 2 Neurônio: 3;1 Avaliação: 1
+Título: Fly Away Home (1996) Gêneros: Adventure Children's  Número de locações: 122 Neurônio: 4;0 Avaliação: 4
+Título: Birdcage, The (1996) Gêneros: Comedy  Número de locações: 231 Neurônio: 2;3 Avaliação: 4
+Título: Full Monty, The (1997) Gêneros: Comedy  Número de locações: 252 Neurônio: 1;3 Avaliação: 4
+
+
+Simulação levou: 0:28:20
