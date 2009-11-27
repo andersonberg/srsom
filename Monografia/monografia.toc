@@ -33,4 +33,4 @@
 \contentsline {section}{\numberline {5.1}Conclus\~oes}{40}
 \contentsline {section}{\numberline {5.2}Dificuldades e trabalhos futuros}{40}
 \contentsline {chapter}{Refer\^encias}{42}
-\contentsline {chapter}{Ap\^endice A: Tabelas de resultados}{44}
+\contentsline {chapter}{Ap\^endice A: Tabelas de resultados}{45}
