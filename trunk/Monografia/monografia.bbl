@@ -25,7 +25,7 @@
 
 \bibitem{Lyman2003}
 \abntrefinfo{Lyman et al.}{LYMAN et al.}{2003}
-{LYMAN, P. et al. How much information? 2003.
+{LYMAN, P.; VARIAN, H. R.; CHARLES, P.; GOOD, N.; JORDAN, L. L.; PAL, J.; SWEARINGEN, K. How much information? 2003.
 \emph{Technical report}, UC Berkeleys School of Information Management and
   Systems, 2003.
 Dispon{\'\i}vel em:
@@ -38,7 +38,7 @@ Dispon{\'\i}vel em:
 
 \bibitem{Goldberg1992}
 \abntrefinfo{Goldberg et al.}{GOLDBERG et al.}{1992}
-{GOLDBERG, D. et al. Using collaborative filtering to weave an information
+{GOLDBERG, D.; NICHOLS, D.; OKI, B. M.; TERRY, D. Using collaborative filtering to weave an information
   tapestry.
 \emph{Communications of the ACM}, v.~35, n.~12, p. 61--70, 1992.}
 
@@ -95,7 +95,7 @@ Tese (Doutorado) --- University of Minnesota, 2000.}
 
 \bibitem{Resnick1994}
 \abntrefinfo{Resnick et al.}{RESNICK et al.}{1994}
-{RESNICK, P. et al. Grouplens: an open architecture for collaborative filtering
+{RESNICK, P.; IACOVOU, N.; SUCHAK, M.; BERGSTROM, P.; RIEDL, J Grouplens: an open architecture for collaborative filtering
   of netnews. In:  \emph{CSCW '94: Proceedings of the 1994 ACM conference on
   Computer supported cooperative work}. [S.l.: s.n.], 1994. p. 175--186.}
 
@@ -107,13 +107,13 @@ Tese (Doutorado) --- University of Minnesota, 2000.}
 
 \bibitem{Hill1995}
 \abntrefinfo{Hill et al.}{HILL et al.}{1995}
-{HILL, W. et al. Recommending and evaluating choices in a virtual community of
+{HILL, W.; STEAD, L.; ROSENSTEIN, M.; FURNAS, G. Recommending and evaluating choices in a virtual community of
   use. In:  \emph{CHI '95: Proceedings of the SIGCHI conference on Human
   factors in computing systems}. [S.l.: s.n.], 1995. p. 194--201.}
 
 \bibitem{Claypool1999}
 \abntrefinfo{Claypool et al.}{CLAYPOOL et al.}{1999}
-{CLAYPOOL, M. et al. Combining content-based and collaborative filters in an
+{CLAYPOOL, M. and GOKHALE, A. and MIRANDA, T. and MURNIKOV, P. and NETES, D. and SARTIN, M. Combining content-based and collaborative filters in an
   online newspaper. In:  \emph{SIGIR '99 Workshop on Recommender Systems -
   Implementation and Evaluation}. [S.l.: s.n.], 1999.}
 
@@ -152,7 +152,7 @@ Tese (Doutorado) --- University of Minnesota, 2000.}
 
 \bibitem{Kohonen2000}
 \abntrefinfo{Kohonen et al.}{KOHONEN et al.}{2000}
-{KOHONEN, T. et al. Self organizing of a massive document collection.
+{KOHONEN, T. and KASKI, S. and LAGUS, K. and	SALOJÄRVI, J. and HONKELA, J. and PAATERO, V. and SAARELA, A. Self organizing of a massive document collection.
 \emph{IEEE Trasactions on Neural Networks}, v.~11, n.~3, 2000.}
 
 \bibitem{Graef2002}
