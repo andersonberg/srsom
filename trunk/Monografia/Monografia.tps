@@ -14,11 +14,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=monografia.bbl
+Document=Monografia.tex
 
 [Frame0_View0,0]
 TopLine=0
-Cursor=7439
+Cursor=308
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=cap5.tex
+Document=monografia.bbl
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=3325
+TopLine=144
+Cursor=7439
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=abss.bib
+Document=cap5.tex
 
 [Frame2_View0,0]
-TopLine=207
-Cursor=6620
+TopLine=0
+Cursor=3325
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=26
 NormalPos.right=1022
 NormalPos.bottom=588
 Class=LaTeXView
-Document=Monografia.tex
+Document=abss.bib
 
 [Frame3_View0,0]
-TopLine=64
-Cursor=5091
+TopLine=192
+Cursor=6620
 
 [Frame4]
 Flags=0
