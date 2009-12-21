@@ -2,14 +2,14 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Avalia\c c\~oes de usu\'arios no s\IeC {\'\i }tio da Amazon.com para determinado produto.}}{16}
 \contentsline {figure}{\numberline {2}{\ignorespaces Recomenda\c c\~oes da Amazon.com de acordo com o hist\'orico do cliente.}}{17}
 \contentsline {figure}{\numberline {3}{\ignorespaces Associa\c c\~ao de produtos por clientes na Amazon.com}}{17}
-\contentsline {figure}{\numberline {4}{\ignorespaces C\'ortex cerebral humano}}{23}
-\contentsline {figure}{\numberline {5}{\ignorespaces Rede SOM bidimensional}}{23}
-\contentsline {figure}{\numberline {6}{\ignorespaces Fun\c c\~ao chap\'eu mexicano}}{24}
+\contentsline {figure}{\numberline {4}{\ignorespaces C\'ortex cerebral humano. Fonte: http://www.psiquiatriageral.com.br}}{23}
+\contentsline {figure}{\numberline {5}{\ignorespaces Rede SOM bidimensional}}{24}
+\contentsline {figure}{\numberline {6}{\ignorespaces Fun\c c\~ao chap\'eu mexicano. Fonte: \cite {Gabrielsson2006}}}{24}
 \contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de vizinhan\c ca, onde o instante 2 \'e menor que o instante 1, que por sua vez \'e menor que o instante 0}}{26}
 \contentsline {figure}{\numberline {8}{\ignorespaces Resumo do algoritmo de aprendizado SOM}}{27}
 \contentsline {figure}{\numberline {9}{\ignorespaces Fluxograma do algoritmo de aprendizado das redes SOM}}{27}
 \contentsline {figure}{\numberline {10}{\ignorespaces Fluxo de execu\c c\~ao do modelo proposto}}{31}
 \contentsline {figure}{\numberline {11}{\ignorespaces Diagrama de classes do modelo}}{32}
 \contentsline {figure}{\numberline {12}{\ignorespaces Diagrama de seq\"u\^encia da fase de treinamento}}{32}
-\contentsline {figure}{\numberline {13}{\ignorespaces Mapa de filmes do cliente 1}}{35}
+\contentsline {figure}{\numberline {13}{\ignorespaces Mapa de filmes do cliente 1}}{34}
 \contentsline {figure}{\numberline {14}{\ignorespaces Mapa de filmes do cliente 2}}{35}

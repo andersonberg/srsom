@@ -45,7 +45,7 @@ namespace SOM
             this.testRatings = new Dictionary<int, int>();
 
             //Lista de filmes
-            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente11.data", true);
+            List<int> filmes = this.ListaFilmes(@"E:\srsom\movieLens\locacoesCliente6.data", true);
 
             //Lista de padrões com características dos filmes
             this.padroesEntrada = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", filmes);
@@ -68,7 +68,7 @@ namespace SOM
         {
             StringBuilder resultadoTeste = new StringBuilder();
             List<PadraoEntrada> padroesTeste = new List<PadraoEntrada>();
-            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente11_small.test", false);
+            List<int> novosFilmes = this.ListaFilmes(@"E:\srsom\movieLens\cliente6_small.test", false);
             
 
             padroesTeste = this.LerArquivo(@"E:\srsom\movieLens\filmes.data", novosFilmes);
@@ -210,7 +210,7 @@ namespace SOM
 
         public void EscreveArquivo(StringBuilder texto)
         {
-            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente11_simulacao2.data", texto.ToString());
+            File.WriteAllText(@"E:\srsom\movieLens\filmes_result_cliente6_simulacao5.data", texto.ToString());
         }
 
         public double DistanciaEntreDoisPontos(Point ponto1, Point ponto2)
@@ -258,7 +258,7 @@ namespace SOM
             chart.Theme = "Theme1";
 
             Title title = new Title();
-            title.Text = "Filmes Cliente 11";
+            title.Text = "Filmes Cliente 6";
             chart.Titles.Add(title);
 
             DataSeries dataSeries1 = new DataSeries();
