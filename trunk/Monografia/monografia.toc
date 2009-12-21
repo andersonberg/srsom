@@ -5,8 +5,8 @@
 \contentsline {section}{\numberline {1.1}Caracteriza\c c\~ao do Problema}{11}
 \contentsline {section}{\numberline {1.2}Motiva\c c\~oes}{12}
 \contentsline {section}{\numberline {1.3}Objetivos e Metas}{12}
-\contentsline {section}{\numberline {1.4}Organiza\c c\~ao do Documento}{12}
-\contentsline {subsection}{\numberline {1.4.1}Cap\IeC {\'\i }tulo 2: Revis\~ao Bibliogr\'afica}{12}
+\contentsline {section}{\numberline {1.4}Organiza\c c\~ao do Documento}{13}
+\contentsline {subsection}{\numberline {1.4.1}Cap\IeC {\'\i }tulo 2: Revis\~ao Bibliogr\'afica}{13}
 \contentsline {subsection}{\numberline {1.4.2}Cap\IeC {\'\i }tulo 3: Modelo Proposto}{13}
 \contentsline {subsection}{\numberline {1.4.3}Cap\IeC {\'\i }tulo 4: Configura\c c\~oes dos Experimentos e An\'alise dos Resultados}{13}
 \contentsline {subsection}{\numberline {1.4.4}Cap\IeC {\'\i }tulo 5: Conclus\~ao e Trabalhos Futuros}{13}
@@ -16,16 +16,16 @@
 \contentsline {subsubsection}{\numberline {2.1.1.1}Filtragem baseada em conte\'udo}{17}
 \contentsline {subsubsection}{\numberline {2.1.1.2}Filtragem colaborativa}{19}
 \contentsline {subsubsection}{\numberline {2.1.1.3}Filtragem h\IeC {\'\i }brida}{20}
-\contentsline {subsection}{\numberline {2.1.2}Confian\c ca em sistemas de recomenda\c c\~ao}{21}
+\contentsline {subsection}{\numberline {2.1.2}Confian\c ca em sistemas de recomenda\c c\~ao}{22}
 \contentsline {section}{\numberline {2.2}Mapas auto-organiz\'aveis}{22}
 \contentsline {subsection}{\numberline {2.2.1}Vis\~ao Geral}{22}
-\contentsline {subsection}{\numberline {2.2.2}Treinamento}{24}
-\contentsline {subsection}{\numberline {2.2.3}Aplica\c c\~oes}{26}
+\contentsline {subsection}{\numberline {2.2.2}Treinamento}{25}
+\contentsline {subsection}{\numberline {2.2.3}Aplica\c c\~oes}{28}
 \contentsline {subsection}{\numberline {2.2.4}Trabalhos relacionados}{28}
 \contentsline {chapter}{\numberline {3}Modelo proposto}{29}
 \contentsline {section}{\numberline {3.1}Vis\~ao Geral}{29}
-\contentsline {section}{\numberline {3.2}Implementa\c c\~ao do modelo}{31}
-\contentsline {section}{\numberline {3.3}Funcionamento do modelo}{33}
+\contentsline {section}{\numberline {3.2}Implementa\c c\~ao do modelo}{30}
+\contentsline {section}{\numberline {3.3}Funcionamento do modelo}{32}
 \contentsline {chapter}{\numberline {4}Experimentos e An\'alise de Resultados}{36}
 \contentsline {section}{\numberline {4.1}Base de dados}{36}
 \contentsline {section}{\numberline {4.2}Resultados}{37}
@@ -33,4 +33,4 @@
 \contentsline {section}{\numberline {5.1}Conclus\~oes}{40}
 \contentsline {section}{\numberline {5.2}Dificuldades e trabalhos futuros}{40}
 \contentsline {chapter}{Refer\^encias}{42}
-\contentsline {chapter}{Ap\^endice A: Tabelas de resultados}{45}
+\contentsline {chapter}{Ap\^endice A: Tabelas de resultados}{44}

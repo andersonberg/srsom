@@ -1,12 +1,12 @@
 \chapter{Fundamentação Teórica}\label{cap:fundamentacao}
-Neste capítulo estão apresentados os principais conceitos que ajudarão na compreensão do documento. Primeiramente serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, definindo sua arquitetura e o algoritmo de aprendizado.
+Neste capítulo estão apresentados os principais conceitos que ajudarão na compreensão do documento. Primeiramente, serão abordadas as características de sistemas de recomendação estabelecidos na literatura. Também serão abordadas as principais técnicas de recomendação, apontando suas vantagens, principais problemas e soluções propostas por diversos autores a fim de solucionar essas falhas. Posteriormente serão apresentados os mapas auto-organizáveis, em especial os mapas de Kohonen, definindo sua arquitetura e o algoritmo de aprendizado.
 
 \section{Sistemas de Recomendação}\label{sistemas_recomendacao}
 O uso de sistemas informatizados, principalmente da internet, resulta em um grande volume de informação sendo criada e transmitida no mundo todo \cite{Terveen2001}. Um estudo realizado em 2003 por pesquisadores da Universidade da Califórnia \cite{Lyman2003} estimou que cinco exabytes de informação foram criados no ano de 2002, onde a maior parte é armazenada em dispositivos magnéticos, em especial discos rígidos. 
 
-O comércio, principalmente a indústria do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam mais ter espaço físico, é possível realizar vendas e fazer negociações com segurança através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas nem possuem lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como buscar a melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Freqüentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinado produto ou serviço \cite{Resnick1997}. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora. Porém, nenhum deles provavelmente vai fazer recomendações de acordo com as preferências pessoais do interessado.
+O comércio, principalmente o mercado do entretenimento, tem se beneficiado com a evolução da tecnologia. As lojas não precisam mais ter espaço físico, é possível realizar vendas e fazer negociações com segurança através da internet. A \textit{Itunes Store} possui mais de 10 milhões de músicas disponíveis para venda através de \textit{download}. As grandes lojas de departamentos possuem lojas virtuais para comércio eletrônico, algumas delas nem possuem lojas físicas, apenas os sítios na internet onde podem vender seus produtos. Casos de sucesso no Brasil são as Americanas.com (www.americanas.com.br) e o Submarino (www.submarino.com.br). Sem a necessidade de ter espaço físico ou prateleiras, os itens que podem ser colocados à venda são de um número superior se comparado a uma loja convencional \cite{Anderson2006}. Diante de tantas possibilidades, como buscar a melhor informação? Qual produto vale a pena adquirir? Qual filme ou música escolher? Freqüentemente as pessoas procuram opiniões de terceiros, como amigos e familiares que já tiveram uma experiência com determinado produto ou serviço \cite{Resnick1997}. Podem, ainda, procurar por resenhas em jornais e revistas, ou pedir a opinião do dono de uma livraria ou vídeo locadora. Porém, nenhum deles provavelmente vai fazer recomendações de acordo com as preferências pessoais do interessado. Segundo \cite{Castro2004}, esta fase, onde o consumidor realiza uma pesquisa sobre a utilidade de um produto ou serviço, é chamada de busca de informações e constitui um dos estágios relacionados ao processo de compra. Neste momento o consumidor busca experiências de outras pessoas como amigos e familiares, ou ainda, de experiências próprias que possam auxiliá-lo na escolha de um produto ou serviço.
 
-Dessa falta de atenção aos reais desejos do cliente, surgiu então, a necessidade da criação de mecanismos que tenham a capacidade de filtrar ou recuperar rapidamente informação. Com o objetivo de facilitar a busca por informação foram criados mecanismos que pudessem indexar documentos na internet e, rapidamente, recuperá-los, trazendo ao usuário aquilo que ele precisa. Tais mecanismos são as ferramentas de busca tais como o \textit{google} (www.google.com), que seleciona documentos na internet a partir de critérios que o usuário expressa através de palavras-chave. Filtrar toda a informação recebida por um usuário, raramente é uma tarefa simples e eficiente. Um dos primeiros sistemas de filtragem criados foi o \textit{Tapestry} \cite{Goldberg1992}. Este sistema filtrava documentos enviados para a caixa de \textit{emails} de um usuário. O \textit{Tapestry} analisa, não somente o conteúdo dos textos, mas também o interesse que outros usuários tinham por esses documentos. Os idealizadores desse produto cunharam o termo ''filtragem colaborativa'', propondo um sistema onde a filtragem de documentos seria realizada com auxílio de grupos de pessoas com o mesmo interesse. Atualmente, os sítios de comércio eletrônico disponibilizam para seus clientes ferramentas computacionais com o objetivo de auxiliá-los no momento da compra. Essas ferramentas caracterizam os sistemas de recomendação. Tais sistemas consistem em sugerir ao usuário produtos que sejam de seu interesse ajudando-o no processo de compra, alguns sistemas ainda fornecem opiniões de outros clientes sobre aqueles produtos. Um dos maiores exemplos de sítios de comércio eletrônico que fazem bom uso de sistemas de recomendação é a Amazon.com (www.amazon.com).
+Da falta de atenção aos reais desejos do cliente, surgiu então, a necessidade da criação de mecanismos que tenham a capacidade de filtrar ou recuperar rapidamente informação. Com o objetivo de facilitar a busca por informação foram criados mecanismos que pudessem indexar documentos na internet e, rapidamente, recuperá-los, trazendo ao usuário aquilo que ele precisa. Tais mecanismos são as ferramentas de busca tais como o \textit{google} (www.google.com), que seleciona documentos na internet a partir de critérios que o usuário expressa através de palavras-chave. Filtrar toda a informação recebida por um usuário, raramente é uma tarefa simples e eficiente. Um dos primeiros sistemas de filtragem criados foi o \textit{Tapestry} \cite{Goldberg1992}. Este sistema filtrava documentos enviados para a caixa de \textit{emails} de um usuário. O \textit{Tapestry} analisa, não somente o conteúdo dos textos, mas também o interesse que outros usuários tinham por esses documentos. Os idealizadores desse produto cunharam o termo ''filtragem colaborativa'', propondo um sistema onde a filtragem de documentos seria realizada com auxílio de grupos de pessoas com o mesmo interesse. Atualmente, os sítios de comércio eletrônico disponibilizam para seus clientes ferramentas computacionais com o objetivo de auxiliá-los no momento da compra. Essas ferramentas caracterizam os sistemas de recomendação. Tais sistemas consistem em sugerir ao usuário produtos que sejam de seu interesse ajudando-o no processo de compra, alguns sistemas ainda fornecem opiniões de outros clientes sobre aqueles produtos. Um dos maiores exemplos de sítios de comércio eletrônico que fazem bom uso de sistemas de recomendação é a Amazon.com (www.amazon.com).
 
 Auxiliar o cliente mostrando produtos relacionados às suas preferências é uma forma de personalização. A personalização é uma característica do \textit{marketing} direto. Diferente do \textit{marketing} de massa, cujo objetivo é alcançar o maior número de pessoas através dos diversos tipos de mídia, o \textit{marketing} direto tem seu foco no cliente individualmente. Personalizar resulta na fidelização do cliente, que é um grande diferencial entre empresas concorrentes \cite{Filho2006}, além disso, conquistar um novo cliente custa de cinco a dez vezes mais do que manter um antigo \cite{Bezerra2004}. Um mini-curso de sistemas de recomendação ministrado no V Encontro Nacional de Inteligência Artificial, no ano de 2005, por Eliseo Reategui e Sílvio Cazella \cite{Reategui2005} cita algumas estratégias utilizadas pelos sítios de comércio eletrônico para recomendação de produtos:
 
@@ -14,7 +14,7 @@ Auxiliar o cliente mostrando produtos relacionados às suas preferências é uma fo
 	\item Listas de recomendação: A loja mantém listas de produtos, como itens mais vendidos, itens que têm a melhor avaliação entre os clientes ou lista de presentes, entre outros.
 	\item Avaliação de usuários: Consiste em se obter notas do produto por clientes que já o adquiriram, além dessa avaliação usuários podem deixar comentários sobre determinado produto (Figura \ref{avaliacao}).
 	\item Suas recomendações: O sítio oferece alguns produtos baseado em interesses do cliente. Então pode-se ter dois tipos de recomendação: implícita, onde o sítio oferece produtos de acordo com o histórico de compras do cliente, ou explícita, onde o usuário determina quais são suas preferências (Figura \ref{amazon_tbcompra}).
-	\item ''Clientes que adquiriram um produto X, também compraram Y'': O sistema de recomendação cria associações entre produtos avaliados pelo usuário para oferecer produtos relacionados ao que o cliente está adquirindo no momento (Figura \ref{also_bought}).
+	\item Recomendação de produtos similares: O sistema de recomendação cria associações entre produtos avaliados pelo usuário para oferecer produtos relacionados ao que o cliente está adquirindo no momento (Figura \ref{also_bought}).
 	\item Associação por conteúdo: Este tipo de recomendação é feita baseado no conteúdo de determinado item. Por exemplo: os livros: Redes de Computadores e Programação em Java são freqüentemente vendidos em conjunto.
 \end{itemize}
 
@@ -116,7 +116,7 @@ Os mapas \textit{self-organizing}, SOM (\textit{Self-organizing maps}) foram pro
 \begin{figure}[htbp]
 \begin{center}
 		\includegraphics[width=0.50\textwidth]{imagens/cortex.jpg}
-	\caption{Córtex cerebral humano}
+	\caption{Córtex cerebral humano. Fonte: http://www.psiquiatriageral.com.br}
 	\label{cortex}
 \end{center}
 \end{figure}
@@ -125,7 +125,7 @@ Na arquitetura de uma rede SOM, os nodos são dispostos em uma grade ou reticulad
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.60\textwidth]{imagens/mapa_som.jpg}
+		\includegraphics[width=0.60\textwidth]{imagens/mapa_som_berg.jpg}
 	\caption{Rede SOM bidimensional}
 	\label{mapa_som}
 \end{figure}
@@ -135,7 +135,7 @@ As redes SOM utilizam um processo de aprendizado competitivo, no qual os neurôni
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.40\textwidth]{imagens/mexican_hat.jpg}
-	\caption{Função chapéu mexicano}
+	\caption{Função chapéu mexicano. Fonte: \cite{Gabrielsson2006}}
 	\label{mexican_hat}
 \end{figure}
  
@@ -177,7 +177,7 @@ w_{ji}(t+1) = w_{ji}(t) + h_{ci} (x_{i}(t) - w_{ji}(t))
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.30\textwidth]{imagens/vizinho.jpg}
+		\includegraphics[width=0.50\textwidth]{imagens/vizinhanca.jpg}
 	\caption{Exemplo de vizinhança, onde o instante 2 é menor que o instante 1, que por sua vez é menor que o instante 0}
 	\label{vizinho}
 \end{figure}
@@ -209,3 +209,5 @@ Existem algumas aplicações na literatura de sistemas de recomendação que utiliza
 Graef e Schafer \cite{Graef2002} descrevem duas abordagens baseadas em filtragem colaborativa usando redes SOM e ART2. Eles investigaram o desempenho dos dois modelos avaliando tempo de resposta, qualidade das predições e adaptatividade. A abordagem utilizando redes SOM consiste em agrupar usuários no mapa baseado na semelhança de suas avaliações sobre filmes.
 
 Um sistema de recomendação híbrido combinando filtragem colaborativa com SOM é apresentado por Lee \cite{Lee2002}. Essa abordagem utiliza redes SOM para criar agrupamentos de usuários de acordo com informações demográficas, como sexo e idade e preferências por diversos gêneros de filmes. A idéia é aplicar filtragem colaborativa dentro de agrupamento ao qual o usuário pertence.
+
+Estas abordagens diferem do modelo proposto por este trabalho, que propõe a criação de mapas individuais que contêm agrupamentos de filmes locados por um cliente de vídeo locadora, caracterizando o seu perfil no que diz respeito a suas preferências pessoais.
