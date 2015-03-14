@@ -1,0 +1,1 @@
+Sistema de recomendação para clientes de vídeo-locadoras baseado em mapas auto-organizáveis de kohonen.
